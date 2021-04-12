@@ -1,0 +1,53 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "hostileToAll":1,
+    
+    "rebelFleetSuffix":"Heretics",
+
+    "marketSpawnWeight":0.5,
+    
+    "difficultyString":"hard",
+    "ngcTooltip":"Immensely powerful alien-tech ships with an equally immense supply cost. Can you earn your keep?",
+
+    "asteroidMiningFleetName":"Miner",
+    "gasMiningFleetName":"Collecter",
+    "invasionFleetName":"Conquest",
+    "responseFleetName":"Revencher",
+    "invasionSupportFleetName":"Destruire",
+    "defenceFleetName":"Defens",
+    "stationName":"Fortin",
+    
+    "startRelationships":{ "luddic_church":-0.8, "luddic_path":-0.8 },
+    "maxRelationships":{ "luddic_church":-0.4, "luddic_path":-0.4 },
+    "morality":"evil",
+    
+    "allowAgentActions":false,
+    "allowPrisonerActions":false,
+    
+    "alignments":{
+        "militarist":1,
+        "diplomatic":-1,
+        "ideological":1,
+    },
+    "diplomacyTraits":["paranoid", "stalwart", "irredentist", "law_and_order", "temperamental"],
+    
+    "invasionStrengthBonusAttack":0.1,
+    "invasionStrengthBonusDefend":0.2,
+    #"invasionFleetSizeMod":-0.15,
+    "invasionPointMult":0.7,
+    
+    "dropPrisoners":false,
+    
+    "vengeanceLevelNames":["Excommunication", "Interdiction", "Damnation"],
+    "vengeanceFleetNames":["Evangelists", "Inquisition", "Crusade"],
+    "vengeanceFleetNamesSingle":["Evangelists", "an Inquisition", "a Crusade Fleet"],
+    
+    "startShipsSolo":[["tem_martyr_sal"]],
+    "startShipsCombatSmall":[["tem_jesuit_est", "tem_martyr_def"]],
+    "startShipsCombatLarge":[["tem_crusader_est", "tem_jesuit_sal"]],
+    "startShipsSuper":[
+        ["tem_paladin_est"],
+        ["tem_chevalier_est", "tem_martyr_def"]
+    ],
+}

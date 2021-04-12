@@ -1,0 +1,43 @@
+{
+  "variantId": "eis_audacious_assault",
+  "hullId": "eis_audacious",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "heavyneedler",
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_broadsword_wing"
+  ]
+}

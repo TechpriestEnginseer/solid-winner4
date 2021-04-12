@@ -1,0 +1,52 @@
+{
+  "variantId": "eis_champion_elite",
+  "hullId": "eis_champion",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "lightneedler",
+        "WS 001": "lightneedler",
+        "WS 006": "heavyneedler",
+        "WS 007": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "hephag",
+        "WS 010": "ioncannon",
+        "WS 011": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "locust"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "pdburst",
+        "WS 005": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

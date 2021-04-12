@@ -1,0 +1,183 @@
+{
+  "hullName": "Vengeance (XIV)",
+  "hullId": "eis_vengeance",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/eis_vengeance.png",
+  "style": "EIS_VENGEANCE",
+  "height": 299,
+  "width": 198,
+  "center": [99, 148],
+  "collisionRadius": 179.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+	"eis_vengeance",
+  ],
+  "builtInWings": [
+    "eis_xyphos_wing"
+  ],
+  "builtInWeapons": {
+    "WS0007": "eis_deco_vengeance_lights",
+    "WS0008": "eis_deco_vengeance_front",
+    "WS0009": "eis_deco_vengeance_back"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -30,
+      "locations": [21, -41],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 30,
+      "locations": [21, 41],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [74, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 45,
+      "locations": [31, 19],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -45,
+      "locations": [31, -19],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 45,
+      "locations": [55, 29],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -45,
+      "locations": [55, -29],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [77.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-103, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99, 11],
+      "length": 100,
+      "width": 32,
+      "angle": -180,
+      "contrailSize": 32,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-99, -11],
+      "length": 100,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, 29],
+      "length": 56,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, -29],
+      "length": 56,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    86.5, -7.5,
+    133, -8.5,
+    148, -21.5,
+    -28.5, -94.5,
+    -35, -82,
+    -72, -88.5,
+    -22, -64,
+    -23.5, -41,
+    -91, -42,
+    -100, -9,
+    -147, -0,
+    -100, 9,
+    -91, 42,
+    -23.5, 41,
+    -22, 64,
+    -72, 88.5,
+    -35, 82,
+    -28.5, 94.5,
+    148, 21.5,
+    133, 8.5,
+    86.5, 7.5
+  ]
+}

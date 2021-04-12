@@ -1,0 +1,29 @@
+{
+  "variantId": "eis_warthog_Fighter",
+  "hullId": "eis_warthog",
+  "displayName": "Assault Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmortar",
+        "WS 002": "lightmortar",
+        "WS 003": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

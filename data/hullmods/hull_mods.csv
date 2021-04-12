@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Iron Targeting,CHM_ironshell,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_ironshell,"Iron Shell operatives are required to be carefully analyzing their enemies who are often shielded with the best shielding technology can provide them. +%s damage to shields.
+
+""For an impenetrable shield, stand inside yourself.""",Increase dmg to shields.,graphics/hullmods/ironstandseternal.png
+Prototype Point-Defense Core,eis_prototypetu,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Extends the range of ballistic weapons by su. It just works.,Increases based weapon range.,graphics/hullmods/ironstoodeternol.png
+Vengenace Core,eis_vengeance,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Provides the ship systems with a vengeance Core buff that grants many things in life.. Team-buff or something (NOT IMPLEMENTED YET),?,graphics/hullmods/eis_vengeance_core.png
+Audacious Core,eis_vengeance2,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,"Mini-Me for Audacious, get near a mommy vengeance uwu (NOT IMPLEMENTED YET)",?,graphics/hullmods/eis_vengeance_core2.png
