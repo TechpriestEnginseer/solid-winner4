@@ -1,0 +1,15 @@
+{
+    "id": "timid_xiv",
+    "name": "Iron Shell",
+    "author": "Techpriest & Selkie",
+    "utility": "false",
+    "version": "0.92",
+    "description": "Adds a faction that is under one of Hegemony's finest and controversial military division. Adds multiple XIV ships.",
+    "gameVersion": "0.95a-RC12",
+	"jars":["jars/EternalIronShell.jar"],
+	"dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+	{"id": "shaderLib", "name": "GraphicsLib"},
+  ],
+	"modPlugin":"data.scripts.eis_modPlugin",
+}
