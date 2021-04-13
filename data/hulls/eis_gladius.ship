@@ -53,9 +53,6 @@
     "spriteName": "graphics/ships/gladius_xiv.png",
     "style": "MIDLINE",
     "viewOffset": 0,
-	  "builtInMods": [
-    "no_weapon_flux"
-  ],
     "weaponSlots": [
         {
             "angle": 0,

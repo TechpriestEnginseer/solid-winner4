@@ -75,9 +75,6 @@
     "spriteName": "graphics/ships/warthog_xiv.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
-	  "builtInMods": [
-    "no_weapon_flux"
-  ],
     "weaponSlots": [
         {
             "angle": 0,

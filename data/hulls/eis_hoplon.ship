@@ -77,9 +77,6 @@
     "spriteName": "graphics/ships/khopesh_xiv.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
-	  "builtInMods": [
-    "no_weapon_flux"
-  ],
     "weaponSlots": [
         {
             "angle": 80,
