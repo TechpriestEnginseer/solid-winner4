@@ -8,7 +8,7 @@
 	"displayNameWithArticle":"the Iron Shell",
 	"logo":"graphics/factions/ironshell.png",
 	"crest":"graphics/factions/crest_ironshell.png",
-	"shipNamePrefix":"EIS-",
+	"shipNamePrefix":"EIS",
 	"shipNameSources":{
 		"HEGEMONY":1,
 		"BRITISH_NAVY":1,
@@ -31,7 +31,7 @@
 		"tags":{
 			"heg_aux_bp":2,
 			"XIV_bp":2,
-			"eis_bp":3,
+			"eis_bp":2,
 		},
 		"hulls":{
 			"buffalo2":0, # just say no
@@ -43,7 +43,7 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "heg_aux_bp", "lowtech_bp", "XIV_bp", "eis_bp"],
+		"tags":["base_bp", "heg_aux_bp", "lowtech_bp"],
 		"hulls":[
 		],
 	},

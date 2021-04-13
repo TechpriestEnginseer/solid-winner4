@@ -2,7 +2,7 @@
   "variantId": "eis_endeavor_standard",
   "hullId": "eis_endeavor",
   "displayName": "Standard",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 27,
   "quality": 1,

@@ -2,9 +2,9 @@
   "variantId": "eis_dauntless_assault",
   "hullId": "eis_dauntless",
   "displayName": "Assault",
-  "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 44,
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -20,7 +20,8 @@
         "WS0003": "railgun",
         "WS0012": "heavyneedler",
         "WS0017": "heavyneedler",
-        "WS0018": "heavyneedler"
+        "WS0018": "heavyneedler",
+        "WS0019": "eis_fluxthrower"
       }
     },
     {
@@ -44,8 +45,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0010": "typhoon",
-        "WS0011": "typhoon",
-        "WS0019": "cyclone"
+        "WS0011": "typhoon"
       }
     },
     {

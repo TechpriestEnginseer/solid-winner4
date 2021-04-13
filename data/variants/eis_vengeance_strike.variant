@@ -2,7 +2,7 @@
   "variantId": "eis_vengeance_strike",
   "hullId": "eis_vengeance",
   "displayName": "Strike",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 11,
   "fluxVents": 30,
   "quality": 1,
