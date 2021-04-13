@@ -1,26 +1,23 @@
 {
-  "variantId": "eis_vengeance_strike",
+  "variantId": "eis_vengeance_prototype",
   "hullId": "eis_vengeance",
-  "displayName": "Strike",
+  "displayName": "Prototype",
   "goalVariant": true,
-  "fluxCapacitors": 11,
-  "fluxVents": 30,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardenedshieldemitter",
-    "unstable_injector"
+    "safetyoverrides"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lightneedler",
-        "WS0002": "lightneedler",
         "WS0003": "lightneedler",
         "WS0004": "lightneedler",
-        "WS0012": "mark9"
+        "WS0012": "multineedler"
       }
     },
     {
@@ -30,11 +27,19 @@
         "WS0005": "chaingun",
         "WS0006": "chaingun"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
     }
   ],
   "modules": [],
   "wings": [
-    "eis_kopis_wing",
-    "eis_kopis_wing"
+    "eis_dagger_wing",
+    "eis_dagger_wing"
   ]
 }

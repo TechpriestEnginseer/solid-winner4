@@ -2,7 +2,7 @@
   "variantId": "eis_endeavor_assault",
   "hullId": "eis_endeavor",
   "displayName": "Assault",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 4,
   "fluxVents": 50,
   "quality": 1,

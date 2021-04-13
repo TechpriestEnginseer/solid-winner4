@@ -2,7 +2,7 @@
   "variantId": "eis_endeavor_strike",
   "hullId": "eis_endeavor",
   "displayName": "Strike",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 27,
   "quality": 1,

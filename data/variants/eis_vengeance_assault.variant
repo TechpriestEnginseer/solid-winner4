@@ -2,7 +2,7 @@
   "variantId": "eis_vengeance_assault",
   "hullId": "eis_vengeance",
   "displayName": "Assault",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 11,
   "fluxVents": 30,
   "quality": 1,
