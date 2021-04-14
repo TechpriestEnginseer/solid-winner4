@@ -22,7 +22,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 ,eis_deco_dauntless_mr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,,,
 ,eis_deco_dauntless_tl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,,,
 ,eis_deco_dauntless_tr,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,,,,
-Fluxthrower,eis_fluxthrower,3,,,500,,75,,3,60,,120,4,40,HIGH_EXPLOSIVE,50,,,0.05,2,0.05,0,0,0,0,,500,,,,"SYSTEM, SHOW_IN_CODEX","no_drop, no_drop_salvage",,,,Unknown,,General,,,,,,,,,,
+Fluxthrower,eis_fluxthrower,3,,,500,,50,,3,60,,120,4,40,HIGH_EXPLOSIVE,0,,,0.05,40,0.05,0,0,0,0,,500,,,,"SYSTEM, SHOW_IN_CODEX","no_drop, no_drop_salvage",,,,Unknown,,General,,,,,,,,,,
 #Universal Decos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #EIS Flap Right,eis_deco_flap_right,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,,,
 #EIS Flap Left,eis_deco_flap_left,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,,,
