@@ -2,7 +2,7 @@
 	"id":"eis_hammercaneproj",
 	"specClass":"missile",	
 	"missileType":"MIRV",
-	"sprite":"graphics/missiles/missile_MIRV.png",
+	"sprite":"graphics/missiles/low_tech_torpedo.png",
 	"size":[12,28],	
 	"center":[6,14],
 	"collisionRadius":16,
@@ -36,7 +36,7 @@
 				    "angle":180.0}],
 	"behaviorSpec":{"behavior":"MIRV",
 					"splitRange":800,
-					"minTimeToSplit":1,
+					"minTimeToSplit":0.5,
 					"canSplitEarly":true,
 					"splitSound":"hurricane_mirv_fire",
 					"numShots":5,
@@ -45,7 +45,7 @@
 					"emp":30,
 					"damageType":HIGH_EXPLOSIVE,
 					"hitpoints":55,
-					"arc":40, #120
+					"arc":75, #120
 					"arcOffset":180,
 					"evenSpread":true,
 					"spreadSpeed":100, #200

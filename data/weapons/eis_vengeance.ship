@@ -26,8 +26,7 @@
     "WS0013": "eis_blinker_white30",
     "WS0014": "eis_blinker_white30",
     "WS0015": "eis_deco_vengeance_ml",
-    "WS0016": "eis_deco_vengeance_mr",
-    "WS0017": "eis_deco_vengeance_glow"
+    "WS0016": "eis_deco_vengeance_mr"
   },
   "weaponSlots": [
     {
@@ -179,17 +178,8 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [85, -47],
+      "locations": [85, -46.5],
       "renderOrderMod": 200
-    },
-    {
-      "id": "WS0017",
-      "size": "LARGE",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 0,
-      "locations": [6, -0]
     }
   ],
   "engineSlots": [

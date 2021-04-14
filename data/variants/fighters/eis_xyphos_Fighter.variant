@@ -7,7 +7,7 @@
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": ["eis_prototypetu"],
   "weaponGroups": [
     {
       "autofire": false,
