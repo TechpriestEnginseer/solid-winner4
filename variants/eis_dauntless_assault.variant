@@ -1,0 +1,70 @@
+{
+  "variantId": "eis_dauntless_assault",
+  "hullId": "eis_dauntless",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002t": "railgun",
+        "WS0003": "railgun",
+        "WS0012": "heavyneedler",
+        "WS0017": "heavyneedler",
+        "WS0018": "heavyneedler",
+        "WS0019": "eis_fluxthrower"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "hephag",
+        "WS0021": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "sabotpod",
+        "WS0016": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "typhoon",
+        "WS0011": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_broadsword_wing",
+    "eis_broadsword_wing"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "eis_vengeance_assault",
+  "hullId": "eis_vengeance",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0005": "heavyneedler",
+        "WS0006": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0012": "hephag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_broadsword_wing",
+    "eis_broadsword_wing"
+  ]
+}
