@@ -15,6 +15,6 @@ Vengeance (XIV),eis_vengeance,Assault Battlecarrier,XIV Battlegroup,eis_taste_ve
 Champion (XIV),eis_champion,Heavy Cruiser,XIV Battlegroup,eis_highballisticfocus,15,10000,1250,10000,11000,550,170,,60,40,30,15,20,1500,FRONT,,210,0.4,0.8,,,200,300,150,150,4,38,8,125000,4,12,480,0.25,25,25,,,,,,,,"xiv_bp, eis_bp",,0.5,2,4,,
 #Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Endeavor (XIV),eis_endeavor,Battlecarrier,XIV Battlegroup,eis_jump,28,12000,1200,15000,12500,700,260,3,70,48,37,14,14,3000,FRONT,,85,0.25,1,,,550,1200,250,250,12,20,9,375000,3,12,720,0.25,36,36,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","xiv_bp, eis_bp",,0.4,2,4,,
-Dauntless (XIV),eis_dauntless,Battleship,XIV Battlegroup,eis_microburn,30,17000,1500,17500,,850,320,2,33,24,21,4,6,3700,FRONT,,120,0.35,1,,,625,1150,150,425,14,,7,425000,3,12,720,0.25,40,40,,,,,,,,"xiv_bp, eis_bp",,0.5,2,5,,
+Dauntless (XIV),eis_dauntless,Battleship,XIV Battlegroup,eis_microburn,26,14000,1350,16000,,800,290,2,40,30,25,6,8,2750,FRONT,,210,0.4,1.2,,,575,1150,350,425,12,,8,340000,3,12,660,0.25,40,40,,"xiv_bp, eis_bp",,0.5,2,5,,,,,,,,
 #Special,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Shiva,eis_shiva,Battleship,XIV Battlegroup,eis_taste_vengeance,35,12000,1000,24000,,1600,410,,55,30,20,10,10,3300,FRONT,,120,0.3,0.8,,,450,1000,300,300,10,30,8,750000,4,20,660,0.25,40,40,,,0.25,0,3,5,,,,,,,,
