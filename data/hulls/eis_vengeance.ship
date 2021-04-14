@@ -12,7 +12,8 @@
   "shieldRadius": 168.5,
   "viewOffset": 0,
   "builtInMods": [
-    "fourteenth"
+    "fourteenth",
+    "eis_vengeance"
   ],
   "builtInWings": [
     "eis_xyphos_wing"
