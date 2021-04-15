@@ -13,7 +13,8 @@
   "shieldRadius": 128.5,
   "viewOffset": 0,
   "builtInMods": [
-    "fourteenth"
+  "fourteenth",
+  "eis_vengeance2"
   ],
   "builtInWeapons": {
     "WS0001": "eis_deco_audacious_front",
