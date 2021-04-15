@@ -1,0 +1,14 @@
+{
+  "variantId": "eis_dauntless_tr_standard",
+  "hullId": "eis_dauntless_tr",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

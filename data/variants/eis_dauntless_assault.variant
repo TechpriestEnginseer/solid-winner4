@@ -3,7 +3,7 @@
   "hullId": "eis_dauntless",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 30,
+  "fluxCapacitors": 10,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -62,7 +62,14 @@
       }
     }
   ],
-  "modules": [],
+  "modules": [
+    {
+      "TL": "eis_dauntless_tl_standard"
+    },
+    {
+      "TR": "eis_dauntless_tr_standard"
+    }
+  ],
   "wings": [
     "eis_broadsword_wing",
     "eis_broadsword_wing"
