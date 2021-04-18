@@ -1,8 +1,8 @@
 {
   "hullName": "Shiva",
-  "hullId": "eis_shiva",
+  "hullId": "eis_evelia",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/eis_shiva.png",
+  "spriteName": "graphics/ships/eis_evelia.png",
   "style": "EIS_SHIVA",
   "height": 569,
   "width": 324,
