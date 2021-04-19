@@ -43,7 +43,7 @@
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "heg_aux_bp", "lowtech_bp"],
+		"tags":["base_bp", "heg_aux_bp", "lowtech_bp", "XIV_bp", "hegemony", "eis_bp"],
 		"hulls":[
 		],
 	},
@@ -140,7 +140,7 @@
 	"factionDoctrine":{
 		"warships":4,
 		"carriers":3,
-		"phaseShips":1,
+		"phaseShips":0,
 		
 		"officerQuality":5,
 		"shipQuality":5,

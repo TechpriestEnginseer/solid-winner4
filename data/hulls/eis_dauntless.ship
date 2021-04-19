@@ -21,8 +21,6 @@
     "WS0019": "eis_fluxthrower",
     "WS0022": "eis_blinker_white",
     "WS0023": "eis_blinker_white",
-    "WS0024": "eis_blinker_red",
-    "WS0025": "eis_blinker_green",
     "WS0026": "eis_deco_dauntless_ml",
     "WS0027": "eis_deco_dauntless_mr"
   },
@@ -308,24 +306,6 @@
       "arc": 0,
       "angle": 0,
       "locations": [-17, 129.5]
-    },
-    {
-      "id": "WS0024",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": 0,
-      "locations": [41, 86.5]
-    },
-    {
-      "id": "WS0025",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "TURRET",
-      "arc": 0,
-      "angle": -0,
-      "locations": [41, -86.5]
     }
   ],
   "engineSlots": [

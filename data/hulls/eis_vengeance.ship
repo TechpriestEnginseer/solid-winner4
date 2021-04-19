@@ -16,7 +16,7 @@
     "eis_vengeance"
   ],
   "builtInWings": [
-    "eis_xyphos_wing"
+    "eis_gunshield_wing"
   ],
   "builtInWeapons": {
     "WS0007": "eis_deco_vengeance_lights",
