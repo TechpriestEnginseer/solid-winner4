@@ -1,0 +1,41 @@
+{
+	"id":"eis_rampagedrive",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.scripts.shipsystems.eis_rampagedrive",
+	
+	
+	"engineGlowColor":[255,50,0,255],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":1.5,
+	
+	"jitterUnderColor":[255,80,30,135],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":8,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,140,60,65],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":200,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":200,
+	}
+}

@@ -1,0 +1,68 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{},
+	"combatSmall":{
+			"eis_courageous_prototype":4,
+	},
+	"combatMedium":{
+			"eis_audacious_assault":6,
+	},
+            	
+	"combatLarge":{
+            "eis_indomitable_assault":4,
+            "eis_champion_assault":2,	
+            "eis_champion_elite":2,
+            "eis_champion_prototype":0.7,	
+	},
+	"combatCapital":{
+            "eis_tyrant_assault":2,	
+            "eis_tyrant_standard":2,
+	},
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{},
+	"combatFreighterLarge":{},
+	
+	"civilianRandom":{},
+
+	# carriers
+	"carrierSmall":{},
+	"carrierMedium":{
+	        "eis_vengeance_assault":2,	
+            "eis_vengeance_strike":3,
+	},
+	"carrierLarge":{
+            "eis_endeavor_assault":3,			
+            "eis_endeavor_standard":3,			
+            "eis_endeavor_strike":3,			
+    },
+
+	# phase ships
+	"phaseSmall":{},
+	"phaseMedium":{},
+	"phaseLarge":{},
+	"phaseCapital":{},
+
+	# freighters and such
+	"freighterSmall":{},
+	"freighterMedium":{},
+	"freighterLarge":{},
+	
+	"tankerSmall":{},
+	"tankerMedium":{},
+	"tankerLarge":{},
+	
+	"personnelSmall":{},
+	"personnelMedium":{},
+	"personnelLarge":{},
+	
+	"linerSmall":{},
+	"linerMedium":{},
+	"linerLarge":{},
+	
+	# utility ships
+	"tug":{},
+	"crig":{},
+	"utility":{},
+}
