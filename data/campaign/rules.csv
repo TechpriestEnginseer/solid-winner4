@@ -1,0 +1,67 @@
+id,trigger,conditions,script,text,options,notes
+greetingEISFriendly,OpenCommLink,"$faction.id == ironshell
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""$playerNames,what brings you here today?""
+OR
+The $personRank greets you with a stern smile. ""Yes?"" 
+",,
+greetingEISCommissioned,OpenCommLink,"$faction.id == ironshell
+$faction.friendlyToPlayer
+Commission hasFactionCommission
+",,"Degenerate like you belong on a cross.
+OR
+Greeting, found any big titties women lately?
+",,
+greetingEISHostileWeaker,OpenCommLink,"$faction.id == ironshell
+$entity.isHostile
+$entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"An $personRank appears onscreen. ""Hmph. If it ends here then so be it, we'll fight 'till our last breath.""
+OR
+""I should have went with the Phoenix… perhaps you will be lenient with us?""
+",cutCommLink:Cut the comm link,
+greetingEISHostileWeakerDefiant,OpenCommLink,"$faction.id == ironshell
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"The $personRank looks down upon you. ""Well,this is not the first time we're outnumbered, nor the first time we're outgunned. Give it your best shot.""
+OR
+""Comrades! Today,we sacrifices ourself to the glory of the Turtle!""",cutCommLink:Cut the comm link,
+greetingEISHostileStronger,OpenCommLink,"$faction.id == ironshell
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,,cutCommLink:Cut the comm link,
+greetingEISNeutral,OpenCommLink,"$faction.id == ironshell
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Greeting citizen, anything you want to report?""
+OR
+""I'm the commander of this force. Is there anything you need?""",,
+flavorTextMarketEIS,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == ironshell","AddText ""Iron Shell patrol skiffs slip between looming bulk freighters and the pitted hulls of fighting-traders that fill the port concourse. Offloading ship captains are met crisply by a Hegemony logistics officer, cleared, then released to the crowds of traders, arms merchants, and commodity speculators."" marketFlavorTextColor
+AddText ""The stewardly turtle of Iron Shell is projected onto a convenient bulkhead, the local Navy recruitment center's comms-ID scrolling around the flickering stars of the Domain - 'See the Sector, Serve With Honor, Restore the Human Domain'."" marketFlavorTextColor",,,
+,,,,,,
+bar_descEIS,BarPrintDesc,$faction.id == ironshell,ShowImageVisual hegemony_bar,"You enter the crowded, well-lit space and take in the rows of taps adorning the wall under bottles from every one of the core worlds - and a few from elsewhere. Merchant-captains mingle with off-duty officers at the bar, served efficiently by the uniformed staff. In one corner, a group of big mammaries equipped officers are playing a game of pool, wagering and waiting for their next order.",,
+bar_descEISChitagupta,BarPrintDesc,"$faction.id == ironshell
+$market.id == chitagupta
+$id == chitagupta",ShowImageVisual space_bar,"You enter the crowded, well-lit space and take in the rows of taps adorning the wall under bottles from every one of the core worlds - and a few from elsewhere. Merchant-captains mingle with off-duty officers at the bar, served efficiently by the uniformed staff. In one corner, a group of big mammaries equipped officers are playing a game of pool, wagering and waiting for their next order.... and maybe chitagupta says this",,
+bar_descEISYami,BarPrintDesc,"$faction.id == ironshell
+$market.id == yami
+$id == yami",ShowImageVisual space_bar,"You enter the crowded, well-lit space and take in the rows of taps adorning the wall under bottles from every one of the core worlds - and a few from elsewhere. Merchant-captains mingle with off-duty officers at the bar, served efficiently by the uniformed staff. In one corner, a group of big mammaries equipped officers are playing a game of pool, wagering and waiting for their next order. and maybe yami says this.. testing.",,
+,,,,,,
+aiCores_turnInOptionSellIronshell,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == ironshell",FireAll PopulateCoresTurnInOptions,"""We don't generally like the public to be aware that these are still out there, but Iron Shell is treaty-bound to take possession of any such objects and ensure they're destroyed.""",,
+aiCores_turnInResponseIronshell,AICoresTurnedIn,$faction.id == ironshell,FireAll PopulateOptions,"""Thank you friend. Your action today contribute to a brighter future for the sector. ""$PersonRank $personLastName gives you a firm handshake and the conversation moves on to other matters.",,
+,,,,,,
+CMSNTextRejectHostile_Ironshell,CMSNTextRejectHostile,$faction.id == ironshell,,"""How exactly did you get here? You better run before security comes.""",,
+CMSNTextHasOther_Ironshell,CMSNTextHasOther,$faction.id == ironshell,,"""You're already commissioned by $theOtherCommissionFaction. I suggest you end the relation with them before joining us.""",,
+CMSNTextUnsuited_Ironshell,CMSNTextUnsuited,$faction.id == ironshell,,"""Sorry $playerName, I can't commission you. Come back when you're a little more, mmm, reputable!",,
+CMSNTextSuitedPart1_Ironshell,CMSNTextSuitedPart1,$faction.id == ironshell,,"""Hmm, yes, this intelligence summary indicates that you are qualified for a commission. Very well!
+
+Accepting a commission with Iron Shell is a serious matter. You must pledge yourself to Iron Shell and Hegemony and uphold our strict codes and legacy. You are also obliged to help your comrades whenever they're in need, no matter the situation.
+
+This type of service to Iron Shell is voluntary. You'll be able to resign your commission at any time, though most prefer to stay due to all the benefit they gained.""",,
+CMSNTextSuitedPart2_Ironshell,CMSNTextSuitedPart2,$faction.id == ironshell,,"""Are you prepared to make this commitment to Iron Shell?""",,
+CMSNTextWelcomePart1_Ironshell,CMSNTextWelcomePart1,$faction.id == ironshell,,"""Very well friend. From now on, you're one of us. Welcome to the Iron Shell.""",,
+CMSNTextWelcomePart2_Ironshell,CMSNTextWelcomePart2,$faction.id == ironshell,,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_Ironshell,CMSNTextChangeMind,$faction.id == ironshell,,"""Regrettable. The responsibility put upon those who bear the insignia of the Turtle are many, but the accomplishment of doing so is a reward all its own. Not all are prepared for such discipline, it seems.
+
+Anything else I can do for you?""",,
+CMSNResignAskToConfirm_Ironshell,CMSNResignAskToConfirm,$faction.id == ironshell,,"""Are you sure about that decision? A lot of people would die for a chance to prove themself worthy to be one of us.""",,
+CMSNResignConfirmed_Ironshell,CMSNResignConfirmed,$faction.id == ironshell,,"""I see. At least you were brave enough to tender your resignation in person.""",,
+CMSNResignCancelled_Ironshell,CMSNResignCancelled,$faction.id == ironshell,,"""We all made mistakes. At least you're wise enough to correct it.""",,
