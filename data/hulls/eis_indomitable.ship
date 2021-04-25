@@ -1,0 +1,201 @@
+{
+  "hullName": "Indomitable (XIV)",
+  "hullId": "eis_indomitable",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/eis_indomitable.png",
+  "style": "LOW_TECH",
+  "height": 254,
+  "width": 214,
+  "center": [107, 124],
+  "collisionRadius": 180,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 170,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+	"eis_indomitable",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-46, 90]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [35, 0]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-46, -90]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 210,
+      "locations": [-58, -22]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 150,
+      "locations": [-58, 22]
+    },
+    {
+      "id": "WS 010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 30,
+      "locations": [-18, 38]
+    },
+    {
+      "id": "WS 011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -30,
+      "locations": [-18, -38]
+    },
+    {
+      "id": "WS 012",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [76, 30]
+    },
+    {
+      "id": "WS 013",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [76, -30]
+    },
+    {
+      "id": "WS 014",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, 78]
+    },
+    {
+      "id": "WS 015",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [51, -0]
+    },
+    {
+      "id": "WS 016",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, -78]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, 44],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -44],
+      "length": 64,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89, 12],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89, -12],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -102.5, -16,
+    -98.5, -28,
+    -76, -35.5,
+    -70, -68,
+    -115, -71,
+    -123, -82.5,
+    -106, -93,
+    -75, -93,
+    -57, -105,
+    -0.5, -103,
+    8, -91,
+    52, -88,
+    54, -70,
+    125, -52.5,
+    129, -43,
+    90, -43,
+    92, -15,
+    60, -12,
+    60, 12,
+    92, 15,
+    90, 43,
+    129, 43,
+    125, 52.5,
+    54, 70,
+    52, 88,
+    8, 91,
+    -0.5, 103,
+    -57, 105,
+    -75, 93,
+    -106, 93,
+    -123, 82.5,
+    -115, 71,
+    -70, 68,
+    -76, 35.5,
+    -98.5, 28,
+    -102.5, 16,
+    -77, -0
+  ]
+}

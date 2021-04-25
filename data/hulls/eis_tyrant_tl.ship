@@ -1,0 +1,36 @@
+{
+  "hullName": "Armor",
+  "hullId": "eis_tyrant_tl",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/modules/eis_tyrant_tl.png",
+  "style": "LOW_TECH",
+  "height": 109,
+  "width": 56,
+  "center": [38, 56],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 9]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -43, 12,
+    -32, 38,
+    -6, 37,
+    53, -10
+  ]
+}

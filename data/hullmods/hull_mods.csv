@@ -1,0 +1,23 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Iron Shell,CHM_ironshell,,,Iron Shell,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_ironshell,"Iron Shell operatives must take proactive measures to ensure the best defenses against their enemies' common weaponry. Takes %s/%s/%s/%s less damage from beam and energy weapons, scaling on hull size.
+
+""For an impenetrable shield, stand inside yourself.""",Take reduced dmg,graphics/hullmods/ironstandseternal.png
+,,,,,,,,,,,,,,,,,,
+Endeavor Microforge,eis_microforge,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_microforge,"Slowly forges weapons of small missiles by either +1 or 30% of its base max ammo count, whatever is higher.",?,graphics/hullmods/eis_microforge.png
+Perfect Vengeance Core,eis_perfect_vengeance,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_perfectvengeancecore,"This Vengeance Core is perfected. Reflects all missiles in a small radius. Successfully reflecting a missile supercharges the ship's vengeance core, improving shield efficiency and engine flow. Failing to reflect any missiles will result in the vengeance core overloading, massively increasing damage received by shields and doubling shield radius as well as disrupting its engine flow.
+
+Does not work with Shield Shunt.",?,graphics/hullmods/eis_perfect_vengeance_core.png
+Vengeance Core,eis_vengeance,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_vengeancecore,"Reflects all missiles in a small radius. Successfully reflecting a missile supercharges the ship's vengeance core, improving shield efficiency. Failing to reflect any missiles will result in the vengeance core overloading, massively increasing the flux usage received by shield damage and doubling shield radius.
+
+Does not work with Shield Shunt.",?,graphics/hullmods/eis_vengeance_core.png
+Vengeance Relay,eis_vengeance2,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_audaciousrelay,"Upon being connected by a Vengeance Core, the Audacious receive a temporary synchorization that coordinates to a engine boost and shield efficiency.",?,graphics/hullmods/eis_audacious_relay.png
+Indomitable Missile System,eis_indomitable,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_indomitable,What? You have more than 3 missiles? That's a -66percent PPT for you!,?,graphics/hullmods/eis_vengeance_core.png
+,,,,,,,,,,,,,,,,,,
+Prototype Point-Defense Core,eis_prototypetu,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Extends the range of ballistic weapons by su. It just works.,Range,graphics/hullmods/ironstoodeternol.png
+Aegis PD Suite,eis_aegissuite,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_aegissuite,"Used by the gunshield drone, this text should not be visible to the player.",Terminator Core Copy,graphics/hullmods/ironstoodeternol.png
+,,,,,,,,,,,,,,,,,,
+Aquila Reactor Protocol,eis_aquila,3,,Iron Shell,"special, engines, offensive, merc, no_build_in","Special, Engines",10000,,,,10,15,25,35,data.scripts.hullmods.eis_aquila,"Subsystems are fine-tuned for speed and active venting efficiency; increases top speed in combat by %s/%s (with a corresponding increase in acceleration) for cruisers/capital ships. Also increases the ship's flux dissipation rate while venting by %s and allows the zero-flux engine boost to take effect up to %s flux.
+
+Reduces peak performance time by %s/%s and drastically reduces weapon ranges past %s units.
+
+Can not be installed on civilian ships, frigates, or destroyers. Precludes the installation of range-boosting hullmods.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/eis_aquila.png

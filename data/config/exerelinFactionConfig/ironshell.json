@@ -1,0 +1,99 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"freeStart":true,
+	"ngcTooltip":"The Iron Shell, is an incorporated sub-division of the Hegemony Ministry of Commerce that specializes in scavenged weapons and ships cobbled together from the scraps of the former XIV Battlegroup.",
+    "rebelFleetSuffix":"Traitors",
+    
+	"asteroidMiningFleetName":"Scavenger",
+    "gasMiningFleetName":"Collecter",
+    "invasionFleetName":"Liberator",
+    "responseFleetName":"Mourner",
+    "invasionSupportFleetName":"Crucifixer",
+    "defenceFleetName":"Guardian",
+	
+    "marketSpawnWeight":1,
+	
+    "startRelationships":{ "tritachyon": -0.3, "persean":-0.5, "hegemony":1.00 },
+    
+    "alignments":{
+        "technocratic":-0.5,
+        "hierarchial":1,
+        "militarist":1,
+        "diplomatic":-0.5,
+        "ideological":0.5,
+    },
+	"diplomacyTraits":["paranoid", "stalwart", "neutralist", "lowprofile", "devious", "helps_allies", "dislikes_ai"],
+    
+	"minRelationships":{
+		"hegemony": -0.25,
+	},
+	
+	"freeMarket":true,
+	
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    
+    "startShipsSolo":[
+		["eis_courageous_prototype"],
+		["eis_audacious_assault"],
+		["wolf_hegemony_Assault"],
+	],
+
+    "startShipsCombatSmall":[
+      ["eis_audacious_assault", "eis_courageous_prototype", "wolf_hegemony_CS"],
+	  ["eis_indomitable_assault", "eis_courageous_prototype", "hound_hegemony_Standard"],
+    ],
+	
+    "startShipsCarrierSmall":[
+		["eis_audacious_assault", "wolf_hegemony_CS", "eis_courageous_prototype"]
+	],
+	
+	"startShipsTradeSmall":[
+		["eis_audacious_assault", "hound_hegemony_Standard", "buffalo_hegemony_Standard"],
+		["eis_champion_assault", "eis_courageous_prototype", "hound_hegemony_Standard"],
+	],
+
+	"startShipsCombatLarge":[
+	  ["eis_vengeance_strike", "eis_audacious_assault", "eis_audacious_assault"],
+	  ["eis_endeavor_standard", "eagle_xiv_Elite", "falcon_xiv_Elite"],
+	  ["eis_tyrant_standard", "eagle_xiv_Elite", "enforcer_XIV_Elite"],
+    ],
+
+    "startShipsCarrierLarge":[
+		["eis_vengeance_strike", "eis_endeavor_standard", "eis_audacious_assault",],
+	],
+	
+    "startShipsTradeLarge":[
+		["colossus_Standard", "eis_vengeance_strike", "eis_audacious_assault"],
+	],
+   
+    "startShipsGrandFleet":[
+		["eis_vengeance_prototype", "eis_endeavor_standard", "eis_tyrant_standard", "eis_champion_prototype", "eis_audacious_prototype", "eis_audacious_prototype"],
+	],
+	
+    "startSpecialItems":[
+		[["low_tech_package", ""]],
+		[["heg_aux_package", ""]],
+        [["modspec", "eis_aquila"]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}
