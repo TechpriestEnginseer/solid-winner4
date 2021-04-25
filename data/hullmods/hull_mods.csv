@@ -1,8 +1,0 @@
-name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Iron Targeting,CHM_ironshell,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_ironshell,"Iron Shell operatives are required to be carefully analyzing their enemies who are often shielded with the best shielding technology can provide them. +%s damage to shields.
-
-""For an impenetrable shield, stand inside yourself.""",Increase dmg to shields.,graphics/hullmods/ironstandseternal.png
-Prototype Point-Defense Core,eis_prototypetu,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Extends the range of ballistic weapons by su. It just works.,Increases based weapon range.,graphics/hullmods/ironstoodeternol.png
-Vengeance Core,eis_vengeance,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,"Reflects all missiles in a small radius. Successfully reflecting a missile supercharges the ship's vengeance core, improving shield efficiency. Failing to reflect any missiles will result in the vengeance core overloading, massively increasing damage received by shields and doubling shield radius.",?,graphics/hullmods/eis_vengeance_core.png
-Audacious Core,eis_vengeance2,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,"Mini-Me for Audacious, get near a mommy vengeance uwu (NOT IMPLEMENTED YET)",?,graphics/hullmods/eis_audacious_relay.png
-Aegis PD Suite,eis_aegissuite,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_aegissuite,"Used by the gunshield drone, this text should not be visible to the player.",,graphics/hullmods/ironstoodeternol.png

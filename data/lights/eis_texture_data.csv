@@ -1,7 +1,0 @@
-id,type,frame,magnitude,map,path
-eis_audacious,ship,,,normal,graphics/shaders/normal/ships/eis_audacious_normal.png
-eis_vengeance,ship,,,normal,graphics/shaders/normal/ships/eis_vengeance_normal.png
-eis_champion,ship,,,normal,graphics/shaders/normal/ships/eis_champion_normal.png
-eis_endeavor,ship,,,normal,graphics/shaders/normal/ships/eis_endeavor_normal.png
-eis_dauntless,ship,,,normal,graphics/shaders/normal/ships/eis_dauntless_normal.png
-
