@@ -1,8 +1,7 @@
 {
     "playableFaction":true,
     "corvusCompatible":true,
-	"freeStart":true,
-	"ngcTooltip":"The Iron Shell, is an incorporated sub-division of the Hegemony Ministry of Commerce that specializes in scavenged weapons and ships cobbled together from the scraps of the former XIV Battlegroup.",
+	"ngcTooltip":"Begin as a graduate of the Imperial Academy at Byzantium. Will your ambitions lead you to glory? Can you secure the safety of the empire? Prove that you are worthy of the gods' favor.",
     "rebelFleetSuffix":"Traitors",
     
 	"asteroidMiningFleetName":"Scavenger",
@@ -14,8 +13,60 @@
 	
     "marketSpawnWeight":1,
 	
-    "startRelationships":{ "tritachyon": -0.3, "persean":-0.5, "hegemony":1.00 },
+    "startRelationships":{
+		"al_ars": -0.5,
+		"almighty_dollar": 0.15,
+		"ashen_keepers": 0,
+		"blade_breakers":  -1.00,
+		"communist_clouds": -0.6,
+		"dassault_mikoyan": -0.75,
+		"diableavionics": -0.6,
+		"exalted":-1.00,
+		"hegemony":1.00,
+		"interstellarimperium": -0.8,
+		"kadur_remnant": -1.00,
+		"keruvim": -0.6,
+		"luddic_church": -0.2,
+		"luddic_path":-0.5,
+		"mayasura": -1.00,
+		"persean":-0.5,
+		"pirates": -0.5,
+		"prv": -0.3,
+		"ocua":-0.3,
+		"remnant": -0.5,
+		"rb": -0.6,
+		"scalartech": -0.3,
+		"science_fuckers ": -0.6,
+		"shadow_industry": -0.6,
+		"star_federation":-0.4,
+		"sylphon":-0.2,
+		"tahlan_legioinfernalis":-1.00,
+		"tritachyon": -0.3,
+		"tiandong": 0,
+		"xhanempire": -0.6,
+		"warhawk_republic": -0.6,
+		"xlu":-0.8,
+		"unitedpamed": 0.25,
+	},
     
+	"minRelationships":{
+		"hegemony": -0.25,
+	},
+	
+    "maxRelationships":{
+		"blade_breakers": -1.00,
+		"communist_clouds": -0.2,
+		"dassault_mikoyan": -0.25,
+		"interstellarimperium": -0.4,
+		"kadur_remnant": -0.6,
+		"mayasura": -1,
+		"star_federation":0.4,
+		"sylphon":0,
+		"tahlan_legioinfernalis": -0.5,
+		"warhawk_republic": -0.6,
+		"xlu":0.25,
+	},
+	
     "alignments":{
         "technocratic":-0.5,
         "hierarchial":1,
@@ -24,10 +75,6 @@
         "ideological":0.5,
     },
 	"diplomacyTraits":["paranoid", "stalwart", "neutralist", "lowprofile", "devious", "helps_allies", "dislikes_ai"],
-    
-	"minRelationships":{
-		"hegemony": -0.25,
-	},
 	
 	"freeMarket":true,
 	
