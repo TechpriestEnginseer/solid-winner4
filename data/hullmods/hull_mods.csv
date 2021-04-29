@@ -1,5 +1,5 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Iron Shell,CHM_ironshell,,,Iron Shell,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_ironshell,"Iron Shell operatives must take proactive measures to ensure the best defenses against their enemies' common weaponry. Takes %s/%s/%s/%s less damage from beam and energy weapons, scaling on hull size.
+Iron Shell,CHM_ironshell,,,Iron Shell,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CHM_ironshell,"Iron Shell operatives must take proactive measures to ensure the best defenses against their enemies' common weaponry. Takes %s/%s/%s/%s less damage from beam weapons, scaling on hull size.
 
 ""For an impenetrable shield, stand inside yourself.""",Take reduced dmg,graphics/hullmods/ironstandseternal.png
 ,,,,,,,,,,,,,,,,,,
@@ -16,8 +16,8 @@ Indomitable Missile System,eis_indomitable,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,d
 Prototype Point-Defense Core,eis_prototypetu,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Extends the range of ballistic weapons by su. It just works.,Range,graphics/hullmods/ironstoodeternol.png
 Aegis PD Suite,eis_aegissuite,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_aegissuite,"Used by the gunshield drone, this text should not be visible to the player.",Terminator Core Copy,graphics/hullmods/ironstoodeternol.png
 ,,,,,,,,,,,,,,,,,,
-Aquila Reactor Protocol,eis_aquila,3,,Iron Shell,"special, engines, offensive, merc, no_build_in","Special, Engines",10000,,,,10,15,25,35,data.scripts.hullmods.eis_aquila,"Subsystems are fine-tuned for speed and active venting efficiency; increases top speed in combat by %s/%s (with a corresponding increase in acceleration) for cruisers/capital ships. Also increases the ship's flux dissipation rate while venting by %s and allows the zero-flux engine boost to take effect up to %s flux.
+Aquila Reactor Protocol,eis_aquila,3,,Iron Shell,"special, engines, offensive, merc, no_build_in","Special, Engines",10000,,,,5,10,20,30,data.scripts.hullmods.eis_aquila,"Subsystems are fine-tuned for speed and active venting efficiency; increases top speed in combat by %s/%s for cruisers/capital ships, with a corresponding increase in acceleration. Also increases the ship's flux dissipation rate while venting by %s and allows for zero-flux engine boost at up to %s flux.
 
-Reduces peak performance time by %s/%s and drastically reduces weapon ranges past %s units.
+Reduces peak performance time by %s/%s.
 
 Can not be installed on civilian ships, frigates, or destroyers. Precludes the installation of range-boosting hullmods.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/eis_aquila.png
