@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "fourteenth",
-	"eis_indomitable",
+    "eis_indomitable"
   ],
   "weaponSlots": [
     {
@@ -127,23 +127,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-74, 44],
-      "length": 64,
-      "width": 24,
-      "angle": 180,
-      "contrailSize": 64,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-74, -44],
-      "length": 64,
-      "width": 24,
-      "angle": 180,
-      "contrailSize": 64,
-      "style": "LOW_TECH"
-    },
-    {
-      "location": [-89, 12],
+      "location": [-90, 12],
       "length": 48,
       "width": 16,
       "angle": 180,
@@ -156,6 +140,22 @@
       "width": 16,
       "angle": 180,
       "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, 44],
+      "length": 71.253464,
+      "width": 25.937954,
+      "angle": 168,
+      "contrailSize": 25.937954,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74, -44],
+      "length": 71.253464,
+      "width": 25.937954,
+      "angle": -168,
+      "contrailSize": 25.937954,
       "style": "LOW_TECH"
     }
   ],

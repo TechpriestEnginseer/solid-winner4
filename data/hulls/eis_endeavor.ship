@@ -12,9 +12,8 @@
   "shieldRadius": 221.5,
   "viewOffset": 0,
   "builtInMods": [
-    "fluxbreakers",
     "fourteenth",
-	"eis_microforge",
+    "eis_microforge"
   ],
   "builtInWeapons": {
     "WS0016": "eis_blinker_green",
@@ -27,12 +26,20 @@
     "WS0025": "eis_blinker_white",
     "WS0026": "eis_blinker_white",
     "WS0027": "eis_blinker_white",
+    "WS0030": "eis_blinker_command",
+    "WS0031": "eis_blinker_command",
     "WS0032": "eis_blinker_white30",
     "WS0033": "eis_blinker_white30",
     "WS0034": "eis_blinker_white30",
     "WS0035": "eis_blinker_white30",
     "WS0036": "eis_blinker_white30",
     "WS0037": "eis_blinker_white30",
+    "WS0038": "eis_blinker_command",
+    "WS0039": "eis_blinker_command",
+    "WS0040": "eis_blinker_command",
+    "WS0041": "eis_blinker_command",
+    "WS0042": "eis_blinker_command",
+    "WS0043": "eis_blinker_command",
     "WS0044": "eis_deco_endeavor_mr",
     "WS0045": "eis_deco_endeavor_ml"
   },
@@ -379,6 +386,78 @@
       "arc": 120,
       "angle": -120,
       "locations": [-76, -66]
+    },
+    {
+      "id": "WS0030",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [141.5, 49.5]
+    },
+    {
+      "id": "WS0031",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [141.5, -49.5]
+    },
+    {
+      "id": "WS0038",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [135.5, 49.5]
+    },
+    {
+      "id": "WS0039",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [135.5, -49.5]
+    },
+    {
+      "id": "WS0040",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [129.5, 49.5]
+    },
+    {
+      "id": "WS0041",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [129.5, -49.5]
+    },
+    {
+      "id": "WS0042",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [123.5, 49.5]
+    },
+    {
+      "id": "WS0043",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [123.5, -49.5]
     }
   ],
   "engineSlots": [
