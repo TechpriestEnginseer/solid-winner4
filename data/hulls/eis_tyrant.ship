@@ -10,9 +10,9 @@
   "collisionRadius": 222,
   "shieldCenter": [0, -0],
   "shieldRadius": 213,
-  "viewOffset": 200,
+  "viewOffset": 0,
   "builtInMods": [
-    "fourteenth"
+  "fourteenth"
   ],
   "builtInWeapons": {
     "WS0002": "eis_deco_tyrant_lights",
