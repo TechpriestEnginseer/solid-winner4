@@ -5,19 +5,17 @@
 	
 	"statsScript":"data.scripts.shipsystems.eis_rampagedrive",
 	
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":1.7,
+	"engineGlowGlowMult":1.35,
 	
-	"engineGlowColor":[255,50,0,255],
-	"engineGlowLengthMult":3,
-	"engineGlowWidthMult":2,
-	"engineGlowGlowMult":1.5,
-	
-	"jitterUnderColor":[255,80,30,135],
+	"jitterUnderColor":[255,237,171,135],
 	"jitterUnderCopies":25,
 	"jitterUnderMinRange":0,
-	"jitterUnderRange":8,
+	"jitterUnderRange":6,
 	"jitterUnderRangeRadiusFraction":0,
 	
-	"jitterColor":[255,140,60,65],
+	"jitterColor":[255,165,90,55],
 	"jitterCopies":2,
 	"jitterMinRange":0,
 	"jitterRange":5,
