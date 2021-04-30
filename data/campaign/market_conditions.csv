@@ -1,2 +1,0 @@
-name,id,planetary,decivRemove,script,desc,icon,order
-S-NEED,eis_aquaculture,TRUE,,data.scripts.campaign.econ.eis_aquaculture_condition,The Seed-Natural Energy Environment Device is a Domain terraforming technology used to promote conditions for life in developing water worlds.,graphics/icons/market/eis_aqua.png,919
