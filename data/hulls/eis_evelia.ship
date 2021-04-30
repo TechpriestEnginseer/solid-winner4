@@ -12,7 +12,7 @@
   "shieldRadius": 297,
   "viewOffset": 0,
   "builtInMods": [
-    "fourteenth"
+  "fourteenth"
   ],
   "builtInWeapons": {
     "WS0018": "eis_grandhellbore"
