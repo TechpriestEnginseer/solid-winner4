@@ -3,14 +3,13 @@
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{},
 	"combatSmall":{
-			"eis_courageous_prototype":4,
+			"eis_courageous_prototype":6,
 	},
 	"combatMedium":{
 			"eis_audacious_assault":6,
 	},
             	
 	"combatLarge":{
-            "eis_indomitable_assault":4,
             "eis_champion_assault":2,	
             "eis_champion_elite":2,
             "eis_champion_prototype":0.7,	
