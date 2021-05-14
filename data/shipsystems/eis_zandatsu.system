@@ -1,0 +1,32 @@
+{
+	"id":"eis_zandatsu",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.eis_ironsneedeternal",
+
+	"jitterColor":[255,255,255,110],
+	"jitterCopies":1,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":1,
+	
+    "statsScript":"data.scripts.shipsystems.eis_zandatsu",
+    #"runScriptWhilePaused":true,
+	"runScriptWhileIdle":true,
+
+    "engineGlowLengthMult":1.5,
+
+    "flameoutOnImpactChance":0,
+
+	"useSound":"system_burn_drive_deactivate",
+    "outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":200,
+        "averageSpeedIncrease":25
+    }
+}
+
+
+
+

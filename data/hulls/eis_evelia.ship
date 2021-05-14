@@ -4,7 +4,7 @@
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/eis_evelia.png",
   "style": "EIS_SHIVA",
-  "height": 569,
+  "height": 574,
   "width": 324,
   "center": [162, 287],
   "collisionRadius": 348.5,
@@ -12,7 +12,7 @@
   "shieldRadius": 297,
   "viewOffset": 0,
   "builtInMods": [
-  "fourteenth"
+    "fourteenth"
   ],
   "builtInWeapons": {
     "WS0018": "eis_grandhellbore"
@@ -25,7 +25,7 @@
       "mount": "TURRET",
       "arc": 136,
       "angle": 53.5,
-      "locations": [-11, 80],
+      "locations": [-15, 80],
       "renderOrderMod": 4
     },
     {
@@ -35,7 +35,7 @@
       "mount": "TURRET",
       "arc": 136,
       "angle": -53.5,
-      "locations": [-11, -80],
+      "locations": [-15, -80],
       "renderOrderMod": 4
     },
     {
@@ -45,7 +45,7 @@
       "mount": "TURRET",
       "arc": 229,
       "angle": 101,
-      "locations": [-55, 118],
+      "locations": [-59, 118],
       "renderOrderMod": 4
     },
     {
@@ -55,7 +55,7 @@
       "mount": "TURRET",
       "arc": 229,
       "angle": -101,
-      "locations": [-55, -118],
+      "locations": [-59, -118],
       "renderOrderMod": 4
     },
     {
@@ -65,7 +65,7 @@
       "mount": "TURRET",
       "arc": 105,
       "angle": 97.5,
-      "locations": [-19, 30]
+      "locations": [-23, 30]
     },
     {
       "id": "WS0010",
@@ -74,7 +74,7 @@
       "mount": "TURRET",
       "arc": 105,
       "angle": -97.5,
-      "locations": [-19, -30]
+      "locations": [-23, -30]
     },
     {
       "id": "WS0001",
@@ -83,7 +83,7 @@
       "mount": "TURRET",
       "arc": 135,
       "angle": 45,
-      "locations": [30, 52],
+      "locations": [26, 52],
       "renderOrderMod": 10
     },
     {
@@ -93,7 +93,7 @@
       "mount": "TURRET",
       "arc": 135,
       "angle": -45,
-      "locations": [30, -52],
+      "locations": [26, -52],
       "renderOrderMod": 10
     },
     {
@@ -103,7 +103,7 @@
       "mount": "TURRET",
       "arc": 129,
       "angle": 116,
-      "locations": [-54, 35]
+      "locations": [-58, 35]
     },
     {
       "id": "WS0012",
@@ -112,7 +112,7 @@
       "mount": "TURRET",
       "arc": 129,
       "angle": -116,
-      "locations": [-54, -35]
+      "locations": [-58, -35]
     },
     {
       "id": "WS0013",
@@ -121,7 +121,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": -49.5,
-      "locations": [61, -36]
+      "locations": [57, -36]
     },
     {
       "id": "WS0014",
@@ -130,7 +130,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": 49.5,
-      "locations": [61, 36]
+      "locations": [57, 36]
     },
     {
       "id": "WS0015",
@@ -139,7 +139,7 @@
       "mount": "TURRET",
       "arc": 190,
       "angle": 0,
-      "locations": [130, -0]
+      "locations": [126, -0]
     },
     {
       "id": "WS0016",
@@ -148,7 +148,7 @@
       "mount": "TURRET",
       "arc": 190,
       "angle": 0,
-      "locations": [163, -0]
+      "locations": [159, -0]
     },
     {
       "id": "WS0017",
@@ -157,7 +157,7 @@
       "mount": "TURRET",
       "arc": 190,
       "angle": 0,
-      "locations": [197, -0]
+      "locations": [193, -0]
     },
     {
       "id": "WS0018",
@@ -166,7 +166,7 @@
       "mount": "HARDPOINT",
       "arc": 2,
       "angle": 0,
-      "locations": [241, -0]
+      "locations": [237, -0]
     },
     {
       "id": "WS0003",
@@ -175,7 +175,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [-36, 130]
+      "locations": [-39.5, 131.5]
     },
     {
       "id": "WS0004",
@@ -184,7 +184,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": -0,
-      "locations": [-36, -130]
+      "locations": [-39.5, -131.5]
     },
     {
       "id": "WS0019",
@@ -193,7 +193,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [4, 100]
+      "locations": [1, 100]
     },
     {
       "id": "WS0020",
@@ -202,7 +202,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": -0,
-      "locations": [4, -100]
+      "locations": [1, -100]
     },
     {
       "id": "WS0021",
@@ -211,7 +211,7 @@
       "mount": "TURRET",
       "arc": 136,
       "angle": -53.5,
-      "locations": [-33, -99]
+      "locations": [-37, -99]
     },
     {
       "id": "WS0022",
@@ -220,7 +220,7 @@
       "mount": "TURRET",
       "arc": 136,
       "angle": 53.5,
-      "locations": [-33, 99]
+      "locations": [-37, 99]
     }
   ],
   "engineSlots": [
@@ -329,14 +329,12 @@
     70, 54,
     90.5, 45,
     90.5, 37.5,
-    237.5, 29.5,
     271, 26,
     278, 17,
     266.5, 12.5,
     266.5, -12.5,
     278, -17,
     271, -26,
-    237.5, -29.5,
     90.5, -37.5,
     90.5, -45,
     70, -54,

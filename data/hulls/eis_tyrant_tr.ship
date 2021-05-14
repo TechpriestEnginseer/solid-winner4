@@ -15,6 +15,9 @@
     "reduced_explosion",
     "always_detaches"
   ],
+  "builtInWeapons": {
+    "WS0002": "eis_blinker_white"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -24,6 +27,15 @@
       "arc": 0,
       "angle": 0,
       "locations": [10, -9]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39, -5]
     }
   ],
   "engineSlots": [],

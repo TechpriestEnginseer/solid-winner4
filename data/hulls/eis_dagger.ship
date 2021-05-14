@@ -4,11 +4,11 @@
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/eis_dagger.png",
   "style": "MIDLINE",
-  "height": 34,
-  "width": 26,
-  "center": [15, 16],
+  "height": 33,
+  "width": 24,
+  "center": [14, 14],
   "collisionRadius": 39,
-  "shieldCenter": [4, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 35,
   "viewOffset": 0,
   "weaponSlots": [
@@ -17,9 +17,9 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 360,
+      "arc": 5,
       "angle": 0,
-      "locations": [2, 0]
+      "locations": [9, 1]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [7, 0]
+      "locations": [9, -1]
     },
     {
       "id": "WS0001",
@@ -37,12 +37,12 @@
       "mount": "HIDDEN",
       "arc": 5,
       "angle": 0,
-      "locations": [7, -0]
+      "locations": [9, -1]
     }
   ],
   "engineSlots": [
     {
-      "location": [-13, 0],
+      "location": [-11, 0],
       "length": 40,
       "width": 12,
       "angle": 180,
@@ -51,12 +51,12 @@
     }
   ],
   "bounds": [
-    8, 14,
-    19, 0,
-    6, -9,
-    -2, -4,
-    -12, -5,
-    -11, 5,
+    6, 13,
+    20, 0,
+    8, -10,
+    0, -5,
+    -10, -6,
+    -9, 4,
     0, 5
   ]
 }

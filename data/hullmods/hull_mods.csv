@@ -3,6 +3,7 @@ Iron Shell,CHM_ironshell,,,Iron Shell,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.CH
 
 ""For an impenetrable shield, stand inside yourself.""",Take reduced dmg,graphics/hullmods/ironstandseternal.png
 ,,,,,,,,,,,,,,,,,,
+Zandatsu,eis_zandatsu,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_zandatsu,This ship has an advanced mechanism for quickly delivering ammo to the ship's ballistic weapons. +%s Rate of Fire for Ballistic Weapons and reduces flux generation by %s.,?,graphics/hullmods/eis_zandatsu.png
 Endeavor Microforge,eis_microforge,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_microforge,"Slowly forges weapons of small missiles by either +1 or 30% of its base max ammo count, whatever is higher.",?,graphics/hullmods/eis_microforge.png
 Perfect Vengeance Core,eis_perfect_vengeance,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_perfectvengeancecore,"This Vengeance Core is perfected. Reflects all missiles in a small radius. Successfully reflecting a missile supercharges the ship's vengeance core, improving shield efficiency and engine flow. Failing to reflect any missiles will result in the vengeance core overloading, massively increasing damage received by shields and doubling shield radius as well as disrupting its engine flow.
 
@@ -16,7 +17,7 @@ Indomitable Missile System,eis_indomitable,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,d
 Prototype Point-Defense Core,eis_prototypetu,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_prototypetu,Extends the range of ballistic weapons by su. It just works.,Range,graphics/hullmods/ironstoodeternol.png
 Aegis PD Suite,eis_aegissuite,,,XIV Battlegroup,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.eis_aegissuite,"Used by the gunshield drone, this text should not be visible to the player.",Terminator Core Copy,graphics/hullmods/ironstoodeternol.png
 ,,,,,,,,,,,,,,,,,,
-Aquila Reactor Protocol,eis_aquila,3,,Iron Shell,"special, engines, offensive, merc, no_build_in","Special, Engines",10000,,,,5,10,20,30,data.scripts.hullmods.eis_aquila,"Subsystems are fine-tuned for speed and active venting efficiency; increases top speed in combat by %s/%s for cruisers/capital ships, with a corresponding increase in acceleration. Also increases the ship's flux dissipation rate while venting by %s and allows for zero-flux engine boost at up to %s flux.
+Aquila Reactor Protocol,eis_aquila,3,,Iron Shell,"special, engines, offensive, merc","Special, Engines",10000,,,,5,10,20,30,data.scripts.hullmods.eis_aquila,"Subsystems are fine-tuned for speed and active venting efficiency; increases top speed in combat by %s/%s for cruisers/capital ships, with a corresponding increase in acceleration. Also increases the ship's flux dissipation rate while venting by %s and allows for zero-flux engine boost at up to %s flux.
 
 Reduces peak performance time by %s/%s.
 

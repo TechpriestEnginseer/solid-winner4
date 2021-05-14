@@ -1,0 +1,154 @@
+{
+  "hullName": "Daring (XIV)",
+  "hullId": "eis_daring",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/eis_daring.png",
+  "style": "LOW_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 136,
+  "width": 118,
+  "center": [59, 59],
+  "collisionRadius": 84,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+    "eis_zandatsu"
+  ],
+  "builtInWings": [
+    "eis_gunshield_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "eis_deco_valorous_fx",
+    "WS0005": "eis_deco_daring_ml",
+    "WS0006": "eis_deco_daring_mr"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 0,
+      "locations": [-2, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [10, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 17.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -17.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43, 27],
+      "length": 32.901768,
+      "width": 8.178926,
+      "angle": 164,
+      "contrailSize": 8.178926,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43, -27],
+      "length": 32.901768,
+      "width": 8.178926,
+      "angle": -164,
+      "contrailSize": 8.178926,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53, 12],
+      "length": 62,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53, -12],
+      "length": 62,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, 22],
+      "length": 45.907562,
+      "width": 10.769542,
+      "angle": 171,
+      "contrailSize": 10.769542,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -22],
+      "length": 45.907562,
+      "width": 10.769542,
+      "angle": -171,
+      "contrailSize": 10.769542,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -35, -6,
+    -54, -6,
+    -54, -16.5,
+    -39, -28,
+    -53, -45,
+    -48, -54,
+    -6.5, -38,
+    20, -17,
+    72, -4,
+    72, 4,
+    20, 17,
+    -6.5, 38,
+    -48, 54,
+    -53, 45,
+    -39, 28,
+    -54, 16.5,
+    -54, 6,
+    -35, 6
+  ]
+}

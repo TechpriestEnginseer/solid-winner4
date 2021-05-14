@@ -28,7 +28,9 @@
     "WS0014": "eis_blinker_white30",
     "WS0015": "eis_deco_vengeance_ml",
     "WS0016": "eis_deco_vengeance_mr",
-    "WS0017": "eis_deco_vengeance_glow"
+    "WS0017": "eis_deco_vengeance_glow",
+    "WS0018": "eis_blinker_command",
+    "WS0019": "eis_blinker_command"
   },
   "weaponSlots": [
     {
@@ -56,7 +58,7 @@
       "size": "LARGE",
       "type": "COMPOSITE",
       "mount": "HARDPOINT",
-      "arc": 10,
+      "arc": 5,
       "angle": 0,
       "locations": [72, 0]
     },
@@ -170,7 +172,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [85, 43],
+      "locations": [85, 46.5],
       "renderOrderMod": 100
     },
     {
@@ -180,7 +182,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": -0,
-      "locations": [85, -47],
+      "locations": [85, -46.5],
       "renderOrderMod": 200
     },
     {
@@ -191,6 +193,24 @@
       "arc": 0,
       "angle": 0,
       "locations": [6, -0]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 50.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-0.5, -50.5]
     }
   ],
   "engineSlots": [
@@ -231,6 +251,7 @@
     91, -7,
     137.5, -8,
     154, -21,
+    71.5, -60,
     44.5, -65.5,
     15, -95,
     20.5, -76,
@@ -254,6 +275,7 @@
     20.5, 76,
     15, 95,
     44.5, 65.5,
+    71.5, 60,
     154, 21,
     137.5, 8,
     91, 7
