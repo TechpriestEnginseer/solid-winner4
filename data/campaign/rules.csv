@@ -582,7 +582,7 @@ $option == eis_Hartley",,"""Commissioner Hartley... a dear friend of mine, he lo
 EISQuyThoughtsCeleste,eiskimquy,$player.metEISCeleste,"Nex_DynamicPaginatedOptions addOption eis_CaedaCeleste ""Caeda Celeste""",,,
 EISQuyThoughtsCelesteR,DialogOptionSelected,"$id == eiskimquy
 $option == eis_CaedaCeleste",,"""The scientist from the House Celeste of Eventide? Interesting figure, she has created and modernized a majority of our Battlegroup's prototype into acceptable guidelines for adoption for our Iron Shell Navy. She doesn’t really talk much unless she needs to. She's a quiet person and hates interruption. I suppose you might be the exception considering your initial stardom.""",,
-EISQuyThoughtsAvaR,eiskimquy,$player.metEISNitia,"Nex_DynamicPaginatedOptions addOption eis_Avanitia ""Ava Nitia""",,,
+EISQuyThoughtsAva,eiskimquy,$player.metEISNitia,"Nex_DynamicPaginatedOptions addOption eis_Avanitia ""Ava Nitia""",,,
 EISQuyThoughtsAvaR,DialogOptionSelected,"$id == eiskimquy
 $option == eis_Avanitia",,"""The Chief Administrator on Yami? She is one of the best pilot we have here in Iron Shell. I put her there in case any prisoners decide to escape, her piloting has always been the best above all. If you need some lessons, you should ask her on some advice.""",,
 EISQuyThoughtsCharlotte,eiskimquy,$player.metEISHex,"Nex_DynamicPaginatedOptions addOption eis_CharlotteHex ""Charlotte Hex""",,,
