@@ -615,9 +615,9 @@ AdjustRepActivePerson HOSTILE -3","""I care not for your insults, only for the w
 OR
 ""Send your poison elsewhere; it is actions and not words that makes a $manOrWoman.""
 OR
-""Some people act well but speak lies, but some speak beautiful truth and act like common criminals. You somehow manage to get worst of both worlds. It is almost impressive.""",1:QuyQuest:Inquire about any missions that need to be fulfilled.,
+""Some people act well but speak lies, but some speak beautiful truth and act like common criminals. You somehow manage to get worst of both worlds. It is almost impressive.""",,
 ,,,,,,
-QuyQuestGiver,PopulateVNSector,$id == eiskimquy,,,,
+QuyQuestGiver,PopulateVNSector,$id == eiskimquy,,,1:QuyQuest:Inquire about any missions that need to be fulfilled.,
 QuyQuestGiverReply,DialogOptionSelected,$option == QuyQuest,FireAll PopulateQuyOptions,"""Of course, I always do. See what you are allowed to do.""",,
 QuyQuestDisable,PopulateQuyOptions,"$id == eiskimquy
 !Commission hasFactionCommission","SetTooltip QuyYmaQuest1 ""You need to be commissioned to Iron Shell.""
@@ -625,36 +625,36 @@ SetEnabled QuyYmaQuest1 false",,,
 QuyQuestDisableb,PopulateQuyOptions,"$id == eiskimquy
 EIS_HasFleetPoints 75 true
 EIS_HasModId shadow_ships","SetTooltip QuyYmaQuest1 ""You are not at an adequate fleet strength to do this mission yet. Acquire more ships and officers first.""
-SetEnabled QuyYmaQuest1 false",,"4:QuyYmaQuest1Disagree:""Never mind.""",
+SetEnabled QuyYmaQuest1 false",,,
 QuyQuestDisable2,PopulateQuyOptions,$id == eiskimquy,"SetTooltip QuyMayasuraQuest1 ""Not available in this version of Iron Shell.""
 SetEnabled QuyMayasuraQuest1 false
 SetTooltip QuyKanniQuest1 ""Not available in this version of Iron Shell.""
 SetEnabled QuyKanniQuest1 false
 SetTooltip QuyQarasQuest1 ""Not available in this version of Iron Shell.""
 SetEnabled QuyQarasQuest1 false",,,
-QuyQuestLeave,PopulateQuyOptions,$id == eiskimquy score:100,"SetShortcut QuyYmaQuest1Disagree ""ESCAPE""",,,
+QuyQuestLeave,PopulateQuyOptions,$id == eiskimquy score:100,"SetShortcut QuyYmaQuest1Disagree ""ESCAPE""",,"4:QuyYmaQuest1Disagree:""Never mind.""",
 ,,,,,,
-,,,,,1:QuyYmaQuest1:Operation World Above,
-,,,,,"0:QuyYmaQuest1AgreeInvade:Agree
-1:QuyYmaQuest1Disagree:Disagree
-",
+,,,,,,
+,,,,,,
 QuyYmaQuest,PopulateQuyOptions,"$id == eiskimquy
-!$EISQuyYma",,,"0:QuyYmaQuest1Agree:Agree
-1:QuyYmaQuest1Disagree:Disagree
-",
+!$EISQuyYma",,,1:QuyYmaQuest1:Operation World Above,
 QuyYmaQuestInvasionBounty,DialogOptionSelected,"$id == eiskimquy score:100
 $option == QuyYmaQuest1
-EIS_HasModId shadow_ships score:100",SetTextHighlights 250 Valkyrie 40,"""Recent evidence has come into light that suggests Udana Station has been harboring dangerous political fugitives. We cannot condone this. The Hegemony executive council has given us the responsibility of handling the issue at our discretion."" Quy hands over the intel report. ""We will provide you with a company of 250 marines and a Valkyrie to assist you with this matter. Whatever preparations you need to do, I suggest you do them beforehand, once we issue it out to you. It is your responsibility to handle it within 40 days, before any reinforcements of theirs can aid them in their defense. What say you?""","0:QuyYmaQuest1AgreeTransfer:Agree
+EIS_HasModId shadow_ships score:100",SetTextHighlights 250 Valkyrie 40,"""Recent evidence has come into light that suggests Udana Station has been harboring dangerous political fugitives. We cannot condone this. The Hegemony executive council has given us the responsibility of handling the issue at our discretion."" Quy hands over the intel report. ""We will provide you with a company of 250 marines and a Valkyrie to assist you with this matter. Whatever preparations you need to do, I suggest you do them beforehand, once we issue it out to you. It is your responsibility to handle it within 40 days, before any reinforcements of theirs can aid them in their defense. What say you?""","0:QuyYmaQuest1AgreeInvade:Agree
 1:QuyYmaQuest1Disagree:Disagree
 ",
 QuyYmaQuestColonize,DialogOptionSelected,"$id == eiskimquy score:100
 $option == QuyYmaQuest1
 !EISKillaOwned",,"""As per the treaty that concluded the Second AI War, the Yma System will no longer be declared a demilitarized zone and our first recourse of action is to investigate what happened on Hanan Pacha. We are given the responsibility of investigating the issue and I will assign a taskforce to establish an outpost there on Killa."" 
 
-Quy pauses for a moment. ""...and I suppose if there are any personnel that is not supposed to be there, we'll have to make them disappear. Now, we can use the extra security if you don't mind assisting this taskforce. However, should you fail, the burden will be for you to bear.""",,
+Quy pauses for a moment. ""...and I suppose if there are any personnel that is not supposed to be there, we'll have to make them disappear. Now, we can use the extra security if you don't mind assisting this taskforce. However, should you fail, the burden will be for you to bear.""","0:QuyYmaQuest1Agree:Agree
+1:QuyYmaQuest1Disagree:Disagree
+",
 QuyYmaQuestTransfer,DialogOptionSelected,"$id == eiskimquy score:100
 $option == QuyYmaQuest1
-EISKillaOwned",,"""So, it seems you have made a spot for yourself inside the Yma System. Iron Shell is obligated to offer you 150,000 credits for Hanan Pacha without any hassle. We'll even throw in a 50,000 credit tax rebate in your next quarterly tax filing. Interested?""",,
+EISKillaOwned",,"""So, it seems you have made a spot for yourself inside the Yma System. Iron Shell is obligated to offer you 150,000 credits for Hanan Pacha without any hassle. We'll even throw in a 50,000 credit tax rebate in your next quarterly tax filing. Interested?""","0:QuyYmaQuest1AgreeTransfer:Agree
+1:QuyYmaQuest1Disagree:Disagree
+",
 QuyYmaQuestInvade1,DialogOptionSelected,"$id == eiskimquy score:100
 $option == QuyYmaQuest1AgreeInvade
 ","$EISQuyYma = true
@@ -679,12 +679,12 @@ AddRemoveCommodity credits 150000 true
 EISTaxesFiled 50000 true","""Done, you will see 150,000 credits transferred to your account immediately and one-third of it to be added as a bonus tax credit in your next quarterly tax report.""",,
 QuyYmaQuest1b,DialogOptionSelected,"$id == eiskimquy score:100
 $option == QuyYmaQuest1Disagree","FireAll PopulateOptions
-EndConversation","Quy gives off a sigh. ""Don't waste my time then.""",1:QuyYmaQuest2:Hand her the report.,
+EndConversation","Quy gives off a sigh. ""Don't waste my time then.""",,
 ,,,,,,
 QuyYmaQuest1Success,PopulateQuyOptions,"$id == eiskimquy
 $EISQuyYma
 !$EISQuyYmaBusy
-!$EISDoneQuest1",,,,
+!$EISDoneQuest1",,,1:QuyYmaQuest2:Hand her the report.,
 QuyYmaQuest1SuccessReply,DialogOptionSelected,"$option == QuyYmaQuest2
 EISPachaKilla","$EISDoneQuest1 = true
 AdjustRepActivePerson COOPERATIVE 25
@@ -708,26 +708,26 @@ QuyYmaQuest1FailureReply,DialogOptionSelected,"$option == QuyYmaQuest2
 !EISAmongUs udana_stations","$EISDoneQuest1 = true
 AdjustRepActivePerson HOSTILE -10
 FireAll PopulateOptions
-EndConversation","The $PersonRank reads the report. ""I am displeased with the outcome of the report. This is what I get for trusting layabouts to do the work.""",1:QuyMayasuraQuest1:Operation Hammerdown,
-,,,,,1:QuyKanniQuest1:Operation Purity of Heart,
-QuyMayasuraQuest,PopulateQuyOptions,$id == eiskimquy,,,1:QuyQarasQuest1:Operation Calling Mountains,
-QuyKanniQuest,PopulateQuyOptions,$id == eiskimquy,,,,
-QuyQarasQuest,PopulateQuyOptions,$id == eiskimquy,,,,
+EndConversation","The $PersonRank reads the report. ""I am displeased with the outcome of the report. This is what I get for trusting layabouts to do the work.""",,
+,,,,,,
+QuyMayasuraQuest,PopulateQuyOptions,$id == eiskimquy,,,1:QuyMayasuraQuest1:Operation Hammerdown,
+QuyKanniQuest,PopulateQuyOptions,$id == eiskimquy,,,1:QuyKanniQuest1:Operation Purity of Heart,
+QuyQarasQuest,PopulateQuyOptions,$id == eiskimquy,,,1:QuyQarasQuest1:Operation Calling Mountains,
 #END Quy Dialogue,,,,,,
-,,,,,"20:cmsn_askCommission:""I'd like to be commissioned by $theFaction""",
-# Hartley Dialogue,,,,,"20:cmsn_resignCommission:""I'd like to resign my $faction commission""",
+,,,,,,
+# Hartley Dialogue,,,,,,
 Hartley_askForCommissionOpt,PopulateOptions,"$id == eisdarren score:100
-!Commission hasFactionCommission",,,"11:EISTax_startTurnIn:""I'd like to file my quarterly taxes...""",
+!Commission hasFactionCommission",,,"20:cmsn_askCommission:""I'd like to be commissioned by $theFaction""",
 Hartley_resignCommissionOpt,PopulateOptions,"$id == eisdarren score:100
-Commission hasFactionCommission",,,,
+Commission hasFactionCommission",,,"20:cmsn_resignCommission:""I'd like to resign my $faction commission""",
 HartleyTax_turnInOption,PopulateOptions,"$id == eisdarren score:100
-$faction.id == ironshell",FireBest TaxesFile,,,
+$faction.id == ironshell",FireBest TaxesFile,,"11:EISTax_startTurnIn:""I'd like to file my quarterly taxes...""",
 HartleyTax_disableTurnInOption,TaxesFile,$id == eisdarren score:100,"SetTooltip EISTax_startTurnIn ""Does it look like I want to do your taxes? Bother someone else.""
 SetEnabled EISTax_startTurnIn false",,,
 HartleyVNSectorMenuBlock,DialogOptionSelected,"$option == VNS_Setup
 $id == eisdarren score:100
-$menuState == fleetConvMain",FireAll PopulateOptions,"""I'm busy right now, I cannot be conversing at the moment.""",0:cutCommLinkPolite:Cut the comm link,
-,,,,,0:cutCommLinkPolite:Cut the comm link,
+$menuState == fleetConvMain",FireAll PopulateOptions,"""I'm busy right now, I cannot be conversing at the moment.""",,
+,,,,,,
 defaultHartleyFirstGreeting,PickGreeting,"$id == eisdarren score:100
 !$player.metEISHartley
 EISIsMarketFaction ironshell","ShowPersonVisual
@@ -737,7 +737,7 @@ AddText ""After a short wait spent watching propaganda blurbs scroll past the cr
 AddTextSmall ""Loyal to friends and venomous to enemies, few figures command such opposing reputations as Hartley. Enemies of the Hegemony speak in hushed tones of his incredible cruelty and harsh actions, whereas friends and allies toast his generosity and stalwart courage. A friend to keep and an enemy to lose. To see Commissioner Hartley is to see what happens to heroes when their glory days have passed and the rot of ages set in. He was once a mighty and respected commodore. As his reward for a glorious career during the Second AI War and his unbreakable loyalty during the Askonia Crisis, he was given Head Commissioner of the Iron Shell and as has happened to so many others, the bureaucracy crushed his warrior spirit turning him into a weary person he is today."" highlight
 AddText ""\""So you're the acclaimed person who saved Galatia from decivilization, I've heard of you from what Fleet Intelligence sends me reports of.\""""
 SetShortcut cutCommLinkPolite ""ESCAPE""
-",,,
+",,0:cutCommLinkPolite:Cut the comm link,
 defaultHartleyGreeting,PickGreeting,"$id == eisdarren score:100
 $player.metEISHartley
 EISIsMarketFaction ironshell","ShowPersonVisual
@@ -751,7 +751,7 @@ defaultHartleyShutOff,PickGreeting,"$id == eisdarren score:105
 defaultHartleyShutOff2,PickGreeting,"$id == eisdarren score:105
 EISIsMarketFaction ironshell
 $entity.hasMarket
-$entity.isHostile",ActivateAbility $player.fleetId sensor_burst,"Instead of a declined connection request saying the other side cannot be reached, you get comm static. Some unintelligible comm chatter can be heard in the background.",,
+$entity.isHostile",ActivateAbility $player.fleetId sensor_burst,"Instead of a declined connection request saying the other side cannot be reached, you get comm static. Some unintelligible comm chatter can be heard in the background.",0:cutCommLinkPolite:Cut the comm link,
 ,,,,,,
 EISHartleyThoughtsPlayer,eisdarren,,"Nex_DynamicPaginatedOptions addOption eis_Player ""Me""",,,
 EISHartleyThoughtsPlayerR1,DialogOptionSelected,"$id == eisdarren
@@ -775,8 +775,8 @@ $option == VNS_InsultReply","$VNS_Interacted = true 14
 FireAll PopulateOptions
 AdjustRepActivePerson HOSTILE -3","""If I took on-board every criticisms from everyone in this sector, I'd never get a damn thing done.""",,
 #END Hartley Dialogue,,,,,,
-,,,,,0:cutCommLink:Cut the comm link,
-# Celeste Dialogue,,,,,0:cutCommLink:Cut the comm link,
+,,,,,,
+# Celeste Dialogue,,,,,,
 defaultCelesteFirstGreeting,PickGreeting,"$id == eisceleste score:100
 !$player.metEISCeleste
 EISIsMarketFaction ironshell","ShowPersonVisual
@@ -799,8 +799,7 @@ EISIsMarketFaction ironshell","ShowPersonVisual
 FireAll PopulateOptions
 SetShortcut cutCommLinkPolite ""ESCAPE""","""Glad to have you back, anything you need?""
 OR
-""The competition has no edge over my inventions. What do you need?""","0:cutCommLink:Cut the comm link
-",
+""The competition has no edge over my inventions. What do you need?""",0:cutCommLink:Cut the comm link,
 defaultCelesteGreeting,PickGreeting,"$id == eisceleste score:100
 EISVibeCheck -25 25
 $player.metEISCeleste
@@ -808,7 +807,7 @@ EISIsMarketFaction ironshell","ShowPersonVisual
 FireAll PopulateOptions
 SetShortcut cutCommLinkPolite ""ESCAPE""","""What reason do you seek my audience?""
 OR
-""I will allow a small portion of my time for you.""",,
+""I will allow a small portion of my time for you.""",0:cutCommLink:Cut the comm link,
 defaultCelesteGreetingHostile,PickGreeting,"$id == eisceleste score:100
 EISVibeCheck -100 -25
 $player.metEISCeleste
@@ -816,7 +815,8 @@ EISIsMarketFaction ironshell","ShowPersonVisual
 FireAll PopulateOptions
 SetShortcut cutCommLinkPolite ""ESCAPE""","""Time is precious. I do not wish to spend much of mine on you.""
 OR
-""Do not waste my time.""",,Copium
+""Do not waste my time.""","0:cutCommLink:Cut the comm link
+",Copium
 defaultCelesteShutOff,PickGreeting,"$id == eisceleste score:105
 !$entity.isHostile
 !EISIsMarketFaction ironshell",,"After a short wait, your connection request is denied.",,
@@ -824,25 +824,25 @@ defaultCelesteShutOff2,PickGreeting,"$id == eisceleste score:105
 EISIsMarketFaction ironshell
 $entity.hasMarket
 $entity.isHostile",ActivateAbility $player.fleetId sensor_burst,"Instead of a declined connection request saying the other side cannot be reached, you get comm static. Some unintelligible comm chatter can be heard in the background.",,
-,,,,,eis_cpc_start:Ask about the potential supply from House Celeste,
-eisCeleste_cpcBlurb,eis_cpc_blurb,$id == eisceleste score:10,,"""Well you've been such a good assistant to me lately, I do feel you do need some type of favor in return. If you have some credits, I can order some hulls to be made at your request.""","eis_cpc_pickPlayerBP:Make a selection from your own blueprints
-eis_cpc_pickContactBP:See what blueprints they have available
-contact_decline:Decline",
-eisCeleste_cpcOfferOption,eis_cpc_option,$id == eisceleste score:10,,,,
+,,,,,,
+eisCeleste_cpcBlurb,eis_cpc_blurb,$id == eisceleste score:10,,"""Well you've been such a good assistant to me lately, I do feel you do need some type of favor in return. If you have some credits, I can order some hulls to be made at your request.""",,
+eisCeleste_cpcOfferOption,eis_cpc_option,$id == eisceleste score:10,,,eis_cpc_start:Ask about the potential supply from House Celeste,
 eis_CelestecpcOfferTextContact,DialogOptionSelected,"$id == eisceleste score:10
 $option == eis_cpc_start","$missionId = eis_cpc
 SetTextHighlights $cpc_maxCapacity $cpc_costPercent
-DoCanAffordCheck 0 cpc_pickPlayerBP false","""The terms are simple. $cpc_maxCapacity credits worth of nanoforge production at $cpc_costPercent of base cost with delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my family blueprints. One or the other.""",,
+DoCanAffordCheck 0 cpc_pickPlayerBP false","""The terms are simple. $cpc_maxCapacity credits worth of nanoforge production at $cpc_costPercent of base cost with delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my family blueprints. One or the other.""","eis_cpc_pickPlayerBP:Make a selection from your own blueprints
+eis_cpc_pickContactBP:See what blueprints they have available
+contact_decline:Decline",
 eis_CelestecpcPickPlayerBP,DialogOptionSelected,"$id == eisceleste score:10
 $option == eis_cpc_pickPlayerBP score:100",Call $cpc_ref pickPlayerBP,,,
 eis_CelestecpcPickContactBP,DialogOptionSelected,"$id == eisceleste score:10
 $option == eis_cpc_pickContactBP score:100",Call $cpc_ref pickContactBP,,,
-,,,,,"eis_sShip_look:Ask for detailed info on the ship
-contact_decline:Decline",
+,,,,,,
 eis_CelestesShipBlurb,eis_sShip_blurb,$id == eisceleste score:10,,"""I have a $sShip_hullSize available for my wonderful assistant. Military-grade hull too. Interested?""",,
 eis_CelestesShipOfferTextContact,DialogOptionSelected,"$option == eis_sShip_start
 $id == eisceleste score:10","$missionId = eis_sShip
-SetTextHighlights $sShip_price","""It's a $sShip_hullClass $sShip_hullSize in good condition with my patented Aquila Reactor Protocol modification. I could give it to you for $sShip_price credits for the ship.""",,
+SetTextHighlights $sShip_price","""It's a $sShip_hullClass $sShip_hullSize in good condition with my patented Aquila Reactor Protocol modification. I could give it to you for $sShip_price credits for the ship.""","eis_sShip_look:Ask for detailed info on the ship
+contact_decline:Decline",
 ,,,,,,
 EISCelesteComplimentReply,DialogOptionSelected,"$id == eisceleste score:1000
 $option == VNS_ComplimentReply
@@ -866,18 +866,18 @@ OR
 ""Don't threaten me with a good time.""
 OR
 ""You know not of what you speak of.""",,
-,,,,,"15:aiCores_startTurnInCeleste:""I heard you might be interested in these AI Cores?""",
+,,,,,,
 aiCores_disableTurnInOptionCeleste,DisableTurnInCoresOptionIfNeeded,"$id == eisceleste score:1000
 !AICores playerHasCores","SetTooltip aiCores_startTurnInCeleste ""You do not have any AI cores in your possession, you would not want to piss her off!""
 SetEnabled aiCores_startTurnInCeleste false",,,
 aiCores_turnInOptionCeleste,PopulateOptions,"$isPerson
 $id == eisceleste score:1000
-EISVibeCheck -23 100",FireBest DisableTurnInCoresOptionIfNeeded,,0:aiCores_selectCoresCeleste:Select AI cores to turn in,
+EISVibeCheck -23 100",FireBest DisableTurnInCoresOptionIfNeeded,,"15:aiCores_startTurnInCeleste:""I heard you might be interested in these AI Cores?""",
 aiCores_turnInOptionSelCeleste,DialogOptionSelected,$option == aiCores_startTurnInCeleste,FireAll PopulateCoresTurnInOptionsCeleste,"""A fascinating offer. Tell you what - I'll do you a favor if you give me enough of these objects.""
 OR
-""You hold quite the object of fascination there. I would be more than pleased to offer you something special in return...""","100:aiCores_neverMindCeleste:""Oh I'm sorry, I don't actually have any.""",
-aiCores_playerHasOptionCeleste,PopulateCoresTurnInOptionsCeleste,,,,,
-aiCores_neverMindOptionCeleste,PopulateCoresTurnInOptionsCeleste,,,,,
+""You hold quite the object of fascination there. I would be more than pleased to offer you something special in return...""",,
+aiCores_playerHasOptionCeleste,PopulateCoresTurnInOptionsCeleste,,,,0:aiCores_selectCoresCeleste:Select AI cores to turn in,
+aiCores_neverMindOptionCeleste,PopulateCoresTurnInOptionsCeleste,,,,"100:aiCores_neverMindCeleste:""Oh I'm sorry, I don't actually have any.""",
 aiCores_neverMindOptionSelectedCeleste,DialogOptionSelected,$option == aiCores_neverMindCeleste,"AdjustRepActivePerson SUSPICIOUS -5
 FireAll PopulateOptions","""Do not waste my time.""
 OR
@@ -901,12 +901,12 @@ $option == eis_BaikalDaud
 EISCelesteThoughtsBaird,eisceleste,$global.metBaird,"Nex_DynamicPaginatedOptions addOption eis_AnahitaBaird ""Provost Baird""",,,
 EISCelesteThoughtsBairdR,DialogOptionSelected,"$id == eisceleste
 $option == eis_AnahitaBaird
-",,"""I haven't had much thoughts of the new Provost. I miss Provost Kallichore already. Hope my achievements and connections at the Galatia Academy aren't being taken down at the moment.""","11:EISReward1:""So you mentioned something about returning a favor.""",
+",,"""I haven't had much thoughts of the new Provost. I miss Provost Kallichore already. Hope my achievements and connections at the Galatia Academy aren't being taken down at the moment.""",,
 ,,,,,,
 EISCelesteWelcoming,PopulateVNSector,"$isPerson
 $id == eisceleste score:1000
 EISVibeCheck 10 100
-!$EISQuickies1",,,"12:EISReward2:""Are we on friendly terms?""",
+!$EISQuickies1",,,"11:EISReward1:""So you mentioned something about returning a favor.""",
 EISReward1,DialogOptionSelected,"$option == EISReward1
 !$EISQuickies1","$EISQuickies1 = true
 FireAll PopulateOptions
@@ -919,7 +919,7 @@ AddPotentialContact","""I did, did I?"" $personLastName paused for a moment. ""F
 EISCelesteFriendly,PopulateVNSector,"$isPerson
 $id == eisceleste score:1000
 EISVibeCheck 50 100
-!$EISQuickies2",,,"13:EISReward3:""Seeing how I've been so cooperative with you lately...""",
+!$EISQuickies2",,,"12:EISReward2:""Are we on friendly terms?""",
 EISReward2,DialogOptionSelected,"$option == EISReward2
 !$EISQuickies2","$EISQuickies2 = true
 FireAll PopulateOptions
@@ -928,7 +928,7 @@ AddText ""You have received access to the Avaritia Capacity Overhaul"" highlight
 EISCelesteCooperative,PopulateVNSector,"$isPerson
 $id == eisceleste score:1000
 EISVibeCheck 75 100
-!$EISQuickies3",,,"10:EISCelesteCourageousReward:""Someone told me of an experimental Courageous design.""",
+!$EISQuickies3",,,"13:EISReward3:""Seeing how I've been so cooperative with you lately...""",
 EISReward3,DialogOptionSelected,"$option == EISReward3
 !$EISQuickies3","$EISQuickies3 = true
 FireAll PopulateOptions
@@ -938,13 +938,13 @@ EISCelesteCourageousPrint,PopulateVNSector,"$isPerson
 $id == eisceleste score:1000
 !$EISQuickiesReward
 $faction.rel == FRIENDLY
-EISVibeCheck 25 100",,,,
+EISVibeCheck 25 100",,,"10:EISCelesteCourageousReward:""Someone told me of an experimental Courageous design.""",
 EISCelesteCourageousReward,DialogOptionSelected,$option == EISCelesteCourageousReward,"$EISQuickiesReward = true 30
 FireAll PopulateOptions
 EISAddShip eis_courageous_elite","""Have you now?"" $personLastName thinks for a moment. ""I've been authorized to grant you our elite variants of the Courageous ships. You'll find them to be much stronger and more stable than an overdriven variant of such a specimen. Of course Councilor Quy won't let me give you all the resources required for that ship. Provide that on your own. Come back in a month.""",,
 #END Celeste Dialogue,,,,,,
-,,,,,0:cutCommLinkPolite:Cut the comm link,
-# Charlotte Dialogue,,,,,0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# Charlotte Dialogue,,,,,,
 defaultCharlotteHexFirstGreeting,PickGreeting,"$id == eissneed score:100
 !$player.metEISHex
 EISIsMarketFaction ironshell","ShowPersonVisual
@@ -969,7 +969,7 @@ FireAll PopulateOptions
 SetShortcut cutCommLinkPolite ""ESCAPE""","""Go on then, say your piece, but if you mention anything about preaching of Ludd to me, this is gonna end badly.""
 OR
 ""I got better things to do, but you're always good for a laugh or two.""
-",,
+",0:cutCommLinkPolite:Cut the comm link,
 defaultCharlotteHexHostileGreeting,PickGreeting,"$id == eissneed score:100
 $player.metEISHex
 EISVibeCheck -100 0
@@ -979,21 +979,21 @@ SetShortcut cutCommLinkPolite ""ESCAPE""","""What is it? Better make it quick.""
 OR
 ""Got something to say? Choose those words wisely, I'm feelin' feisty today.""
 OR
-""Oh great, it's you again. Hope this isn't a waste of time.""",,Copium
+""Oh great, it's you again. Hope this isn't a waste of time.""",0:cutCommLinkPolite:Cut the comm link,Copium
 defaultCharlotteHexShutOff,PickGreeting,"$id == eissneed score:105
 !$entity.isHostile
 !EISIsMarketFaction ironshell",,"After a short wait, your connection request is denied.",,
 defaultCharlotteHexShutOff2,PickGreeting,"$id == eisava score:105
 EISIsMarketFaction ironshell
 $entity.hasMarket
-$entity.isHostile",ActivateAbility $player.fleetId sensor_burst,"Instead of a declined connection request saying the other side cannot be reached, you get comm static. Some unintelligible comm chatter can be heard in the background.",1:Charlotteome:Offer to hire $himOrHer,
-,,,,,"0:ome_hireYes:""Sounds good.""
-1:VNS_Setup:""I've changed my mind.""",
+$entity.isHostile",ActivateAbility $player.fleetId sensor_burst,"Instead of a declined connection request saying the other side cannot be reached, you get comm static. Some unintelligible comm chatter can be heard in the background.",,
+,,,,,,
 CharlotteHire,PopulateVNSector,"$id == eissneed score:1000
-!$DidNotAskCharlotte",,,,
+!$DidNotAskCharlotte",,,1:Charlotteome:Offer to hire $himOrHer,
 CharlotteHireInquiry,DialogOptionSelected,$option == Charlotteome,"AddText ""You ask $personName some questions to establish where $hisOrHer skills lie.""
 
-EISPoopyStinky false","""Oh, I didn't know I was that worthy to be hired in someone's fleet...""",,
+EISPoopyStinky false","""Oh, I didn't know I was that worthy to be hired in someone's fleet...""","0:ome_hireYes:""Sounds good.""
+1:VNS_Setup:""I've changed my mind.""",
 Charlotte_hireYesSel,DialogOptionSelected,"$id == eissneed
 $option == ome_hireYes","FireAll PopulateOptions
 $DidNotAskCharlotte = true
@@ -1065,8 +1065,8 @@ EISCharlotteThoughtsAva,eissneed,$player.metEISNitia,"Nex_DynamicPaginatedOption
 EISCharlotteThoughtsAvaR,DialogOptionSelected,"$id == eissneed
 $option == eis_Avanitia",,"""Ma'am Ava? All I can say is that she's a very diligent boss and loathes people who make light of their work. I clearly remember on how she chewed the new recruits for not following her instructions properly; I bet those guys were traumatized. She detests people who doesn't read manuals. There's this one instance when she tested me if I actually read our military handbook, thank goodness that I gave it a read beforehand and I managed to answer her questions. She's not that intimidating if you do your job correctly. I only wish that she would stops overworking herself, the bags under her eyes are becoming more apparent.""",,
 #END Charlotte Dialogue,,,,,,
-,,,,,0:cutCommLinkPolite:Cut the comm link,
-# Ava Dialogue,,,,,0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# Ava Dialogue,,,,,,
 defaultAvaFirstGreeting,PickGreeting,"$id == eisava score:100
 !$player.metEISNitia
 EISIsMarketFaction ironshell","ShowPersonVisual
@@ -1122,7 +1122,7 @@ Hegemony propaganda videos are being played while you wait for Ava Nitia to acce
 OR
 Ava accepts your connection request rather quickly. She seems to be on short break and drinking her coffee at the moment.
 
-""I know you are aware of existence of AI Cores. If you are here to deliver them to me, I suggest you go to Chitagupta in this system and talk to Caeda Celeste. She is a better person to give the cores to. You can get something rather nice out of it as well."" She winks at you and smiles.",,
+""I know you are aware of existence of AI Cores. If you are here to deliver them to me, I suggest you go to Chitagupta in this system and talk to Caeda Celeste. She is a better person to give the cores to. You can get something rather nice out of it as well."" She winks at you and smiles.",0:cutCommLinkPolite:Cut the comm link,
 defaultAvaGreetingCooperative,PickGreeting,"$id == eisava score:100
 EISVibeCheck 75 100
 $player.metEISNitia
@@ -1150,7 +1150,7 @@ Ava accepts your request after a short wait.
 OR
 Connection request is accepted by Ava rather quickly. 
 
-She is drinking her coffee at the moment. Must be a break or something. ""I assume you have seen Celeste already? Did she give something in return for AI Cores you delivered to her?"" She is awfully curious for such a simple matter. ""Anyway $playerName. Let's get to business shall we?""",,
+She is drinking her coffee at the moment. Must be a break or something. ""I assume you have seen Celeste already? Did she give something in return for AI Cores you delivered to her?"" She is awfully curious for such a simple matter. ""Anyway $playerName. Let's get to business shall we?""",0:cutCommLinkPolite:Cut the comm link,
 ,,,,,,Copium
 defaultAvaShutOff,PickGreeting,"$id == eisava score:105
 !$entity.isHostile
@@ -1212,32 +1212,32 @@ OR
 OR
 She gives a small salute, ""Captain.""
 OR
-""Don't die out there. If you kick the bucket, who else I'll have to refill my coffee mug?"" Ava looks ever so slightly concerned about your well-being.","20:cmsn_askCommission:""I'd like to be commissioned by $theFaction""",
-,,,,,"20:cmsn_resignCommission:""I'd like to resign my $faction commission""",
+""Don't die out there. If you kick the bucket, who else I'll have to refill my coffee mug?"" Ava looks ever so slightly concerned about your well-being.",,
+,,,,,,
 Ava_askForCommissionOpt,PopulateOptions,"$id == eisava score:100
-!Commission hasFactionCommission",,,"11:EISTax_startTurnIn:""I'd like to file my quarterly taxes...""",
+!Commission hasFactionCommission",,,"20:cmsn_askCommission:""I'd like to be commissioned by $theFaction""",
 Ava_resignCommissionOpt,PopulateOptions,"$id == eisava score:100
-Commission hasFactionCommission",,,,
+Commission hasFactionCommission",,,"20:cmsn_resignCommission:""I'd like to resign my $faction commission""",
 AvaTax_turnInOption,PopulateOptions,"$id == eisava score:100
-$faction.id == ironshell",FireBest TaxesFile,,1:AvaHireOption:Try to offer a gift to Ava,
-,,,,,1:AvaCLC:Offer a Chocolate Lava Cake,
+$faction.id == ironshell",FireBest TaxesFile,,"11:EISTax_startTurnIn:""I'd like to file my quarterly taxes...""",
+,,,,,,
 AvaHire,PopulateVNSector,"$id == eisava score:100
 !$AvaContact
-EISVibeCheck -50 100",,,,
+EISVibeCheck -50 100",,,1:AvaHireOption:Try to offer a gift to Ava,
 AvaLavaCakes,PopulateVNSector,"$id == eisava score:100
 $AvaContact
 !$AvaContactCake
-PlayerHasCargo uaf_bakery_choco_lava",,,"1:AvaWine:""Would you like some wine perhaps?""",
+PlayerHasCargo uaf_bakery_choco_lava",,,1:AvaCLC:Offer a Chocolate Lava Cake,
 AvaHireResponse,DialogOptionSelected,"$id == eisava
 $option == AvaHireOption
 ","FireAll PopulateAvaOptions
-","""Hmm? What are you doing?""","2:AvaRedWater:""Have you tried Red Water to fight off the boredom?""",
-AvaDrink1,PopulateAvaOptions,,,,"3:AvaCoffee:""I think a cup of coffee would be great right now.""",
-AvaDrink2,PopulateAvaOptions,,,,"4:AvaCookies:""Maybe would you like some cookies with that drink of yours?""",
-AvaDrink3,PopulateAvaOptions,,,,"5:AvaCLC:""Would you like to try a chocolate lava cake?""",
-AvaDrink4,PopulateAvaOptions,,,,"5:AvaCLC:""Would you like to try a chocolate lava cake?""",
-AvaDrink5,PopulateAvaOptions,!PlayerHasCargo uaf_bakery_choco_lava,,,,
-AvaDrink5b,PopulateAvaOptions,PlayerHasCargo uaf_bakery_choco_lava,"Nex_AddOptionConfirmation AvaCLC ""Are you sure you want to give her a chocolate lava cake?"" ""I'll spoil her"" ""Never mind""",,,
+","""Hmm? What are you doing?""",,
+AvaDrink1,PopulateAvaOptions,,,,"1:AvaWine:""Would you like some wine perhaps?""",
+AvaDrink2,PopulateAvaOptions,,,,"2:AvaRedWater:""Have you tried Red Water to fight off the boredom?""",
+AvaDrink3,PopulateAvaOptions,,,,"3:AvaCoffee:""I think a cup of coffee would be great right now.""",
+AvaDrink4,PopulateAvaOptions,,,,"4:AvaCookies:""Maybe would you like some cookies with that drink of yours?""",
+AvaDrink5,PopulateAvaOptions,!PlayerHasCargo uaf_bakery_choco_lava,,,"5:AvaCLC:""Would you like to try a chocolate lava cake?""",
+AvaDrink5b,PopulateAvaOptions,PlayerHasCargo uaf_bakery_choco_lava,"Nex_AddOptionConfirmation AvaCLC ""Are you sure you want to give her a chocolate lava cake?"" ""I'll spoil her"" ""Never mind""",,"5:AvaCLC:""Would you like to try a chocolate lava cake?""",
 AvaDrink1R,DialogOptionSelected,$option == AvaWine,"FireAll PopulateOptions
 AdjustRepActivePerson HOSTILE -1","""No, thanks. Wine doesn't suit my tastes.""",,
 AvaDrink1RWow,DialogOptionSelected,"$option == AvaWine
@@ -1278,48 +1278,48 @@ $AvaContact
 PlayerHasCargo uaf_bakery_choco_lava","FireAll PopulateOptions
 $AvaContactCake = true 14
 AdjustRepActivePerson WELCOMING 3
-AddRemoveCommodity uaf_bakery_choco_lava -1 true","""Is that chocolate lava cake for me?"" Ava blushes. ""You're such a doll!""","2:AvaWarStoryBegin:""You were a veteran weren't you?""",
+AddRemoveCommodity uaf_bakery_choco_lava -1 true","""Is that chocolate lava cake for me?"" Ava blushes. ""You're such a doll!""",,
 ,,,,,,
 AvaWarStory0,PopulateVNSector,"$id == eisava score:100
-!$AvaHeardWarStory",,,,
+!$AvaHeardWarStory",,,"2:AvaWarStoryBegin:""You were a veteran weren't you?""",
 AvaWarStoryCancel1,DialogOptionSelected,$option == AvaWarStoryCancel1,"$AvaHeardWarStory = true
 AdjustRepActivePerson HOSTILE -5
-FireAll PopulateOptions","Ava frowns. ""If you have somewhere else to be, you might as well be there right now.""","1:AvaWarStoryBegin2:Continue listening...
-2:AvaWarStoryCancel1:Yawn in front of her.
-3:AvaWarStoryCancel2:""Get real.""
-4:AvaWarStorySpecial:""I have that ship right now!""",
+FireAll PopulateOptions","Ava frowns. ""If you have somewhere else to be, you might as well be there right now.""",,
 AvaWarStoryCancel2,DialogOptionSelected,$option == AvaWarStoryCancel2,"$AvaHeardWarStory = true
 AdjustRepActivePerson HOSTILE -5
-FireAll PopulateOptions","Ava frowns. ""I know I'm old, but you don't have to be a jerk about it.""","1:AvaWarStoryBegin2:Continue listening...
-2:AvaWarStoryCancel1:Yawn in front of her.
-3:AvaWarStoryCancel2:""Get real.""",
+FireAll PopulateOptions","Ava frowns. ""I know I'm old, but you don't have to be a jerk about it.""",,
 AvaWarStory1,DialogOptionSelected,"$option == AvaWarStoryBegin
 PlayerFleetHasShipWithBaseHull eis_valorous",SetOptionColor AvaWarStorySpecial good,"""Yes I was a veteran..."" Ava reclines in her chair and gets comfortable. ""So, you want me to tell some of my experiences from back when I wasn't..."" She pauses and drinks a bit of her coffee while also looking at the finished paperwork. ""... assigned here and given this job?""
 
 After thinking for a moment with her eyes closed she starts talking. ""I can tell you about one of engagements from Second AI War, when I was still a mere officer in a patrol fleet."" She looks at your eyes and begins her story.
 
-""Cycle one hundred and ninety three. May eleventh. Hegemony is streched thin, Tri-Tachyon tries to take control over Nachiketa in Naraka system. Fuel production facility made it a high value target and all that."" Her face contorts in momentary disgust. ""Small force of Tri-Tachies tried to attach a comm sniffer to the communication array in the system, wanted to know what we were planning to do."" She grins, an almost predatory look in her eyes. Was she like that at that point in time? ""High Command orders me to get into their secret prototype frigate and take them down. I miss that particular ship dearly, it was so much fun to fly. Had some weird modifications tech guys and girls made. Command named this frigate design Valorous after all the testing and name stuck."" Seems like she used that ship a lot. Most captains get attached to their personal flagships after all.","1:AvaWarStoryBegin2:""So about that story...""",
+""Cycle one hundred and ninety three. May eleventh. Hegemony is streched thin, Tri-Tachyon tries to take control over Nachiketa in Naraka system. Fuel production facility made it a high value target and all that."" Her face contorts in momentary disgust. ""Small force of Tri-Tachies tried to attach a comm sniffer to the communication array in the system, wanted to know what we were planning to do."" She grins, an almost predatory look in her eyes. Was she like that at that point in time? ""High Command orders me to get into their secret prototype frigate and take them down. I miss that particular ship dearly, it was so much fun to fly. Had some weird modifications tech guys and girls made. Command named this frigate design Valorous after all the testing and name stuck."" Seems like she used that ship a lot. Most captains get attached to their personal flagships after all.","1:AvaWarStoryBegin2:Continue listening...
+2:AvaWarStoryCancel1:Yawn in front of her.
+3:AvaWarStoryCancel2:""Get real.""
+4:AvaWarStorySpecial:""I have that ship right now!""",
 AvaWarStory1b,DialogOptionSelected,"$option == AvaWarStoryBegin
 !PlayerFleetHasShipWithBaseHull eis_valorous",,"""Yes I was a veteran..."" Ava reclines in her chair and gets comfortable. ""So, you want me to tell some of my experiences from back when I wasn't..."" She pauses and drinks a bit of her coffee while also looking at the finished paperwork. ""... assigned here and given this job?""
 
 After thinking for a moment with her eyes closed she starts talking. ""I can tell you about one of my engagements from Second AI War, when I was still a mere officer in a patrol fleet."" She looks at your eyes and begins her story.
 
-""Cycle one hundred and ninety three. May eleventh. Hegemony is streched thin, Tri-Tachyon tries to take control over Nachiketa in Naraka system. Fuel production facility made it a high value target and all that."" Her face contorts in momentary disgust. ""Small force of Tri-Tachies tried to attach a comm sniffer to the communication array in the system, wanted to know what we were planning to do."" She grins, an almost predatory look in her eyes. Was she like that at that point in time? ""High Command orders me to get into their secret prototype frigate and take them down. I miss that particular ship dearly, it was so much fun to fly. Had some weird modifications tech guys and girls made. Command named this frigate design Valorous after all the testing and name stuck."" Seems like she used that ship a lot. Most captains get attached to their personal flagships after all.","1:AvaWarStoryBegin3:Continue listening...
+""Cycle one hundred and ninety three. May eleventh. Hegemony is streched thin, Tri-Tachyon tries to take control over Nachiketa in Naraka system. Fuel production facility made it a high value target and all that."" Her face contorts in momentary disgust. ""Small force of Tri-Tachies tried to attach a comm sniffer to the communication array in the system, wanted to know what we were planning to do."" She grins, an almost predatory look in her eyes. Was she like that at that point in time? ""High Command orders me to get into their secret prototype frigate and take them down. I miss that particular ship dearly, it was so much fun to fly. Had some weird modifications tech guys and girls made. Command named this frigate design Valorous after all the testing and name stuck."" Seems like she used that ship a lot. Most captains get attached to their personal flagships after all.","1:AvaWarStoryBegin2:Continue listening...
+2:AvaWarStoryCancel1:Yawn in front of her.
+3:AvaWarStoryCancel2:""Get real.""",
+AvaWarStory1c,DialogOptionSelected,$option == AvaWarStorySpecial,AdjustRepActivePerson WELCOMING 3,"""Do you now? She's a beauty to pilot. Take good care of her and she'll take good care of you.""","1:AvaWarStoryBegin2:""So about that story...""",
+AvaWarStory2,DialogOptionSelected,$option == AvaWarStoryBegin2,,"""We get enemy location from another scout and do pre-combat checks. No, I wasn't alone; I had four crazy bastards piloting Courageous frigates as wingmen."" A smile appears on her face as she seems to recall something funny."" Slippery little bastards. Seen them avoid entire barrages and then punish the enemy with good few shots.""
+
+After a chuckle, she continues. ""I get into the pilot seat, strap in, grab the control sticks and and rush through my preflight checks. Enemy has a capital, few destroyers and few frigates. Not *that* much, but also not *that* easy to take down."" Ava rests her chin on her hand and thinks for a moment. ""If I remember correctly, command gave us a last minute order to kill them all. Didn't want survivors to talk about their fancy frigate."" She reclines in her chair again, drinks more of her coffee while maintaining eye contact with you. ""Honestly, I don't remember much from that engagement. I had fit my ship for close range. Easier to kill the enemy that way. Yes, it is more risky as well, but if you don't risk, you don't gain anything, you know."" She laughs dryly.","1:AvaWarStoryBegin3:Continue listening...
 2:AvaWarStoryCancel2:""Get real.""
 3:AvaWarStoryCancel1:Yawn in front of her.
 ",
-AvaWarStory1c,DialogOptionSelected,$option == AvaWarStorySpecial,AdjustRepActivePerson WELCOMING 3,"""Do you now? She's a beauty to pilot. Take good care of her and she'll take good care of you.""","1:AvaWarStoryCancel1:Yawn in front of her.
-2:AvaWarStoryBegin4:Continue listening...
-3:AvaWarStoryCancel2:""Get real.""",
-AvaWarStory2,DialogOptionSelected,$option == AvaWarStoryBegin2,,"""We get enemy location from another scout and do pre-combat checks. No, I wasn't alone; I had four crazy bastards piloting Courageous frigates as wingmen."" A smile appears on her face as she seems to recall something funny."" Slippery little bastards. Seen them avoid entire barrages and then punish the enemy with good few shots.""
-
-After a chuckle, she continues. ""I get into the pilot seat, strap in, grab the control sticks and and rush through my preflight checks. Enemy has a capital, few destroyers and few frigates. Not *that* much, but also not *that* easy to take down."" Ava rests her chin on her hand and thinks for a moment. ""If I remember correctly, command gave us a last minute order to kill them all. Didn't want survivors to talk about their fancy frigate."" She reclines in her chair again, drinks more of her coffee while maintaining eye contact with you. ""Honestly, I don't remember much from that engagement. I had fit my ship for close range. Easier to kill the enemy that way. Yes, it is more risky as well, but if you don't risk, you don't gain anything, you know."" She laughs dryly.","1:AvaWarStoryCancel2:""Get real.""
-2:AvaWarStoryCancel1:Yawn in front of her.
-3:AvaWarStoryBegin5:Continue listening...",
 AvaWarStory3,DialogOptionSelected,$option == AvaWarStoryBegin3,,"Ava continues telling the story. She talks somewhat quickly - you can imagine the situation developing as she is talking about it.
 
-""Adrenaline starts flowing through my veins as combat drugs kick in. Reaction time shortens. I see enemy movements more clearly compared to moments before. Enemy ship in range. Opening fire. Frigate down. And then one more. I remember smiling as I was doing that."" She claps her hands and you look at her. ""A lot of that engagement was baiting enemy to fight in what felt like good odds for them. The moment their frigates realised that, they were in too deep to get out. And then they exploded!"" She sighs and continues. ""Enemy destroyers and capital started sticking close together, they noticed how quickly their frigates fell to me and my wingmen. So! What did we do?"" She asks you a question with a smile, but doesn't wait for your answer. ""Of course we go in for the kill you dummy. Divide the enemy force - even if one of the ships takes damage, it can be fixed in dock. I took down one destroyer down and it was enough to make these Tachies panic. They were being picked on by some small slippery frigates. I wonder how their commander's face looked?"" Another non-question. She takes a deep breath and drinks a bit of her drink.",,
-AvaWarStory4,DialogOptionSelected,$option == AvaWarStoryBegin4,,"""Two destroyers and capital ship remains. I think it was two Medusas and an Odyssey with Longbow bombers. I hate these bombers a lot."" She clenches one of her fists. ""Bombers fire their accursed Sabots and overload one of my wingmen. Medusas exploit the opportunity given and kill them. That puts them in front of Odyssey, so big girl can't provide fire support..."" Ava laughs. ""I and my force decide to finish the battle, as time is running out. So we go all in, damage we suffer be damned. It was... surprisingly easy? I expected more challenge from that part honestly. Both Medusa captains wasted their skimmer on the push and couldn't get out when we descended upon them. Moment later, two explosions occur. Enemy loses two ships. Only the Odyssey is left and we both know what happens to large ships when they get surrounded, hah!"" She giggles a bit and continues. ""Battle ends with our victory and we look for my wingman's escape pod. Fortunately he was still alive, only suffered some burns and the like, nothing too bad. We go to base, get debriefed and paid for job well done. I went to the barracks then and quickly fell asleep when combat drugs stopped working."" She narrows her eyes and gives you a weird look. ""What? Did you expect me to get wasted in a bar and get into bed with some hot chick? Hah! Wishful thinking pilot, wishful thinking indeed.""",,
+""Adrenaline starts flowing through my veins as combat drugs kick in. Reaction time shortens. I see enemy movements more clearly compared to moments before. Enemy ship in range. Opening fire. Frigate down. And then one more. I remember smiling as I was doing that."" She claps her hands and you look at her. ""A lot of that engagement was baiting enemy to fight in what felt like good odds for them. The moment their frigates realised that, they were in too deep to get out. And then they exploded!"" She sighs and continues. ""Enemy destroyers and capital started sticking close together, they noticed how quickly their frigates fell to me and my wingmen. So! What did we do?"" She asks you a question with a smile, but doesn't wait for your answer. ""Of course we go in for the kill you dummy. Divide the enemy force - even if one of the ships takes damage, it can be fixed in dock. I took down one destroyer down and it was enough to make these Tachies panic. They were being picked on by some small slippery frigates. I wonder how their commander's face looked?"" Another non-question. She takes a deep breath and drinks a bit of her drink.","1:AvaWarStoryCancel1:Yawn in front of her.
+2:AvaWarStoryBegin4:Continue listening...
+3:AvaWarStoryCancel2:""Get real.""",
+AvaWarStory4,DialogOptionSelected,$option == AvaWarStoryBegin4,,"""Two destroyers and capital ship remains. I think it was two Medusas and an Odyssey with Longbow bombers. I hate these bombers a lot."" She clenches one of her fists. ""Bombers fire their accursed Sabots and overload one of my wingmen. Medusas exploit the opportunity given and kill them. That puts them in front of Odyssey, so big girl can't provide fire support..."" Ava laughs. ""I and my force decide to finish the battle, as time is running out. So we go all in, damage we suffer be damned. It was... surprisingly easy? I expected more challenge from that part honestly. Both Medusa captains wasted their skimmer on the push and couldn't get out when we descended upon them. Moment later, two explosions occur. Enemy loses two ships. Only the Odyssey is left and we both know what happens to large ships when they get surrounded, hah!"" She giggles a bit and continues. ""Battle ends with our victory and we look for my wingman's escape pod. Fortunately he was still alive, only suffered some burns and the like, nothing too bad. We go to base, get debriefed and paid for job well done. I went to the barracks then and quickly fell asleep when combat drugs stopped working."" She narrows her eyes and gives you a weird look. ""What? Did you expect me to get wasted in a bar and get into bed with some hot chick? Hah! Wishful thinking pilot, wishful thinking indeed.""","1:AvaWarStoryCancel2:""Get real.""
+2:AvaWarStoryCancel1:Yawn in front of her.
+3:AvaWarStoryBegin5:Continue listening...",
 AvaWarStory5,DialogOptionSelected,$option == AvaWarStoryBegin5,"$AvaHeardWarStory = true
 FireAll PopulateOptions
 AdjustRepActivePerson WELCOMING 5","Looks like her story ends here. ""Well! I hope it was at least somewhat interesting to you."" Ava gives you a questioning look. ""Did you enjoy it? I hope you did."" A gentle smile graces her face. ""Now go. I have things to do and you must as well.""",,
@@ -1460,20 +1460,20 @@ AranitiaGreeting3,UpdateEngagementChoice,$entity.EIS_YKWYD score:1000,EISCheck,,
 #END Ava Dialogue,,,,,,
 ,,,,,,
 # VNSector Compatibility copied marginally from the VNSector Lib for NPC Leaders and Unique Leaders and Contacts.,,,,,,
-VNSectorMenu,DialogOptionSelected,$option == VNS_Setup,FireAll PopulateVNSector, ,10:VNS_Setup:Try to spark a conversation with $personFirstName,
+VNSectorMenu,DialogOptionSelected,$option == VNS_Setup,FireAll PopulateVNSector, ,,
 VNSectorDisableInteractions,PopulateVNSector,$VNS_Interacted,"VNSectorTime
 SetTooltip VNS_ComplimentReply ""It is too recent to do this action again. You must wait for $VNS_InteractedDGS.""
 SetTooltipHighlights VNS_ComplimentReply $VNS_InteractedDGS
 SetEnabled VNS_ComplimentReply false
 SetTooltip VNS_InsultReply ""It is too recent to do this action again. You must wait for $VNS_InteractedDGS.""
 SetTooltipHighlights VNS_InsultReply $VNS_InteractedDGS
-SetEnabled VNS_InsultReply false",,102:VNS_HaveYouReply:What are your thoughts on...,
+SetEnabled VNS_InsultReply false",,,
 VNSectorDiscuss,PopulateOptions,"$isPerson
-$tag:VNSector",,,103:VNS_ComplimentReply:<Compliment>,#Add a Compliment Counter
-VNSectorHaveYouHeard,PopulateVNSector,,,,104:VNS_InsultReply:<Insult>,#Add an Insult Counter
-VNSectorCompliment,PopulateVNSector,,,,105:VNSectorCancelMenu:Talk about something else,
-VNSectorInsult,PopulateVNSector,,,,,
-VNSectorCancelOut,PopulateVNSector,,"SetShortcut VNSectorCancelMenu ""ESCAPE""",,,
+$tag:VNSector",,,10:VNS_Setup:Try to spark a conversation with $personFirstName,#Add a Compliment Counter
+VNSectorHaveYouHeard,PopulateVNSector,,,,102:VNS_HaveYouReply:What are your thoughts on...,#Add an Insult Counter
+VNSectorCompliment,PopulateVNSector,,,,103:VNS_ComplimentReply:<Compliment>,
+VNSectorInsult,PopulateVNSector,,,,104:VNS_InsultReply:<Insult>,
+VNSectorCancelOut,PopulateVNSector,,"SetShortcut VNSectorCancelMenu ""ESCAPE""",,105:VNSectorCancelMenu:Talk about something else,
 VNSectorHaveYouHeardReply,DialogOptionSelected,$option == VNS_HaveYouReply,"FireAll $id
 Nex_DynamicPaginatedOptions addOptionAllPages VNSectorCancelMenu Back
 Nex_DynamicPaginatedOptions addShortcut VNSectorCancelMenu ESCAPE
@@ -1499,91 +1499,90 @@ VNSectorCancel,DialogOptionSelected,$option == VNSectorCancelMenu,FireAll Popula
 VNSectorFlirt_disableOption,DisableFlirtOptionIfNeeded,EISVibeCheck -100 50,"SetTooltip EISCelesteFlirt ""You do not have enough relations to do that action yet!""
 SetEnabled EISCelesteFlirt false",,,
 #END VNSector Compatibility copied marginally from the VNSector Lib for NPC Leaders and Unique Leaders and Contacts.,,,,,,
-,,,,,9:CC2AmongUs:Display hidden skills possessed.,
+,,,,,,
 # CC2 Compatibility,,,,,,
-#CC2_SpecialUwU,ExerelinMarketSpecial,,,,,
+#CC2_SpecialUwU,ExerelinMarketSpecial,,,,9:CC2AmongUs:Display hidden skills possessed.,
 #CC2_SpecialUwU2,DialogOptionSelected,$option == CC2AmongUs,"CC2_DummyDummy
 FireAll ExerelinMarketSpecial",,,
 ,,,,,,
-# Stinky Contacts,,,,,eis_cpc_start:Ask about the surplus nanoforge production opportunity.,
-eis_cpcBlurb,eis_cpc_blurb,$faction.id == ironshell score:5,,"""Due to a shift in budget cuts ironically, the navy has been left with some cancelled nanoforge production slots- and a hole to fill in the budget. We could arrange a custom order of military-grade products, provided you cover the fees.""","eis_cpc_pickPlayerBP:Make a selection from your own blueprints
-eis_cpc_pickContactBP:See what blueprints they have available
-contact_decline:Decline",
-eis_cpcOfferOption,eis_cpc_option,$faction.id == ironshell score:5,,,,
+# Stinky Contacts,,,,,,
+eis_cpcBlurb,eis_cpc_blurb,$faction.id == ironshell score:5,,"""Due to a shift in budget cuts ironically, the navy has been left with some cancelled nanoforge production slots- and a hole to fill in the budget. We could arrange a custom order of military-grade products, provided you cover the fees.""",,
+eis_cpcOfferOption,eis_cpc_option,$faction.id == ironshell score:5,,,eis_cpc_start:Ask about the surplus nanoforge production opportunity.,
 eis_cpcOfferTextContact,DialogOptionSelected,"$faction.id == ironshell score:5
 $option == eis_cpc_start","$missionId = eis_cpc
 SetTextHighlights $cpc_maxCapacity $cpc_costPercent
-DoCanAffordCheck 0 eis_cpc_pickPlayerBP false","""I'll keep it short. $cpc_maxCapacity credits worth of military-grade nanoforge production at $cpc_costPercent of base cost with delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my authority, in which case you would use mine. One or the other.""",,
+DoCanAffordCheck 0 eis_cpc_pickPlayerBP false","""I'll keep it short. $cpc_maxCapacity credits worth of military-grade nanoforge production at $cpc_costPercent of base cost with delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my authority, in which case you would use mine. One or the other.""","eis_cpc_pickPlayerBP:Make a selection from your own blueprints
+eis_cpc_pickContactBP:See what blueprints they have available
+contact_decline:Decline",
 eis_cpcPickPlayerBP,DialogOptionSelected,"$faction.id == ironshell score:5
 $option == eis_cpc_pickPlayerBP score:100",Call $cpc_ref pickPlayerBP,,,
 eis_cpcPickContactBP,DialogOptionSelected,"$faction.id == ironshell score:5
 $option == eis_cpc_pickContactBP score:100",Call $cpc_ref pickContactBP,,,
-,,,,,eis_sShip_start:Ask about the $sShip_hullSize,
-eis_sShipBlurb,eis_sShip_blurb,,,"""I have a $sShip_hullSize available. Military-grade hull, the best of the best-that needs a pilot. Interested?""","eis_sShip_look:Ask for detailed info on the ship
-contact_decline:Decline",
-eis_sShipOfferOption,eis_sShip_option,,,,"contact_accept:Buy the $sShip_hullSize for $sShip_price credits
-contact_decline:Decline",
+,,,,,,
+eis_sShipBlurb,eis_sShip_blurb,,,"""I have a $sShip_hullSize available. Military-grade hull, the best of the best-that needs a pilot. Interested?""",,
+eis_sShipOfferOption,eis_sShip_option,,,,eis_sShip_start:Ask about the $sShip_hullSize,
 eis_sShipOfferTextContact,DialogOptionSelected,$option == eis_sShip_start,"$missionId = eis_sShip
-SetTextHighlights $sShip_price","""It's a $sShip_hullClass $sShip_hullSize in good condition. I could find another buyer, but I wanted to make the offer to you first- $sShip_price credits for the ship.""",,
+SetTextHighlights $sShip_price","""It's a $sShip_hullClass $sShip_hullSize in good condition. I could find another buyer, but I wanted to make the offer to you first- $sShip_price credits for the ship.""","eis_sShip_look:Ask for detailed info on the ship
+contact_decline:Decline",
 eis_sShipLookAt,DialogOptionSelected,$option == eis_sShip_look,"Call $sShip_ref showShip
-DoCanAffordCheck $sShip_price contact_accept",$personName taps a few keys to summon the ship specifications for your examination.,,
+DoCanAffordCheck $sShip_price contact_accept",$personName taps a few keys to summon the ship specifications for your examination.,"contact_accept:Buy the $sShip_hullSize for $sShip_price credits
+contact_decline:Decline",
 eis_sShipPostAccept,ContactPostAccept,$missionId == eis_sShip,"ShowPersonVisual
 RemoveCommodity credits $sShip_price
 AddShip $sShip_member
 Call $sShip_ref2 repSuccess
 Call $sShip_ref2 addContacts",,,
-,,,,,eis_ddro_start:Ask about the secret package delivery,
-eis_ddroBlurb,eis_ddro_blurb,,,"""I need a package delivered. The destination must be kept a secret. Simple.""","contact_accept:Accept
-contact_decline:Decline",
-eis_ddroOfferOption,eis_ddro_option,,,,defaultLeave:Leave,
+,,,,,,
+eis_ddroBlurb,eis_ddro_blurb,,,"""I need a package delivered. The destination must be kept a secret. Simple.""",,
+eis_ddroOfferOption,eis_ddro_option,,,,eis_ddro_start:Ask about the secret package delivery,
 eis_ddroOfferTextContact1,DialogOptionSelected,$option == eis_ddro_start,"$missionId = eis_ddro
 Highlight $ddro_dist $ddro_reward","$PersonName looks you over silently for a moment, then nods, seemingly satisfied.
 
 ""I don't want any questions, it's a simple task. Deliver this item to the specified location in $ddro_systemName, $ddro_dist light-years away. Don't be seen making the drop, and don't tell anyone about it. The reward is $ddro_reward credits."" $HeOrShe taps at $hisOrHer datapad and your display is overlaid with a $ddro_aOrAnThing. 
 
-""That is all there is to it. Do you accept my terms?""","eis_ddro_scan:Drop it off in a stable orbit
-defaultLeave:Leave",
+""That is all there is to it. Do you accept my terms?""","contact_accept:Accept
+contact_decline:Decline",
 eis_ddroPrintHostilesText,OpenInteractionDialog,"$eis_ddro_target score:1000
 IsSeenByAnyFleet
 Call $ddro_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, and dropping off the item at the specified location is extremely inadvisable.",defaultLeave:Leave,
 eis_ddroObjectInteraction,OpenInteractionDialog,"$eis_ddro_target score:1000
 Call $ddro_ref updateData",ShowDefaultVisual,"Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $ddro_personName. The $ddro_thing is held gently in a cargo drone's manipulator arms, ready for deployment.
 
-The go-button flashes softly on your command interface.",,
+The go-button flashes softly on your command interface.","eis_ddro_scan:Drop it off in a stable orbit
+defaultLeave:Leave",
 eis_ddroObjectScan,DialogOptionSelected,$option == eis_ddro_scan,"$eis_ddro_completed = true
 Call $ddro_ref updateStage","The bay doors open, and the cargo drone extends its arms. Then, gently, its manipulators release.
 
-It is now done. Whatever 'it' is.",,
-,,,,,eis_psb_start:Ask about the special pirate fleet bounty,
+It is now done. Whatever 'it' is.",defaultLeave:Leave,
+,,,,,,
 eis_psbBlurb,eis_psb_blurb,,,"""There's been an increase in local pirate activity and I'm unsatisfied with our official response. I've decided to offer a special bounty to trusted individuals who can assist with this problem.""
 OR
-""The pirates have established a base nearby and their raids are simply bad for tax collecting. I could extend special bounty terms if you help us contain them.""","contact_accept:Accept
-contact_decline:Decline",
-eis_psbOfferOption,eis_psb_option,,,,,
+""The pirates have established a base nearby and their raids are simply bad for tax collecting. I could extend special bounty terms if you help us contain them.""",,
+eis_psbOfferOption,eis_psb_option,,,,eis_psb_start:Ask about the special pirate fleet bounty,
 eis_psbOfferTextContact,DialogOptionSelected,$option == eis_psb_start,"$missionId = eis_psb
-SetTextHighlights $psb_dist $psb_baseBounty $psb_days","""The terms are this,"" $heOrShe says, ""A bounty shall be paid for destruction of pirate fleets in or near $psb_systemName, $psb_dist light-years away. The base rate is $psb_baseBounty credits per frigate destroyed or disabled, on an increasing scale for larger hulls - please review addendum A in the terms I've forwarded. The period of the bounty shall last for $psb_days days.""",,
-,,,,,eis_ssat_start:Ask about deploying the observation package,
+SetTextHighlights $psb_dist $psb_baseBounty $psb_days","""The terms are this,"" $heOrShe says, ""A bounty shall be paid for destruction of pirate fleets in or near $psb_systemName, $psb_dist light-years away. The base rate is $psb_baseBounty credits per frigate destroyed or disabled, on an increasing scale for larger hulls - please review addendum A in the terms I've forwarded. The period of the bounty shall last for $psb_days days.""","contact_accept:Accept
+contact_decline:Decline",
+,,,,,,
 eis_ssatBlurb,eis_ssat_blurb,,,"""Fleet intel has requested discrete deployment of an observation package to $ssat_marketName orbit. You could fulfill the mission parameters.""
 OR
-""Strategic observation assets are imperative; we need a small observation package deployed directly to $ssat_marketName orbit.""","contact_accept:Accept
-contact_decline:Decline",
-eis_ssatOfferOption,eis_ssat_option,,,,,
+""Strategic observation assets are imperative; we need a small observation package deployed directly to $ssat_marketName orbit.""",,
+eis_ssatOfferOption,eis_ssat_option,,,,eis_ssat_start:Ask about deploying the observation package,
 eis_ssatOfferTextContact,DialogOptionSelected,$option == eis_ssat_start,"$missionId = eis_ssat
 SetTextHighlights $ssat_reward","""The mission: enter a standard orbit of $ssat_marketName in the $ssat_systemName. Then deploy the spy satellite package while unobserved. I repeat, it is critical that no patrols be tracking your fleet at this stage. Once deployed, the spysat has stealth capabilities which make detection unlikely.""
 
-""Simple. Your reward for mission completion would be $ssat_reward credits. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?""",,
-,,,,,eis_extr_start:Ask about the 'atypical extraction' mission involving a major faction,
-eis_extrBlurb,eis_extr_blurb,$extr_variation == COLONY,,"""Command has assigned me a somewhat atypical extraction mission. Due to, ah, public-political implications, it is best performed by a mixed-capability independent unit such as yours.""","contact_accept:Accept
+""Simple. Your reward for mission completion would be $ssat_reward credits. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?""","contact_accept:Accept
 contact_decline:Decline",
-eis_extrOfferOption,eis_extr_option,$extr_variation == COLONY,,,"contact_pickAnotherGreeting:Continue
-eis_letmehirethem:Allow me to hire them.",
+,,,,,,
+eis_extrBlurb,eis_extr_blurb,$extr_variation == COLONY,,"""Command has assigned me a somewhat atypical extraction mission. Due to, ah, public-political implications, it is best performed by a mixed-capability independent unit such as yours.""",,
+eis_extrOfferOption,eis_extr_option,$extr_variation == COLONY,,,eis_extr_start:Ask about the 'atypical extraction' mission involving a major faction,
 eis_extrOfferTextContact,DialogOptionSelected,"$option == eis_extr_start
 $extr_variation == COLONY","$missionId = eis_extr
 Highlight $extr_reward $extr_marines","""Captain $playerName,"" $heOrShe says. ""As I said, we need the operative extracted from $extr_marketName. Command has authorized a payment of $extr_reward credits for a successful mission.""
 
 ""The oppo may be expecting you. I suggest you go in quiet. We do have fair intel on their defensive capabilities,"" $personName says, fingers moving rapidly to transfer a datafile for your inspection - a very detailed intel report.
 
-You quickly review the contents and estimate that you'd need around $extr_marines marines to carry off the operation.",contact_pickAnotherGreeting:Understandable.,
+You quickly review the contents and estimate that you'd need around $extr_marines marines to carry off the operation.","contact_accept:Accept
+contact_decline:Decline",
 eis_extrMissionReturn,PickGreeting,"$extr_returnHere score:1001
 Call $extr_ref updateData
 $extr_variation == COLONY
@@ -1591,19 +1590,20 @@ FireBest GenericMissionReturn","ShowPersonVisual
 $extr_completed = true
 Call $extr_ref updateStage
 SetStoryOption eis_letmehirethem 1 0 leadership
-SetTooltip eis_letmehirethem ""This has a low chance of success!""","""Impressive work, captain,"" the $faction $rank says. ""I'm told that you've helped us gathered quite a lot on the intel here.""",contact_pickAnotherGreeting:Understandable.,
+SetTooltip eis_letmehirethem ""This has a low chance of success!""","""Impressive work, captain,"" the $faction $rank says. ""I'm told that you've helped us gathered quite a lot on the intel here.""","contact_pickAnotherGreeting:Continue
+eis_letmehirethem:Allow me to hire them.",
 eis_extrOfferTextContactHiringProcess,DialogOptionSelected,"$option == eis_letmehirethem
-!EISOneOfUs score:5",,"""I'm afraid the Councilor would not approve of letting go one of her vital assets.""","0:eisome_hireYes:""Sounds good.""
-1:cutCommLink:""Never mind, I've changed my mind.""",
+!EISOneOfUs score:5",,"""I'm afraid the Councilor would not approve of letting go one of her vital assets.""",contact_pickAnotherGreeting:Understandable.,
 eis_extrOfferTextContactHiringProcessb,DialogOptionSelected,"$option == eis_letmehirethem
 EISOneOfUs
 !EISVibeCheck 25 100
-$faction.friendlyToPlayer",,"""I'm afraid, I must apologize, the Councilor would not approve of letting go one of her vital assets.""",,
+$faction.friendlyToPlayer",,"""I'm afraid, I must apologize, the Councilor would not approve of letting go one of her vital assets.""",contact_pickAnotherGreeting:Understandable.,
 eis_extrOfferTextContactHiringProcess2,DialogOptionSelected,"$option == eis_letmehirethem
 EISOneOfUs
 EISVibeCheck 25 100
 $faction.friendlyToPlayer","EISPoopyStinky true
-ShowSecondPerson $global.EISWowOfficer","""Seeing the work you done for Iron Shell, I don't see why not. Here is the case file. Still interested in hiring them?""",,
+ShowSecondPerson $global.EISWowOfficer","""Seeing the work you done for Iron Shell, I don't see why not. Here is the case file. Still interested in hiring them?""","0:eisome_hireYes:""Sounds good.""
+1:cutCommLink:""Never mind, I've changed my mind.""",
 eis_extrOfferTextContactHiredFailed,DialogOptionSelected,"$option == eisome_hireYes
 CallEvent $ome_eventRef atLimit $global.EISWowOfficer","EISUhOhStinky $global.EISWowOfficer false
 FireAll PopulateOptions","""I'm afraid you can't hire on any more officers at the moment. Good day!""",,
@@ -1618,53 +1618,53 @@ EIS_CBRemnantStation,EIS_CBRemnantStationOfferDesc,$personFaction.id == ironshel
 
 $Rank $personLastName pulls up a shared display, swiping through REDACTED warnings and biometric confirmations. You see the grainy image of a large orbital structure, subsections highlighted in false color and labeled by some Hegemony analyst.  ""A functional Remnant station - I believe 'nexus' is what Tri-Tach called them - leftover from the AI Wars. Some pencilneck thought these were too expensive to clear out. Ticking time-bombs if you ask me. You never know when it might start pumping out warships or PKs."" With a swipe the $rank dismisses the image.
 
-""The Hegemon finally decided to do something about it - unofficially. That means operator like you,"" $heOrShe says in a way that suggests the navy should be taking care of this. ""The reward is $bcb_reward credits for hazard and discretion. You'll have $bcb_days days to take this thing out.""",eis_mcb_start:Ask about what's available on the bounty docket,
+""The Hegemon finally decided to do something about it - unofficially. That means operator like you,"" $heOrShe says in a way that suggests the navy should be taking care of this. ""The reward is $bcb_reward credits for hazard and discretion. You'll have $bcb_days days to take this thing out.""",,
 eis_mcbBlurb,eis_mcb_blurb,,,"""Some new targets have come up on the docket,"" $heOrShe says with a sigh. ""If you took a contract to handle one of these bounties, it might just get the brass off my case.""",,
-eis_mcbOfferOption,eis_mcb_option,,,,,
+eis_mcbOfferOption,eis_mcb_option,,,,eis_mcb_start:Ask about what's available on the bounty docket,
 eis_mcbOfferTextContact,DialogOptionSelected,$option == eis_mcb_start,"$missionId = eis_mcb
 $option = eis_mcb_showOptions 0
 FireBest DialogOptionSelected","""We've got a few options here."" $Post $personLastName pulls up a shared display with a table of intel reports. ""We've got operation time coming up on a HK flotilla that'll handle whatever you don't, so it's really your pick of the bunch. What sort of job do you think you can handle?""",,
 eis_mcbLowSel,DialogOptionSelected,$option == eis_mcb_low,"$eis_mcb_difficulty = LOW 0
 FireBest eis_MCBShowBounty",,,
 eis_mcbNormalSel,DialogOptionSelected,$option == eis_mcb_normal,"$eis_mcb_difficulty = NORMAL 0
-FireBest eis_MCBShowBounty",,eis_mcb_showIntel:Continue,
+FireBest eis_MCBShowBounty",,,
 eis_mcbHighSel,DialogOptionSelected,$option == eis_mcb_high,"$eis_mcb_difficulty = HIGH 0
-FireBest eis_MCBShowBounty",,"contact_accept:Accept
+FireBest eis_MCBShowBounty",,,
+eis_MCBShowBounty,eis_MCBShowBounty,,Call $eis_mcb_ref showBountyDetail,,eis_mcb_showIntel:Continue,
+eis_MCBShowBountyShowShips,DialogOptionSelected,$option == eis_mcb_showIntel,Call $eis_mcb_ref showBountyAssessment,,"contact_accept:Accept
 contact_decline:Decline
 eis_mcb_showOptions:Ask about one of the other targets",
-eis_MCBShowBounty,eis_MCBShowBounty,,Call $eis_mcb_ref showBountyDetail,,"eis_mcb_low:""I'd prefer a more manageable target.""
+eis_mcbGoBackSel,DialogOptionSelected,$option == eis_mcb_showOptions,,,"eis_mcb_low:""I'd prefer a more manageable target.""
 eis_mcb_normal:""Whatever you've got works for me.""
 eis_mcb_high:""I can handle a more challenging target.""
 contact_decline:""Maybe another time."" (decline)",
-eis_MCBShowBountyShowShips,DialogOptionSelected,$option == eis_mcb_showIntel,Call $eis_mcb_ref showBountyAssessment,,,
-eis_mcbGoBackSel,DialogOptionSelected,$option == eis_mcb_showOptions,,,,
-,,,,,eis_celestecb_start:Ask about what can be done about the fair share of work,
+,,,,,,
 eis_celestecbBlurb,eis_celestecb_blurb,,,"""The Councilor is always on my case that I have not been doing my fair share of the work for Iron Shell."" $heOrShe says with a sigh. ""If you took a contract to handle one of these bounties, it might just get the brass off my case for a bit.""",,
-eis_celestecbOfferOption,eis_celestecb_option,,,,,
+eis_celestecbOfferOption,eis_celestecb_option,,,,eis_celestecb_start:Ask about what can be done about the fair share of work,
 eis_celestecbOfferTextContact,DialogOptionSelected,$option == eis_celestecb_start,"$missionId = eis_celestecb
 $option = eis_celestecb_showOptions 0
 FireBest DialogOptionSelected","""We've got a few options here."" $personLastName pulls up a shared display with a table of intel reports. ""Whatever you can't do, I can assign someone else to help me with, anything of your interest?""",,
 eis_celestecbLowSel,DialogOptionSelected,$option == eis_celestecb_low,"$eis_celestecb_difficulty = LOW 0
 FireBest eis_CelesteCBShowBounty",,,
 eis_celestecbNormalSel,DialogOptionSelected,$option == eis_celestecb_normal,"$eis_celestecb_difficulty = NORMAL 0
-FireBest eis_CelesteCBShowBounty",,eis_celestecb_showIntel:Continue,
+FireBest eis_CelesteCBShowBounty",,,
 eis_celestecbHighSel,DialogOptionSelected,$option == eis_celestecb_high,"$eis_celestecb_difficulty = HIGH 0
-FireBest eis_CelesteCBShowBounty",,"contact_accept:Accept
+FireBest eis_CelesteCBShowBounty",,,
+eis_CelesteCBShowBounty,eis_CelesteCBShowBounty,,Call $eis_celestecb_ref showBountyDetail,,eis_celestecb_showIntel:Continue,
+eis_CelesteCBShowBountyShowShips,DialogOptionSelected,$option == eis_celestecb_showIntel,Call $eis_celestecb_ref showBountyAssessment,,"contact_accept:Accept
 contact_decline:Decline
 eis_celestecb_showOptions:Ask about one of the other targets",
-eis_CelesteCBShowBounty,eis_CelesteCBShowBounty,,Call $eis_celestecb_ref showBountyDetail,,"eis_celestecb_low:""I'd prefer a more manageable target.""
+eis_celestecbGoBackSel,DialogOptionSelected,$option ==  eis_celestecb_showOptions,,,"eis_celestecb_low:""I'd prefer a more manageable target.""
 eis_celestecb_normal:""Whatever you've got works for me.""
 eis_celestecb_high:""I can handle a more challenging target.""
 contact_decline:""Maybe another time."" (decline)",
-eis_CelesteCBShowBountyShowShips,DialogOptionSelected,$option == eis_celestecb_showIntel,Call $eis_celestecb_ref showBountyAssessment,,,
-eis_celestecbGoBackSel,DialogOptionSelected,$option ==  eis_celestecb_showOptions,,,,
-,,,,,eis_sitm_start:Ask about the location of the $sitm_item,
-eis_sitmBlurb,eis_sitm_blurb,,,"""An anonymous tip has been relayed to me the location of $sitm_aOrAnItem. I would pursue it myself, but I could share this information with you for a reasonable price instead.""","contact_accept:Accept
-contact_decline:Decline",
-eis_sitmOfferOption,eis_sitm_option,,,,,
+,,,,,,
+eis_sitmBlurb,eis_sitm_blurb,,,"""An anonymous tip has been relayed to me the location of $sitm_aOrAnItem. I would pursue it myself, but I could share this information with you for a reasonable price instead.""",,
+eis_sitmOfferOption,eis_sitm_option,,,,eis_sitm_start:Ask about the location of the $sitm_item,
 eis_sitmOfferTextContact,DialogOptionSelected,$option == eis_sitm_start,"$missionId = eis_sitm
 Highlight $sitm_price
 DoCanAffordCheck $sitm_price contact_accept","$HeOrShe considers something for a moment, ""I will give you a warning that it is an anonymous tip. We have no idea if other parties were given the same tip. If you accept, be prepared to deal with these other treasure-seekers."" $HeOrShe smiles in anticipation, ""However, it will be far from the core worlds; you could burn their fleets from the sky, plunder their supplies, and none would be the wiser..."" 
 
-""$sitm_price credits for the location data. Very reasonable.""",,
+""$sitm_price credits for the location data. Very reasonable.""","contact_accept:Accept
+contact_decline:Decline",
 #END Stinky Contacts,,,,,,
