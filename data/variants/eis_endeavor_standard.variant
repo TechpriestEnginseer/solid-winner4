@@ -1,0 +1,72 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 3,
+    "fluxVents": 50,
+    "hullId": "eis_endeavor",
+	"goalVariant": true,
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_endeavor_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "mjolnir"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "atropos",
+                "WS0010": "atropos"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0028": "swarmer",
+                "WS0029": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0002": "hveldriver",
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "vulcan",
+                "WS0008": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "eis_thunder_wing",
+        "eis_thunder_wing",
+        "eis_dagger_wing"
+    ]
+}

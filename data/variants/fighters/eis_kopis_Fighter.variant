@@ -1,0 +1,23 @@
+{
+  "variantId": "eis_kopis_Fighter",
+  "hullId": "eis_kopis",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": [
+    "no_weapon_flux"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "eis_acg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,56 @@
+{
+  "variantId": "eis_champion_cs",
+  "hullId": "eis_champion",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 30,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "eis_barretta"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "hurricane"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "vulcan",
+                "WS 001": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 005": "pdlaser",
+                "WS 010": "pdburst",
+                "WS 011": "pdburst"
+            }
+        }
+  ],
+  "modules": [],
+  "wings": []
+}
