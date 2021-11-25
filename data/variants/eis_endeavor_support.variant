@@ -1,0 +1,65 @@
+{
+    "displayName": "Support",
+	"goalVariant": true,
+    "fluxCapacitors": 21,
+    "fluxVents": 50,
+    "hullId": "eis_endeavor",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_endeavor_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "eis_lunarrose"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod",
+                "WS0009": "sabot",
+                "WS0010": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0028": "harpoon",
+                "WS0029": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan",
+                "WS0012": "vulcan",
+                "WS0013": "vulcan",
+                "WS0014": "vulcan",
+                "WS0015": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "dualflak"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "dualflak"}
+        }
+    ],
+    "wings": [
+        "eis_dagger_wing",
+        "eis_dagger_wing",
+        "eis_dagger_wing"
+    ]
+}

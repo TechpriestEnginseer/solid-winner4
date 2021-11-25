@@ -1,0 +1,13 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{
+			"eis_mining_drone": 0.5,
+		},
+    },
+	
+    "chatter":{
+		"factionRoundels":{
+			"ironshell":"graphics/factions/roundel_ironshell.png",
+		},
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "playableFaction":false,
+    #"startingFaction":true,
+    "corvusCompatible":true,
+    "spawnAsFactionId":"ironshell",
+    "ngcTooltip":"No one shold be seeing this but you know, dab on these.",
+    "rebelFleetSuffix":"Rogues",
+    "startRelationships":{ "ironshell":1 },
+    
+    "responseFleetName":"Guardian Fleet",
+    
+    "morality":"amoral",
+    
+    "startShipsSolo":[
+      ["wolf_hegemony_Assault"],
+    ],
+    
+    "startSpecialItems":[
+		[["low_tech_package", ""]],
+		[["heg_aux_package", ""]],
+        [["modspec", "eis_aquila"]],
+    ],
+}
+
+

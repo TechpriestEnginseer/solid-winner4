@@ -1,0 +1,74 @@
+{
+	"name":"Kim Quy",
+	"personalities":["steady"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":1,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"All those who oppose me shall fear my wrath."},
+			{"text":"Nothing will be hidden from our sight, destroy them all!"},
+		],
+		"start_boss":[
+			{"text":"I suppose the random hand of fate delivers us into them now."},
+			{"text":"A monstrosity exist in front of us. It is a disease. We are the cure."},
+		],
+		"retreat":[
+			{"text":"The enemies are closing in."},
+			{"text":"We are due for a tactical retreat in our advantage."},
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Missiles depleted."},
+		],
+
+		"engaged":[
+			{"text":"Engaging hostiles!"},
+			{"text":"The enemy dare resist?"},
+		],
+
+		"need_help":[
+			{"text":"Hold your positions!"},
+			{"text":"We must hold!"},
+		],
+
+		"pursuing":[
+			{"text":"Charge the enemy!"},
+			{"text":"Strike quick and fast now!"},
+		],
+
+		"running":[
+			{"text":"Fall back and regroup!"},
+			{"text":"Regroup!"},
+		],
+
+		"hull_90":[
+			{"text":"We took a hit."},
+			{"text":"Hold the enemy back!"},
+		],
+
+		"hull_50":[
+			{"text":"Hold now!"},
+			{"text":"I have suffered worse than this, hold!"},
+		],
+
+		"hull_30":[
+			{"text":"Is this where I meet my end? No, now hold!"},
+			{"text":"Hull status critical, but I will prevail."},
+		],
+
+		"overload":[
+			{"text":"Ship overloaded!"},
+		],
+
+		"death":[
+			{"text":"Am I allowed to retire now?"},
+		],
+		"victory":[
+			{"text":"Iron stands eternal!"},
+			{"text":"A victory today... but what of tomorrow?"},
+		],
+	}
+}

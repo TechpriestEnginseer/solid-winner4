@@ -1,0 +1,30 @@
+{
+  "variantId": "eis_courageous_standard",
+  "hullId": "eis_courageous",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0002": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavymg"}
+        }
+    ],
+  "modules": [],
+  "wings": []
+}

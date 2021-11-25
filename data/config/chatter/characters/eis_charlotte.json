@@ -1,0 +1,79 @@
+{
+	"name":"Charlotte Hex",
+	"personalities":["reckless", "aggressive", "steady"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":2,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Ready to stomp them!"},
+			{"text":"Look at those toys!"},
+		],
+		"start_boss":[
+			{"text":"Oh what's that? That's so tiny though!"},
+			{"text":"On my way to do some big insecure crushing!"},
+		],
+		"retreat":[
+			{"text":"Ooh there's a lot of them! Maybe we'll see them again!"},
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Missiles depleted."},
+		],
+
+		"engaged":[
+			{"text":"Another one added to my list."},
+			{"text":"Ooh, they want some let's give them some."},
+		],
+
+		"need_help":[
+			{"text":"Help me please!"},
+			{"text":"Oh I don't want to die!"},
+		],
+
+		"pursuing":[
+			{"text":"Forward."},
+			{"text":"Locked in."},
+			{"text":"Intercepting."},
+			{"text":"Moving to engage."}
+		],
+
+		"running":[
+			{"text":"Hmm about that."},
+			{"text":"I need to make a quick break first."},
+		],
+
+		"hull_90":[
+			{"text":"What a small beating that was."},
+			{"text":"Ow! That tickled!"},
+		],
+
+		"hull_50":[
+			{"text":"Part of the fun is endurance!"},
+			{"text":"Half-hull, half-worry."},
+		],
+
+		"hull_30":[
+			{"text":"Oh my, the hull is lava!"},
+			{"text":"I'll be fine, it's not like I'll die or anything."},
+		],
+
+		"overload":[
+			{"text":"Oooh and my fun is ruined!"},
+			{"text":"Oh you didn't want to do that..."},
+		],
+
+		"death":[
+			{"text":"Please stop the pain!"},
+
+		],
+		"victory":[
+			{"text":"That's it?"},
+			{"text":"All clear."},
+			{"text":"It's over."},
+			{"text":"Naturally."},
+		],
+	}
+}

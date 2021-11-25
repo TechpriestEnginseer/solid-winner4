@@ -1,0 +1,76 @@
+{
+	"name":"Darren Hartley",
+	"personalities":["aggressive", "steady"],
+	"gender":["m"],
+	"chance":0,
+	"talkativeness":1,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Let them come... they meet their doom."},
+			{"text":"This will be over soon, they're nothing more than a training exercise."},
+		],
+		"start_boss":[
+			{"text":"Fear ensures loyalty. We die here or we live another day."},
+			{"text":"They honor us with an actual threat now."},
+		],
+		"retreat":[
+			{"text":"I leave now, do not fail me."},
+			{"text":"Set the course. We're leaving."},
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Missiles depleted."},
+		],
+
+		"engaged":[
+			{"text":"Strike them down!"},
+			{"text":"The end of day is upon them!"},
+			{"text":"Press the attack!"},
+		],
+
+		"need_help":[
+			{"text":"Just a scratch."},
+			{"text":"Let your aim be true!"},
+		],
+
+		"pursuing":[
+			{"text":"Tremble before my wrath!"},
+			{"text":"Charge!!"},
+		],
+
+		"running":[
+			{"text":"Oh forgive me, I have failed thee."},
+		],
+
+		"hull_90":[
+			{"text":"Spare them none, for they will give us nothing as well!"},
+			{"text":"Pain now, reward in the afterlife!"},
+		],
+
+		"hull_50":[
+			{"text":"Only in damage control are we truly tested!"},
+		],
+
+		"hull_30":[
+			{"text":"That's the best you got?"},
+		],
+
+		"overload":[
+			{"text":"You dare shoot at me?"},
+			{"text":"Rally to me!"},
+		],
+
+		"death":[
+			{"text":"Glory to the first man to die!"},
+			{"text":"I will have someone's head for this."},
+		],
+		"victory":[
+			{"text":"Victory is assured."},
+			{"text":"All clear."},
+			{"text":"They cannot withstand us!"},
+			{"text":"It is only fitting we be victorious in any battle."},
+		],
+	}
+}

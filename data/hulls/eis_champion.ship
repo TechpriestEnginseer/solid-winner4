@@ -1,0 +1,225 @@
+{
+  "hullName": "Champion (XIV)",
+  "hullId": "eis_champion",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/eis_champion.png",
+  "style": "MIDLINE",
+  "height": 240,
+  "width": 180,
+  "center": [90, 113],
+  "collisionRadius": 170,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 50,
+      "locations": [94, 45]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -50,
+      "locations": [94, -45]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [11, 55]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [11, -55]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 130,
+      "locations": [-69, 48]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 230,
+      "locations": [-69, -48]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [63, 50]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [63, -50]
+    },
+    {
+      "id": "WS 008",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 0,
+      "locations": [59, -0]
+    },
+    {
+      "id": "WS 009",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [108, -0]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 20,
+      "locations": [88, 28]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -20,
+      "locations": [88, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-107, 58.5],
+      "length": 48,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, 47.5],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, 33.5],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, -33.5],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -47.5],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107, -59.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-101, 16.5],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-101, -16.5],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    114, 28,
+    114, -28,
+    88, -77,
+    40, -77,
+    43, -47,
+    36, -45,
+    15, -70,
+    -4, -70,
+    -10, -47,
+    -26, -45,
+    -51, -68,
+    -92, -81,
+    -109, -33,
+    -102, -24,
+    -102, -10,
+    -80, -6,
+    -80, 6,
+    -102, 10,
+    -102, 24,
+    -109, 33,
+    -92, 81,
+    -51, 68,
+    -26, 45,
+    -10, 47,
+    -4, 70,
+    15, 70,
+    36, 45,
+    43, 47,
+    40, 77,
+    88, 77
+  ]
+}

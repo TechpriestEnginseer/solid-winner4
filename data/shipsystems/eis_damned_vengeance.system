@@ -1,0 +1,18 @@
+{
+	"id":"eis_damned_vengeance",
+	"type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.eis_myironstandseternal",
+	
+	"statsScript":"data.scripts.shipsystems.eis_damned_vengeance",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_temporalshell",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
+
+
+
+
