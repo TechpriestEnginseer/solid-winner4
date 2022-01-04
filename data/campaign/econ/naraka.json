@@ -1,0 +1,53 @@
+{
+	"starSystem":"naraka",
+	"markets":[
+		{
+			"entities":["eis_chitagupta"],
+			"faction":"ironshell",
+			"size":6,
+			"startingConditions":[
+				"population_6",
+				"hot",
+				"water_surface",
+				"eis_aquaculture",
+				"habitable",
+				"organics_abundant",
+			],
+			"industries":[
+				"population",
+				["spaceport", "fullerene_spool"],
+				"aquaculture",
+				"mining",
+				"heavyindustry",
+				"battlestation",
+				"heavybatteries",
+				"militarybase",
+				"eis_bureau",
+			],
+		},
+		{
+			"entities":["eis_yami"],
+			"faction":"ironshell",
+			"size":4,
+			"startingConditions":[
+				"population_4",
+				"thin_atmosphere",
+				"tectonic_activity",
+				"ore_moderate",
+				"rare_ore_sparse",
+				"volatiles_abundant",
+				"very_cold",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"orbitalstation",
+				"mining",
+				"refining",
+				"heavybatteries",
+				"patrolhq",
+			],
+		},
+	],
+	
+}

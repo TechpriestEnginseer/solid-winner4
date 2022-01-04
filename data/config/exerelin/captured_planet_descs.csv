@@ -1,0 +1,5 @@
+id,entity,faction,desc id,default
+chitagupta_default,eis_chitagupta,ironshell,planet_chitagupta_ironshell,TRUE
+yami_default,eis_yami,ironshell,planet_yami_ironshell,TRUE
+chitagupta_ironshell,eis_chitagupta,ironshell,planet_chitagupta_ironshell,
+yami_ironshell,eis_yami,ironshell,planet_yami_ironshell,

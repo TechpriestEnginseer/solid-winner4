@@ -1,0 +1,23 @@
+{
+	"id":"eis_secondwind",
+	"type":"FAST_RELOAD",
+    "aiType":"NONE",
+	
+	"weaponTypes":[MISSILE],
+	"minFractionToReload":0.5,
+	
+	"jitterUnderColor":[255,165,90,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,165,90,55],
+	"jitterCopies":1,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"useSound":"system_forgevats",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

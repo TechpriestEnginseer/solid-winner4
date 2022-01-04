@@ -1,0 +1,75 @@
+{
+  "id": "eis_celestials_blossom",
+  "specClass": "projectile",
+  "projectileSpecId": "eis_celestials_blossom_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/eis_celestials_blossom_turret_base.png",
+  "turretGunSprite":"graphics/weapons/eis_celestials_blossom_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/eis_celestials_blossom_hardpoint_base.png",
+  "hardpointGunSprite":"graphics/weapons/eis_celestials_blossom_hardpoint_recoil.png",
+  "visualRecoil":6,
+  "renderHints":["RENDER_BARREL_BELOW"],
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    17,
+    0,
+    19,
+    -5.5,
+    19,
+    5.5,
+    19,
+    -6.5,
+    19,
+    6.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    -7.5,                                     
+    7.5,
+    -16,
+    16
+  ],
+  "hardpointOffsets": [
+    27,
+    0,
+    29,
+    5.5,
+    29,
+    -5.5,
+    29,
+    -6.5,
+    29,
+    6.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    9,
+    -9,
+    -18,
+    18
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 24,
+    "cloudParticleCount": 2,
+    "cloudDuration": 2.5,
+    "cloudRadius": 12,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 2,
+    "blowbackLength": 18,
+    "blowbackSpread": 10,
+    "particleColor": [
+      35,
+      35,
+      35,
+      75
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "harpoon_fire",
+  "unaffectedByProjectileSpeedBonuses": false
+}

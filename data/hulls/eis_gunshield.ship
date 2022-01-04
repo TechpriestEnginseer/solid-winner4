@@ -1,0 +1,54 @@
+{
+  "hullName": "Gunshield Drone",
+  "hullId": "eis_gunshield",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_gunshield.png",
+  "style": "LOW_TECH",
+  "height": 26,
+  "width": 32,
+  "center": [16, 13],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eis_aegissuite"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [0, 8],
+      "length": 12.322508,
+      "width": 6.373634,
+      "angle": 149.5,
+      "contrailSize": 6.373634,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [0, -8],
+      "length": 12.322508,
+      "width": 6.373634,
+      "angle": -149.5,
+      "contrailSize": 6.373634,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    0.5, -7.5,
+    1.5, -15,
+    11, -0,
+    1.5, 15,
+    0.5, 7.5,
+    -11, -0
+  ]
+}
