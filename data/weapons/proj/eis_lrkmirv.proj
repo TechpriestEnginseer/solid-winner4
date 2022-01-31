@@ -1,0 +1,66 @@
+{
+	"id":"eis_lrkmirv",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/missiles/eis_lunar_rose_missile.png",
+	"size":[12,28],	
+	"center":[6,14],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":125, # purely visual
+	"engineSpec":{"turnAcc":1200,
+				  "turnRate":150,
+				  "acc":250,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[75,145,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":1, # how far away from engine it starts
+						"contrailColor":[140,200,255,150],
+						"glowSizeMult":2,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":12.0,
+				    "length":60.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":1000,
+					"minTimeToSplit":2,
+					"canSplitEarly":true,
+					"splitSound":"hurricane_mirv_fire",
+					"numShots":5,
+					"damage":500,
+					"impact":10,
+					"emp":0,
+					"damageType":KINETIC,
+					"hitpoints":375,
+					"arc":180, #150
+					"arcOffset":180,
+					"evenSpread":true,
+					"spreadSpeed":200, #550 #375
+					"spreadSpeedRange":0,
+					"projectileSpec":"eis_lunar_sabot",
+					#"emptySpec":"type_1_mirv_empty",
+					"smokeSpec":{"particleSizeMin":30.0,
+								 "particleSizeRange":30.0,
+								 "cloudParticleCount":15,
+								 "cloudDuration":1.0,
+								 "cloudRadius":20.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[225,225,255,200]}
+					}				    
+}

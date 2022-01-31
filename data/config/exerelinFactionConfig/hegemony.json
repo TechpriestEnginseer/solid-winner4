@@ -1,0 +1,8 @@
+{
+	"dispositions":{
+		"ironshell": 25,
+	},
+	"minRelationships":{
+		"hegemony": 0.251,
+	},
+}

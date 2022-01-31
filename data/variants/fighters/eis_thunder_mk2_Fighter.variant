@@ -1,0 +1,29 @@
+{
+	"quality":1,
+	"displayName":"Paralyzer",
+	"hullId":"eis_thunder_mk2",
+	"variantId":"eis_thunder_mk2_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"ioncannon_fighter",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 002":"ioncannon_fighter",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 003":"lightmg",
+		 		   },
+		},
+	],
+}

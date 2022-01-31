@@ -1,0 +1,31 @@
+{
+  "variantId": "eis_broadsword_Fighter",
+  "hullId": "eis_broadsword",
+  "displayName": "Heavy Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "lightdualmg",
+        "WS 002": "lightdualmg",
+      }
+    },
+    #{
+    #  "autofire": false,
+    #  "mode": "ALTERNATING",
+      #"weapons": {
+	    #"WS 003": "vulcan",
+        #"WS 004": "vulcan",
+	#	}
+    #}
+  ],
+  "modules": [],
+  "wings": []
+}

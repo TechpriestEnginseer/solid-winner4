@@ -1,0 +1,24 @@
+{
+  "variantId": "eis_warthog_Fighter",
+  "hullId": "eis_warthog",
+  "displayName": "Fire Support",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      #"autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        #"WS 001": "swarmer_fighter",
+        #"WS 002": "eis_acg",
+        "WS 003": "eis_arbalest"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

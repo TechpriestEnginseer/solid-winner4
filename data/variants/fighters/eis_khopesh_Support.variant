@@ -1,0 +1,27 @@
+{
+	"quality":0.5,
+	"displayName":"Missile Support",
+	"hullId":"eis_khopesh",
+	"variantId":"eis_khopesh_Support",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			#"WS 001":"vulcan",
+		 			#"WS 002":"vulcan",
+		 			"WS 003":"eis_annihilatorpod",
+		 			"WS 004":"eis_annihilatorpod",
+		 		   },
+		},
+		{"mode":"LINKED",
+		"weapons":{
+					#"WS 002":"vulcan",
+		 			#"WS 003":"lightag",
+		 		   },
+		},
+	],
+}

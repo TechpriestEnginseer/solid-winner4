@@ -1,0 +1,24 @@
+{
+	"id":"eis_damper",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.eis_unbreakable",
+	#"aiType":"TARGETING_FEED",
+
+	"statsScript":"data.scripts.shipsystems.eis_damper",
+	
+	"shieldRingColor":[255,165,90,55],
+	"shieldInnerColor":[255,165,90,155],
+	"shieldThicknessMult":1,
+	"shieldFluctuationMult":0,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

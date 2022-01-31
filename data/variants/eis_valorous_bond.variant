@@ -1,0 +1,30 @@
+{
+    "displayName": "Sniper",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "eis_valorous",
+    "hullMods": [
+        "hardened_subsystems",
+        "eis_aquila",
+        "fluxcoil"
+    ],
+    "permaMods": ["eis_aquila"],
+    "sMods": ["eis_aquila"],
+    "variantId": "eis_valorous_bond",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavymauler",
+                "WS0002": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "railgun"}
+        }
+    ],
+    "wings": []
+}

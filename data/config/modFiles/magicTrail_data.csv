@@ -1,0 +1,6 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,randomTextureOffset,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+eis_barretta_trail1,eis_barretta_shot,base_trail_zapWithCore,10,0,0,0.5,12,3,"[255,150,80]","[255,114,229]",0.5,128,0,TRUE,20,0,1,TRUE,FALSE,TRUE,15,50,0.6,0,0,200,true,false
+eis_barretta_trail2,eis_barretta_shot,base_trail_smooth,10,0,0,1.8,20,60,"[255,150,80]","[255,114,229]",0.1,128,0,TRUE,20,2,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,false
+eis_barretta_trail3,eis_barretta_shot,base_trail_smooth,10,0,0.05,0.1,10,2,"[255,255,255]","[255,255,255]",1,128,0,TRUE,20,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,false
+eis_barretta_trail4,eis_barretta_shot,base_trail_smooth,10,0,0,0.2,40,5,"[255,110,80]","[255,110,80]",0.5,512,0,TRUE,20,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,true,false
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,18 @@
+{
+	"id":"eis_taste_vengeance",
+	"type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.scripts.shipsystems.ai.eis_myironstandseternal",
+	
+	"statsScript":"data.scripts.shipsystems.eis_taste_vengeance",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_vengeance",
+	"loopSound":"system_vengeance_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
+
+
+
+

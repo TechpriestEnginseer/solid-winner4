@@ -1,0 +1,154 @@
+{
+  "hullName": "Amity (XIV)",
+  "hullId": "eis_amity",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_amity.png",
+  "style": "MIDLINE",
+  "height": 46,
+  "width": 80,
+  "center": [40, 23],
+  "collisionRadius": 42.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 41,
+  "viewOffset": 0,
+  "builtInMods": [
+	"eis_happybirthday"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": 0,
+      "locations": [8, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": 0,
+      "locations": [8, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 65,
+      "angle": 0,
+      "locations": [8, -13]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [14, 25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [14, -25]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": 0,
+      "locations": [15, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 7,
+      "angle": -0,
+      "locations": [15, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 3.5],
+      "length": 25.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-16, -3.5],
+      "length": 25.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-11, 8.5],
+      "length": 21.865177,
+      "width": 6.2973,
+      "angle": 172,
+      "contrailSize": 6.2973,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-11, -8.5],
+      "length": 21.865177,
+      "width": 6.2973,
+      "angle": -172,
+      "contrailSize": 6.2973,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-13, 12.5],
+      "length": 31.387484,
+      "width": 6.95006,
+      "angle": 161,
+      "contrailSize": 6.95006,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-13, -12.5],
+      "length": 31.387484,
+      "width": 6.95006,
+      "angle": -161,
+      "contrailSize": 6.95006,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-9.5, 16],
+      "length": 21.865177,
+      "width": 6.2973,
+      "angle": 146.5,
+      "contrailSize": 6.2973,
+      "style": "EIS_AMITY"
+    },
+    {
+      "location": [-9.5, -16],
+      "length": 21.865177,
+      "width": 6.2973,
+      "angle": -146.5,
+      "contrailSize": 6.2973,
+      "style": "EIS_AMITY"
+    }
+  ],
+  "bounds": [
+    -22, -0,
+    3, 39,
+    19.5, -0,
+    3, -39
+  ]
+}
