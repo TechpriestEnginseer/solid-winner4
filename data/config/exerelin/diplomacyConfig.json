@@ -1,0 +1,15 @@
+{
+	"events":[
+		{
+			"name":"Baked Goods",
+			"stage":"eis_baked_goods",
+			"random":true,
+			"minRepChange":0.1,
+			"maxRepChange":0.2,
+			"allowedFactions1":["ironshell", "hegemony"],
+			"allowedFactions2":["uaf"],
+			"chance":1,
+			"desc":"Popular luxury food from $theOtherFaction have gained a strong following $onOrAt $market, leading to $faction in strengthening cultural ties with $theOtherFaction.",
+		},
+	]
+}

@@ -1,0 +1,74 @@
+{
+  "hullName": "Xyphos (XIV)",
+  "hullId": "eis_xyphos",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_xyphos.png",
+  "style": "MIDLINE",
+  "height": 52,
+  "width": 38,
+  "center": [19, 17],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux", 
+	"eis_prototypetu"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 6]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-1, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-16, -7],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    10, 17,
+    15, -4,
+    5, -15,
+    -15, -9,
+    -8, 1,
+    -15, 10,
+    -3, 10
+  ]
+}

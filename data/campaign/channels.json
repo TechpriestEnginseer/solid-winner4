@@ -1,0 +1,28 @@
+{
+	"defaultChannels":[
+		"eis_public",
+	],
+	"eis_public":{
+		"name":"Iron Shell Audit News",
+		"logo":"graphics/icons/intel/eis_public.png",
+		"icon":"graphics/icons/intel/eis_public.png",
+		"image":"graphics/factions/ironshell.png",
+		"sound":"ui_channel_news",
+		"faction":"ironshell",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"eis_internal":{
+		"name":"Iron Shell Intelligence",
+		"logo":"graphics/icons/intel/eis_internal.png",
+		"icon":"graphics/icons/intel/eis_internal.png",
+		"image":"graphics/factions/ironshell.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"ironshell",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}
+
+
+

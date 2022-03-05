@@ -1,0 +1,117 @@
+{
+  "hullName": "Gunblade Drone",
+  "hullId": "eis_gunblade",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_gunblade.png",
+  "style": "HIGH_TECH",
+  "height": 24,
+  "width": 30,
+  "center": [15, 11],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 19.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eis_aegissuite",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [13, -4.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [13, 4.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 0,
+      "locations": [9, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, 2.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": 168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-5.5, -2.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": -168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4.5, 3.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": 168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4.5, -3.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": -168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-3.5, 4.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": 168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-3.5, -4.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": -168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2.5, 5.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": 168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2.5, -5.5],
+      "length": 7.604404,
+      "width": 3.11323,
+      "angle": -168.5,
+      "contrailSize": 3.11323,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    10.5, -0,
+    -7, 14,
+    -7, -14
+  ]
+}
