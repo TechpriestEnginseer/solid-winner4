@@ -1,0 +1,31 @@
+{
+  "variantId": "eis_courageous_elite",
+  "hullId": "eis_courageous",
+  "displayName": "Elite",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+  "hullMods": [
+        "heavyarmor",
+        "eis_aquila",
+        "hardenedshieldemitter"
+  ],
+  "permaMods":["eis_aquila"],
+  "sMods": ["eis_aquila"],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightag",
+                "WS0002": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "lightneedler"}
+        }
+    ],
+  "modules": [],
+  "wings": []
+}

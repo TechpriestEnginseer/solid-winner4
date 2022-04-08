@@ -1,0 +1,13 @@
+{
+	"masterVersionFile":"https://raw.githubusercontent.com/TechpriestEnginseer/solid-winner4/master/timid_xiv.version",
+	"modName":"Iron Shell",
+	"modThreadId":18297,
+	"modVersion":
+	{
+		"major":1,
+		"minor":16,
+		#"patch":,
+	},
+	"starsectorVersion":"0.95.1a-RC6",
+	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner4/releases/download/1.16/Iron.Shell.zip",
+}

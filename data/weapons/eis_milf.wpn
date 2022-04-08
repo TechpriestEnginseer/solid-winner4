@@ -1,0 +1,59 @@
+{
+  "id": "eis_milf",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/eis_milf_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/eis_milf_turret_base_glow.png",
+  "hardpointSprite": "graphics/weapons/eis_milf_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/eis_milf_hardpoint_base_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    50,
+    150,
+    185
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    26,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    120,
+    175,
+    185
+  ],
+  "coreColor": [
+    255,
+    205,
+    205,
+    255
+  ],
+  "width": 35,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 500,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "high_intensity_laser_loop",
+  "unaffectedByProjectileSpeedBonuses": false
+}

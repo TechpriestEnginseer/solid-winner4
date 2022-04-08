@@ -1,0 +1,25 @@
+{
+	"quality":1,
+	"displayName":"Bomber",
+	"hullId":"eis_piranha",
+	"variantId":"eis_piranha_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"eis_piranha_reaper",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			#"WS 002":"eis_piranha_reaper",
+		 			#"WS 002":"vulcan",
+		 		   },
+		},
+	],
+}

@@ -1,0 +1,41 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+    "hullId": "eis_flagellator",
+	"goalVariant": true,
+    "hullMods": [
+        "safetyoverrides",
+		"reinforcedhull",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_flagellator_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "chaingun",
+                "WS0002": "chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightdualac",
+                "WS0004": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lightdualmg",
+                "WS0009": "lightdualmg"
+            }
+        }
+    ],
+    "wings": ["eis_mining_drone_wing"]
+}

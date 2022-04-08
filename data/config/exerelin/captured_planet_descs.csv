@@ -1,0 +1,26 @@
+id,entity,faction,desc id,default
+chitagupta_default,eis_chitagupta,ironshell,planet_chitagupta_ironshell,TRUE
+yami_default,eis_yami,ironshell,planet_yami_ironshell,TRUE
+chitagupta_ironshell,eis_chitagupta,ironshell,planet_chitagupta_ironshell,
+yami_ironshell,eis_yami,ironshell,planet_yami_ironshell,
+,,,,
+chitagupta_hegemony,eis_chitagupta,hegemony,planet_chitagupta_hegemony,
+chitagupta_independent,eis_chitagupta,independent,planet_chitagupta_independent,
+chitagupta_luddic_church,eis_chitagupta,luddic_church,planet_chitagupta_luddic_church,
+chitagupta_luddic_path,eis_chitagupta,luddic_path,planet_chitagupta_luddic_path,
+chitagupta_persean,eis_chitagupta,persean,planet_chitagupta_persean,
+chitagupta_pirates,eis_chitagupta,pirates,planet_chitagupta_pirates,
+chitagupta_sindrian_diktat,eis_chitagupta,sindrian_diktat,planet_chitagupta_sindrian_diktat,
+chitagupta_tritachyon,eis_chitagupta,tritachyon,planet_chitagupta_tritachyon,
+,,,,
+yami_hegemony,eis_yami,hegemony,planet_yami_hegemony,
+yami_independent,eis_yami,independent,planet_yami_independent,
+yami_luddic_church,eis_yami,luddic_church,planet_yami_luddic_church,
+yami_luddic_path,eis_yami,luddic_path,planet_yami_luddic_path,
+yami_persean,eis_yami,persean,planet_yami_persean,
+yami_pirates,eis_yami,pirates,planet_yami_pirates,
+yami_sindrian_diktat,eis_yami,sindrian_diktat,planet_yami_sindrian_diktat,
+yami_tritachyon,eis_yami,tritachyon,planet_yami_tritachyon,
+,,,,
+hanan_pacha_default,hanan_pacha,,TRUE
+hanan_pacha_ironshell,hanan_pacha,ironshell,planet_hanan_pacha_ironshell,

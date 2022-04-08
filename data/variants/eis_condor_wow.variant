@@ -1,0 +1,30 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "condor",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_condor_wow",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "pilum"}
+        }
+    ],
+    "wings": [
+        "eis_mining_drone_wing",
+        "eis_mining_drone_wing"
+    ]
+}

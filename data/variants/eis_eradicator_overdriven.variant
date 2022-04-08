@@ -1,0 +1,52 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "hullId": "eis_eradicator",
+    "hullMods": ["safetyoverrides"],
+	"goalVariant": true,
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_eradicator_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+				"WS 000": "reaper",
+                "WS 001": "reaper",
+                "WS 002": "reaper",
+                "WS 003": "reaper",
+                "WS 004": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "heavymauler",
+                "WS 006": "heavymauler",
+                "WS 007": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "lightdualac",
+                "WS 010": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 011": "vulcan",
+                "WS 012": "vulcan",
+                "WS 013": "vulcan",
+                "WS 014": "vulcan"
+            }
+        }
+    ]
+}

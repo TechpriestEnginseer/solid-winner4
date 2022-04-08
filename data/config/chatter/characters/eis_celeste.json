@@ -1,0 +1,101 @@
+{
+	"name":"Caeda Celeste",
+	"personalities":["cautious", "steady"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":0.75,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Shall we?"},
+			{"text":"Moving out."},
+			{"text":"Systems green."},
+			{"text":"Moving to engage."},
+			{"text":"Incoming hostiles."},
+			{"text":"Commencing analysis."},
+			{"text":"What a waste of time."},
+			{"text":"This will be over soon."},
+		],
+		"start_boss":[
+			{"text":"You're not strong enough to stop me."},
+			{"text":"Even after the darkest nights, morning always comes."},
+		],
+		"retreat":[
+			{"text":"Retreating."},
+			{"text":"Set the course. We're leaving."},
+		],
+		"out_of_missiles":[
+			{"text":"Out of missiles."},
+			{"text":"Missiles depleted."},
+		],
+
+		"engaged":[
+			{"text":"Vermin."},
+			{"text":"Contact."},
+			{"text":"Suppress them."},
+			{"text":"Enemy engaged."},
+			{"text":"Engaging enemy."},
+			{"text":"I've got a lock."},
+		],
+
+		"need_help":[
+			{"text":"... I'm in trouble here."},
+			{"text":"... Requesting assistance.. please."},
+		],
+
+		"pursuing":[
+			{"text":"Forward."},
+			{"text":"Locked in."},
+			{"text":"Intercepting."},
+			{"text":"Moving to engage."}
+		],
+
+		"running":[
+			{"text":"Breaking."},
+			{"text":"Breaking engagement."},
+		],
+
+		"hull_90":[
+			{"text":"We took a hit."},
+			{"text":"Hull breached."},
+			{"text":"We've taken hull damage."},
+		],
+
+		"hull_50":[
+			{"text":"Damage control."},
+			{"text":"Hull down to 50%."},
+			{"text":"Hull integrity at 50%. Damage control on the way."},
+		],
+
+		"hull_30":[
+			{"text":"Do what you must."},
+			{"text":"Hull status critical."},
+			{"text":"We've got fires spreading."},
+			{"text":"I can't take another hit like that."},
+			{"text":"Hull integrity at 30%. Requesting permission to retreat."},
+			{"text":"Breaches in critical sections. All teams, focus on maintaining combat viability."},
+		],
+
+		"overload":[
+			{"text":"Flux overloaded. Requesting cover.. please?"},
+			{"text":"Flux exceeded capacity. I need cover.. please."},
+		],
+
+		"death":[
+			{"text":"Interesting."},
+			{"text":"Impressive."},
+			{"text":"So it goes."},
+		],
+		"victory":[
+			{"text":"That's it?"},
+			{"text":"All clear."},
+			{"text":"It's over."},
+			{"text":"Naturally."},
+			{"text":"Predictable."},
+			{"text":"Enemy is retreating."},
+			{"text":"Running will only delay the inevitable."},
+			{"text":"Nothing beside remains round the decay."},
+		],
+	}
+}

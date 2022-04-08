@@ -1,0 +1,12 @@
+{
+	"industries":{
+		"eis_bureau":{
+			"tags":["resistBombard"],
+			"strengthMult":1.2,
+			"troopCounts":{
+				"marine":0.2,
+				"heavy":0.1,
+			},
+		},
+	},
+}
