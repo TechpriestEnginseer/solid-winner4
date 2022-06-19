@@ -1,0 +1,213 @@
+{
+  "hullName": "Mora (XIV)",
+  "hullId": "eis_mora",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/eis_mora.png",
+  "style": "LOW_TECH",
+  "height": 192,
+  "width": 242,
+  "center": [124, 88],
+  "collisionRadius": 150,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 140,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+	"ballistic_rangefinder"
+  ],
+  "builtInWeapons": {
+    "WS0004": "eis_deco_mora_lights"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "COMPOSITE", #MISSILE
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": 0,
+      "locations": [87, -24],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -50,
+      "locations": [28, -71],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -20,
+      "locations": [74, -40],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [57, -66],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 20,
+      "locations": [32, 47],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-52, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS 015",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        43, 15,
+        -34, 30,
+        -50, -8,
+        56, 28
+      ]
+    },
+    {
+      "id": "WS 016",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -47, 39,
+        33, 27,
+        78, 3,
+        55, 3
+      ]
+    },
+    {
+      "id": "WS 017",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": 0,
+      "locations": [
+        -35, -4,
+        -48, 26,
+        66, 16,
+        27, 7
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -20,
+      "locations": [8, -26],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [55, 70],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [64, 46],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-40, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -69],
+      "length": 112,
+      "width": 35,
+      "angle": -180,
+      "contrailSize": 35,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, 75],
+      "length": 112,
+      "width": 35,
+      "angle": -180,
+      "contrailSize": 35,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    89, -14.5,
+    100, -39,
+    71, -57.5,
+    62.5, -77,
+    83, -84.5,
+    17, -115,
+    -10, -116,
+    -22.5, -103,
+    -60, -89,
+    -59, -60,
+    -43, -47.5,
+    -85, -36.5,
+    -70, -22,
+    -55, -21.5,
+    -56, 29,
+    -73, 29.5,
+    -85, 43.5,
+    -43, 53,
+    -59, 64.5,
+    -60, 95,
+    -22.5, 107,
+    -10.5, 122,
+    17, 121,
+    83, 91,
+    77, 82,
+    65, 79.5,
+    74, 37,
+    89, 27,
+    68, 5
+  ]
+}

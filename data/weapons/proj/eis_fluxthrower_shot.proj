@@ -1,0 +1,20 @@
+{
+	"id":"eis_fluxthrower_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.eis_CryofluxTransducerEffect",
+	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"width":80.0,
+	"hitGlowRadius":0,
+	"fadeTime":0.25,
+	"fringeColor":[245,174,235,100],
+	"coreColor":[223,128,210,15],
+	#"coreColor":[20,255,255,50],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+	
+}

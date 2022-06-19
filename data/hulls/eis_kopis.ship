@@ -1,0 +1,55 @@
+{
+  "hullName": "Kopis (XIV)",
+  "hullId": "eis_kopis",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_kopis.png",
+  "style": "MIDLINE",
+  "height": 32,
+  "width": 28,
+  "center": [14, 12],
+  "collisionRadius": 20,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [6, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 3.5],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9.5, -3.5],
+      "length": 16,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    19, 1,
+    7, 11,
+    -2, 13,
+    -9, 5,
+    -9, -3,
+    -1, -11,
+    7, -9
+  ]
+}

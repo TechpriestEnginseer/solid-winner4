@@ -1,0 +1,51 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 6, #30
+    "fluxVents": 30,
+    "hullId": "eis_vengeance",
+	"goalVariant": true,
+    "hullMods": [
+        "eis_aquila",
+        "hardenedshieldemitter"
+    ],
+    #"permaMods": ["eis_aquila"],
+    #"sMods": ["eis_aquila"],
+    "variantId": "eis_vengeance_elite",
+   "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "mjolnir"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "sabot",
+                "WS0004": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "hveldriver"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0002": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "eis_warthog_wing",
+        "eis_khopesh_wing"
+    ]
+}

@@ -1,0 +1,182 @@
+{
+	"eis_ironshell":{
+		"eis_greaterhegemony":"Greater Hegemony",
+		"eis_greaterhegemony_annul":"Your actions have consequences. Recent hostilities against the Greater Hegemony has caused your commissioned to be annulled.",
+		
+		"eis_RAFTitle":"Rapid Ammo Feeder",
+		"eis_RAFText1":"• Increases rate of fire of ballistic weapons by %s",
+		"eis_RAFText2":"• Decreases flux generation of ballistic weapons by %s",
+		"eis_RAFText3":"• Increases reload speed of ballistic weapons by %s",
+		"eis_RAFText4":"• Always active",
+		"eis_lungeTitle":"Zandatsu Lunge",
+		"eis_lungeText1":"• Brief, massive boost to speed and acceleration, allowing the ship to lunge in any direction",
+		"eis_lungeText2":"• More efficient when lunging laterally",
+		"eis_lungeText3":"• Built-in AI assist activates for %s second, allowing the ship to dodge through other ships and weapon fire",
+		"eis_lungeText4":"• Maneuverability boosted by %s for %s second after lunge ends",
+		"eis_parryTitle":"Zandatsu Parry",
+		"eis_parryText1":"• %s SU radius",
+		"eis_parryText2":"• Increases shield efficiency by %s for %s seconds",
+		"eis_parryText3b":"• Doubles effect of %s for %s seconds",
+		#"eis_parryText3":"• Increases rate of fire of ballistic weapons by an additional %s for %s seconds",
+		"eis_parryText4":"• System Regeneration Bonus are %s less effective",
+		"eis_zandatsuText":"Installing %s will add %s max charge, %s flux capacity, %s flux dissipation, %s armor, and %s top speed",
+		
+		"eis_vengeanceParagraph":"When activated, the ship system unleashes a powerful concussive blast that reflects nearby missiles. Successfully reflecting a missile supercharges the ship's Vengeance Core, improving shield efficiency. Failing to reflect anything will result in disruption of the core's systems, massively increasing shield damage received and doubling the shield arc.",
+		"eis_vengeanceParagraphShunted":"When activated, the ship system unleashes a powerful concussive blast that reflects nearby missiles. Successfully reflecting a missile supercharges the ship's Vengeance Core, improving shield efficiency. Failing to reflect anything will result in disruption of the core's systems, massively increasing shield damage received and doubling the shield arc.",
+		"eis_vengeanceSuccessTitle":"Parry Buff",
+		"eis_vengeanceSuccessText1":"• %s SU radius",
+		"eis_vengeanceSuccessText2":"• Increases shield efficiency by %s for %s seconds",
+		"eis_vengeanceFailTitle":"Disruption Debuff",
+		"eis_vengeanceFailText1":"• Increases shield damage received by %s for %s seconds",
+		"eis_vengeanceFailText2":"• Increases shield arc by %s degrees for %s seconds",
+		"eis_vengeanceFailText3":"• Increases shield unfold rate by %s for %s seconds",
+		"eis_vengeanceRelayTitle":"Vengeance Relay",
+		"eis_vengeanceRelayText1":"• Specialized hardware in the core can also be utilized to boost the combat performance of Audacious-class destroyers within %s SU.",
+		"eis_vengeanceRelayText2":"• Installing %s will add %s flux capacity",
+		
+		"eis_xiv1":"+10% armor and hull modifier when piloting XIV Ships.",
+		"eis_xiv2":"Ignore maneuverability penalty from XIV Ships.",
+		"eis_xiv3":"+10% flux dissipation and capacity when piloting XIV Ships.",
+		
+		"eis_aquaculture_condition1":"%s to food production (Aquaculture)",
+		"eis_aquaculture_condition2":"%s hazard rating",
+		"eis_aquaculture_condition3":"Inadequate Harvest",
+		
+		"eis_aquilaTitle":"Aquila Reactor Protocol",
+		"eis_aquilaText1":"• Increases max speed by %s/%s or %s, whichever is lower",
+		"eis_aquilaText1b":"• Speed bonus for the %s is %s",
+		"eis_aquilaText4b":"• Increase %s/%s damage by %s",
+		"eis_ballistic":"ballistic",
+		"eis_energy":"energy",
+		"eis_aquilaText2":"• Increases flux dissipation rate while venting by %s",
+		"eis_aquilaText3":"• Allows zero-flux engine boost up to %s flux",
+		"eis_aquilaText4d":"• Reduce autofire range of missile weapons to %s",
+		"eis_aquilaText4":"• Decreases peak performance time by %s",
+		"eis_aquilaText4c":"• Decrease engagement range of all wings by %s",
+		"eis_aquilaText5":"Prevents weapon range from exceeding base range.",
+		"eis_aquilaText5a":"Prevents weapon range from exceeding base range. Affects modules.",
+		"eis_aquilaText5b":"A skill or hullmod is attempting to increase the ship's bonus weapon range. This will be blocked.",
+		"eis_aquilaText6":"Can not be installed on civilian ships, frigates, or destroyers.",
+		"eis_aquilaText7":"Precludes use of Safety Overrides.",
+		
+		"eis_vanagloriaTitle":"Vanagloria Ionized Armor",
+		"eis_vanagloriaText12":"• %s/%s/%s armor for damage reduction calculation only",
+		"eis_vanagloriaText1":"• %s armor for damage reduction calculation only",
+		"eis_vanagloriaText1b":"• Effect applies to modules",
+		"eis_vanagloriaText1c":"• Damper is activated by tapping the %s key",
+		"eis_vanagloriaDamperText1":"• When activated, mitigate incoming damage by %s at the cost of disabling defense systems and ship systems for %s seconds",
+		"eis_vanagloriaDamperText3":"• Recharge time is affected by shield efficiency, phase upkeep, or lack of a defensive system",
+		"eis_vanagloriaDamperText3b":"• Recharge time for a %s is %s seconds",
+		"eis_vanagloriaDamperText4":"• S-mod Bonus: Adds an additional %s armor for damage reduction calculation only",
+		"eis_vanagloriaDamperText2":"• Defensive and ship systems disabled while active!",
+		"eis_vanagloriaText6":"Incompatible with Heavy Armor.",
+		"eis_vanagloriaText7":"Can not be installed on civilian ships or frigates.",
+		"eis_vanagloriaStatusTexta":"Press ", #there's an implied Press (%s) here
+		"eis_vanagloriaStatusTextb":" to Use", #same thing here (%s) to Use here used in same line as above.
+		"eis_vanagloriaStatusTextUI1":"Vanagloria",
+		"eis_vanagloriaStatusTextUI2":"% less damage taken",
+		"eis_vanagloriaStatusTextUI3":"Charge ", #Translator Tip: Yes this space at the front is intentional, leave it alone.
+		"eis_vanagloriaStatusTextUI4":"Charge",
+		
+		"eis_avaritiarelayTitle":"Audacious Relay",
+		"eis_avaritiarelayText1":"• %s SU radius",
+		"eis_avaritiarelayText2":"• Increases speed by %s",
+		"eis_avaritiarelayText3":"• Increases shield efficiency by %s",
+		"eis_avaritiarelayText4":"• Increases peak performance time by %s seconds",
+		"eis_avaritiarelayText5":"• Performance boost cannot be refreshed until buff expires after %s seconds",
+		"eis_avaritiarelayText6":"• Installing %s will add %s flux dissipation",
+		"eis_avaritiarelayStatusTitle":"Vengeance Connected",
+		"eis_avaritiarelayStatusText":"Speed/Shield Efficiency",
+		"eis_avaritiarelayStatusText2":"Speed",
+		"eis_avaritiarelayStatusText3":"Increased PPT ", #Translator Tip: Yes this space at the front is intentional, leave it alone.
+		
+		
+		"eis_avaritiaTitle":"Avaritia Capacitor Overhaul",
+		"eis_avaritiaText1":"• Active venting removes %s of flux capacity and is then automatically cancelled",
+		"eis_avaritiaText4":"• Active venting will also removes hard flux first before soft flux",
+		"eis_avaritiaText2":"• Raises flux level to %s if active venting is initiated below %s flux capacity",
+		"eis_avaritiaText5":"• Increases ballistic and energy damage dealt by %s for %s second after venting ends",
+		"eis_avaritiaText6":"• S-mod Bonus: While venting, increases the ship's top speed by %s with a corresponding increase in acceleration and maneuverability. Damage bonus after venting increased to %s",
+		"eis_avaritiaText5b":"Prevents the use of active venting while buffed",
+		"eis_avaritiaApplicableText":"Can not be installed on capital ships or ships with safety overrides.",
+		"eis_avaritiaStatusTitle":"Avaritia Overhaul",
+		"eis_avaritiaStatusText":"improved maneuverability",
+		"eis_avaritiaStatusText2":"% ballistic/energy damage ",
+		"eis_avaritiaStatusTitle2":"Avaritia Ready",
+		"eis_avaritiaStatusText2a":"Vent to remove 50% flux",
+		"eis_avaritiaStatusText2b":" Seconds Remaining", #Translator Tip: Yes this space at the front is intentional, leave it alone.
+		
+		
+		"eis_indeezTitle":"Cramped Hull",
+		"eis_indeezText1":"Simultaneously equipping medium and large missile weapons will result in the following penalties:",
+		"eis_indeezText1b":"• Reduces peak performance time by %s",
+		"eis_indeezText1c":"• Reduces the ammo capacity of missile weapons by %s",
+		"eis_indeezTitle2":"Indomitable Hull",
+		"eis_indeezText1a":"• Increase ram damage by %s",
+		"eis_indeezText1d":"REDUCED PPT/MISSILE CAPACITY",
+		
+		"eis_taste_vengeance1":"VENGEANCE CORE SUPERCHARGED",
+		"eis_taste_vengeance2":"SHIELD STRENGTH BOOSTED: ",
+		"eis_taste_vengeance3":"VENGEANCE CORE CRITICAL",
+		"eis_taste_vengeance4":"SHIELD WEAKENED: ",
+
+		"eis_rampagedrive1":"Engines and Armor boosted",
+		"eis_rampagedrive2":"Reduced weapons rate of fire",
+		"eis_rampagedrive3":"READY",
+		
+		"eis_jump_failed":"CANNOT THRUST",
+		
+		"eis_damper1": "Damper Subfield (Fighter)",
+		"eis_damper2": "% less damage taken",
+		"eis_damper3": "% hard flux dissipation",
+		"eis_damper4": "0 shield upkeep",
+	
+		"eis_highballisticfocus1":"energy weapon damage ", #Translator Tip: Yes this space at the end is intentional, leave it alone.
+		"eis_highballisticfocus2":"ballistic rate of fire",
+		"eis_highballisticfocus3":"ballistic flux use",
+		"eis_highballisticfocus4":"top speed and maneuvering stats",
+	
+		"eis_justatip_title":"Gula Enhancement",
+		"eis_justatip_text0":"If a missile has more than %s base damage:",
+		"eis_justatip_text":"• Missiles become Gula-charged dealing up to an additional %s bonus damage",
+		"eis_justatip_text2":"• %s bonus damage from guided missile",
+		"eis_justatip_text3":"• %s bonus damage from MIRV or multi-staged missiles",
+		"eis_justatip_text7":"• %s bonus damage from reloadable missiles",
+		"eis_justatip_text4":"• Minimum bonus damage is %s",
+		"eis_justatip_text6":"• No bonus damage granted to missiles armed with proximity fuses",
+		"eis_justatip_text5":"• S-mod Bonus: Base damage requirement reduced to %s, bonus damage increased to %s.", #but bonus damage scales off the base damage.",
+		"eis_each":"damage",
+
+		"eis_microforge_title":"Microforge",
+		"eis_microforge_text":"Every %s seconds, forges %s or %s of base ammo count (whichever is higher) for all small missile launchers. Reload progress will pause when the ship is overloaded, venting, or above %s hard flux.",
+		"eis_microforge_status_text":"Reloading halted",
+		
+		"eis_zandatsu":"Ballistic Weaponry Augmented for ",
+		"eis_zandatsu2":"+20% Shield Efficiency For ",
+		"eis_zandatsu3":"+50% Maneuverability For ",
+		
+		
+		"eis_lekhanistation":"Lekhani Station", #Space Station orbiting Chitagupta
+		"eis_ironshellhq":"Underground Iron Shell Presence", #-5 stability when a faction conquer Chitagupta.
+		"eis_ironshellhq2":"Pather Intrigue reduced by %s.", #%s is a number
+		"eis_ironshellhq3":"Reduces the Pather Intrigue by %s.", #%s same number
+		"eis_bbp":"Colony's income increased by %s.", #%s is percentage
+		"eis_bbp_warning":"WARNING: DO NOT REMOVE", #%s is percentage
+		
+		"CHM_ironshell1":"\"Stand inside yourself for an impenetrable shield.\"", #these \ are what makes quotes go in
+		"CHM_ironshell1a":"         — Charlotte Hex",
+		"CHM_ironshell2":"\"Nothing smells fresher and more delightful than a couple of roasted ship in the early mornings.\"",
+		"CHM_ironshell2a":"         — Ava Nitia",
+		"CHM_ironshell3":"\"A laser is made with energy and beams; a weapon is built with ingenuity and fear.\"",
+		"CHM_ironshell3a":"         — Darren Hartley",
+		"CHM_ironshell4":"\"True character is found under pressure.\"",
+		"CHM_ironshell4a":"         — Kim Quy",
+		"CHM_ironshell5":"\"Sustained beam weaponry is boring.\"",
+		"CHM_ironshell5a":"         — Caeda Celeste",
+		"CHM_ironshell6":"\"Knock, Knock.\"",
+		"CHM_ironshell6a":"\"Who's there?\"",
+		"CHM_ironshell6b":"\"Iron.\"",
+		"CHM_ironshell6c":"\"Iron who?\"",
+		"CHM_ironshell6d":"\"Iron Shall collect your taxes!\"",
+	},
+}

@@ -1,0 +1,70 @@
+{
+  "variantId": "eis_endeavor_elite",
+  "hullId": "eis_endeavor",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 50,
+    "hullMods": [
+        "eis_aquila",
+        "eis_damperhull"
+    ],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "eis_barretta"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "atropos",
+                "WS0010": "atropos",
+                "WS0028": "atropos",
+                "WS0029": "atropos"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavyac",
+                "WS0004": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "railgun",
+                "WS0013": "railgun",
+                "WS0014": "railgun",
+                "WS0015": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "dualflak",
+                "WS0002": "dualflak",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "eis_broadsword_wing",
+        "eis_kopis_wing",
+        "eis_kopis_wing"
+    ]
+}

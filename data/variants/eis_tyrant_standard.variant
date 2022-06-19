@@ -1,0 +1,69 @@
+{
+  "variantId": "eis_tyrant_standard",
+  "hullId": "eis_tyrant",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 50,
+  "hullMods": [
+	"eis_damperhull",
+  ],
+  "permaMods": [],
+  "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0019": "eis_fluxthrower"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "typhoon",
+                "WS0011": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0015": "salamanderpod",
+                "WS0016": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "gauss",
+                "WS0021": "gauss"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "vulcan",
+                "WS0002t": "vulcan",
+                "WS0003": "vulcan",
+                "WS0004": "vulcan",
+                "WS0005": "vulcan",
+                "WS0006": "vulcan",
+                "WS0007": "vulcan",
+                "WS0008": "vulcan",
+                "WS0009": "vulcan",
+                "WS0012": "dualflak",
+                "WS0017": "dualflak",
+                "WS0018": "flak"
+            }
+        }
+    ],
+    "wings": [
+        "eis_amity_wing",
+        "eis_amity_wing"
+    ],
+  "modules": [
+        {"TL": "eis_tyrant_tl_standard"},
+        {"TR": "eis_tyrant_tr_standard"},
+  ],
+}

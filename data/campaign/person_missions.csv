@@ -1,0 +1,11 @@
+mission id,person id,tagsAll,tagsAny,tagsNotAny,tags,freq,min timeout,max timeout,min rep,max rep,importance,reqMissionAny,reqMissionAll,reqMissionNone,icon,plugin
+eis_cpc,,ironshell,"eis_celeste, eis_military",,,10,30,60,FRIENDLY,,,,,,graphics/icons/missions/custom_production.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISCustomProductionContract
+eis_sShip,,ironshell,"eis_celeste, eis_military, military",,,10,30,60,WELCOMING,,,,,,,com.fs.starfarer.api.impl.campaign.rulecmd.EISSurplusShipHull
+eis_ddro,,ironshell,"eis_celeste, eis_military",,,10,30,60,NEUTRAL,,,,,,graphics/icons/missions/dead_drop.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISDeadDropMission
+eis_psb,,ironshell,"eis_military, military",,,10,30,60,NEUTRAL,,,,,,graphics/icons/missions/pirate_system_bounty.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISPirateSystemBounty
+eis_ssat,,ironshell,"eis_celeste, eis_military, military",,,10,30,60,NEUTRAL,,,,,,graphics/icons/missions/spysat.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISSpySatDeployment
+eis_extr,,ironshell,eis_military,,,20,30,60,WELCOMING,,,,,,graphics/icons/missions/extraction.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISExtractionMission
+eis_mcb,,ironshell,"eis_military, military",,priority,10,30,60,WELCOMING,,,,,,graphics/icons/missions/military_bounty.png,com.fs.starfarer.api.impl.campaign.missions.cb.EISMilitaryCustomBounty
+eis_celestecb,,ironshell,eis_celeste ,,priority,10,30,60,WELCOMING,,,,,,graphics/icons/missions/military_bounty.png,com.fs.starfarer.api.impl.campaign.missions.cb.EISCMilitaryCustomBounty
+eis_sitm,,ironshell,"eis_celeste, eis_military, military",,,10,30,60,FRIENDLY,,,,,,graphics/icons/missions/blueprint_location.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISBlueprintIntel
+eis_Com,,ironshell,"eis_military, military, trade",,,10,30,60,FAVORABLE,,,,,,graphics/icons/missions/cheap_commodity.png,com.fs.starfarer.api.impl.campaign.rulecmd.EISCheapCommodityMission
