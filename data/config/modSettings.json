@@ -1,0 +1,24 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{ #additive/subtractive, not multiplier
+			"eis_mining_drone": -7,
+		},
+    },
+	
+    "chatter":{
+		"factionRoundels":{
+			"ironshell":"graphics/factions/roundel_ironshell.png",
+		},
+    },
+	
+	"AdvancedGunneryControl":{
+        "suggestedWeaponTags": {
+			"eis_fluxthrower":"Hold(Flx<50%),Panic(H<80%)",
+            "eis_superheavy_needler" :"TargetShields,Hold(Flx>90%)",
+            "eis_infernal_star":"Hold(Flx>90%)",
+            "eis_lunarrose":"TargetShields",
+            "eis_milf":"AvoidShields,Hold(Flx>75%)",
+          },
+    }
+	
+}

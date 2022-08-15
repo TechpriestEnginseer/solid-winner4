@@ -1,0 +1,22 @@
+{
+	"eis_military":{
+		"name":"Military", #Uhhh totally better military missions :^)
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":10,
+	},
+	"eis_irs":{
+		"name":"IRS", #What did he mean by this?
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":31,
+	},
+	"eis_celeste":{
+		"name":"House Celeste",
+		"putFirst":true,
+		"sort":39,
+	},
+}
+
+
+

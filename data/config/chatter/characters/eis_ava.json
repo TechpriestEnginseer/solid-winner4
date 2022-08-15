@@ -1,0 +1,79 @@
+{
+	"name":"Ava Nitia",
+	"personalities":["reckless", "aggressive"],
+	"gender":["f"],
+	"chance":1,
+	"talkativeness":1.5,
+	"categoryTags":["original"],
+	
+	"lines":{
+		"start":[
+			{"text":"Let me finish this cup of coffee."},
+			{"text":"You're under my direct control, prepare to die."},
+			{"text":"Another battle, more loot for us."},
+			{"text":"Enemies burning in? Let them come."},
+		],
+		"start_boss":[
+			{"text":"A big enemy, huh. Doesn't matter. They always die."},
+			{"text":"Well, well, well. It is time to make things go boom."},
+			{"text":"Ready the missiles, we have a tough guy here."},
+		],
+		"retreat":[
+			{"text":"Retreat they say, just kill the enemy damnit!"},
+			{"text":"We are retreating? Who authorised that?"},
+			{"text":"Tactical retreat, eat your vitamins next time."},
+		],
+		"out_of_missiles":[
+			{"text":"Already?! I want more..."},
+			{"text":"I need more missiles."},
+			{"text":"Worth it."},
+		],
+		"need_help":[
+			{"text":"I need assistance here, hurry up."},
+			{"text":"Need help, yes, this is included in the contract."},
+			{"text":"Yes, yes, requesting support immediately."},		
+		],
+		"engaged":[
+			{"text":"Murdertime~"},
+			{"text":"Start firing!"},
+			{"text":"Target locked! Firing for effect!"},
+			{"text":"Play my favourite tune, will you?"},
+		],
+		"pursuing":[
+			{"text":"Move faster, don't let them get away!"},
+			{"text":"Full speed ahead, disable shield generator!"},
+		],
+		"running":[
+			{"text":"Fall back! It's not worth it."},
+			{"text":"Reverse course! Get the ship out of here."},
+		],
+		"hull_90":[
+			{"text":"Insignificant damage, proceed as usual."},
+			{"text":"Look, they can actually shoot at moving target."},
+		],
+		"hull_50":[
+			{"text":"Might have to be more cautious. Ships are expensive after all."},
+			{"text":"Sit down and keep shooting."},
+			{"text":"Just press 'Ignore Errors' button and continue the engagement."},
+		],
+		"hull_30":[
+			{"text":"Well, might as well drink the rest of the bottle."},
+			{"text":"Yes, yes, we're almost dead. Now shut up."},
+			{"text":"Hey, blowing up coffee machines isn't fair."},
+		],
+		"overload":[
+			{"text":"They are going to send a fuckton of missiles now, don't they?"},
+			{"text":"Sigh. Order nearby ships to cover us."},
+			{"text":"Damn you and your weapons."},
+		],
+		"death":[
+			{"text":"I'm Fucking Invincible."},
+			{"text":"Well, that was fun."},
+		],
+		"victory":[
+			{"text":"That was a good show."},
+			{"text":"I swear they all suck."},
+			{"text":"I want my payout immediately."},
+		],
+	}
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "eis_vanguard_xiv",
+	#"goalVariant": true,
+    "hullMods": [
+        "heavyarmor",
+        "missleracks",
+        "reinforcedhull",
+        "armoredweapons",
+        "insulatedengine",
+        "fluxbreakers"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_vanguard_xiv_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "railgun",
+                "WS 006": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "atropos",
+                "WS 001": "atropos",
+                "WS 002": "atropos"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "lightmortar"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg"
+            }
+        }
+    ]
+}

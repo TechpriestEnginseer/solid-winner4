@@ -1,0 +1,36 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 20,
+    "hullId": "eis_flagellator",
+	"goalVariant": true,
+    "hullMods": [
+        "reinforcedhull",
+        "armoredweapons",
+        "insulatedengine"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_flagellator_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "railgun",
+                "WS0004": "railgun",
+                "WS0008": "lightneedler",
+                "WS0009": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "eis_celestials_aster",
+                "WS0002": "eis_celestials_aster"
+            }
+        }
+    ],
+    "wings": ["eis_gladius_wing"]
+}

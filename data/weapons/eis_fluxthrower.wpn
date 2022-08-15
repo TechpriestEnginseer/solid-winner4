@@ -1,0 +1,32 @@
+{
+  "id": "eis_fluxthrower",
+  "specClass": "projectile",
+  "projectileSpecId": "eis_fluxthrower_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.eis_fluxthrower",
+  "turretSprite": "graphics/weapons/eis_fluxthrower.png",
+  "hardpointSprite": "graphics/weapons/eis_fluxthrower.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [223,128,210,255],
+  "turretOffsets": [
+    33,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    51,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "noImpactSounds": true,
+  "unaffectedByProjectileSpeedBonuses": true
+}

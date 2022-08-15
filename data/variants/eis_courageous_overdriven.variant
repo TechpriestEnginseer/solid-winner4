@@ -1,0 +1,27 @@
+{
+  "variantId": "eis_courageous_overdriven",
+  "hullId": "eis_courageous",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["safetyoverrides", "hardened_subsystems"],
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightdualac",
+                "WS0002": "lightdualac"
+            }
+        }
+    ],
+    "wings": []
+}

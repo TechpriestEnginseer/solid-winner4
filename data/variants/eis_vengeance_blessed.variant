@@ -1,0 +1,48 @@
+{
+    "displayName": "Blessed",
+    "fluxCapacitors": 19,
+    "fluxVents": 30,
+    "hullId": "eis_vengeance",
+	"goalVariant": true,
+    "hullMods": [
+        "hardenedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "eis_vengeance_blessed",
+	"weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "eis_celestials_blossom"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heavymauler",
+                "WS0006": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightac",
+                "WS0002": "lightac"
+            }
+        }
+    ],
+    "wings": [
+        "eis_thunder_wing",
+        "eis_thunder_mk2_wing"
+    ]
+}

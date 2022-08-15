@@ -1,0 +1,52 @@
+{
+  "hullName": "Mining Pod (H)",
+  "hullId": "eis_mining_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_mining_pod.png",
+  "style": "LOW_TECH",
+  "height": 27,
+  "width": 32,
+  "center": [16, 12],
+  "collisionRadius": 24,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eis_mining",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 64,
+      "angle": 0,
+      "locations": [2, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 9],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, -9],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    12, 11,
+    -10, 14,
+    -9, -13,
+    7, -10
+  ]
+}

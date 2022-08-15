@@ -1,0 +1,29 @@
+{
+  "variantId": "eis_xyphos_Fighter",
+  "hullId": "eis_xyphos",
+  "displayName": "Support Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": ["eis_prototypetu"],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "eis_deva_f",
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+		"WS 002": "lightag" #vulcan
+	  }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

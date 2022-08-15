@@ -1,0 +1,66 @@
+{
+  "id": "eis_superheavy_needler",
+  "specClass": "projectile",
+  "projectileSpecId": "heavyneedler_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/eis_superheavy_needler_turret_base.png",
+  "turretGunSprite": "graphics/weapons/eis_superheavy_needler_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/eis_superheavy_needler_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/eis_superheavy_needler_hardpoint_recoil.png",
+  "specialWeaponGlowHeight": 30,
+  "specialWeaponGlowWidth": 10,
+  "visualRecoil": 3,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    33.5,
+    -3,
+    33.5,
+    3,
+    33,
+    9,
+    33,
+    -9
+  ],
+  "turretAngleOffsets": [
+    -0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40.5,
+    -6,
+    40.5,
+    6,
+    39,
+    -12,
+    39,
+    12
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 0,
+    "particleSizeMin": 7,
+    "particleSizeRange": 7,
+    "particleDuration": 0.2,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      255,
+      255,
+      175
+    ]
+  },
+  "fireSoundTwo": "needler_fire"
+}

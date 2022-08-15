@@ -1,0 +1,13 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Revengeance,eis_taste_vengeance,1,,,,,0.05,,,,0,0.5,9.5,,,,,,,,,,,,,,graphics/icons/hullsys/damper_field.png
+Revengeance,eis_damned_vengeance,1,,,,,0.05,,,,0,0.5,9.5,,,,,,,,,,,,,restricted,graphics/icons/hullsys/damper_field.png
+Zandatsu,eis_zandatsu,1,,,,,0.05,,2,0.2,0.05,0.05,1,,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Zandatsu,eis_zandatsu2,1,,,,,0.05,,2,0.2,0.05,0.05,1,,,,,,,,,,,,,restricted,graphics/icons/hullsys/burn_drive.png
+Jump Thruster,eis_jump,,,,,,,,1,0.13,0.25,0.25,1,1,,,,TRUE,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+Annihilation Protocol,eis_highballisticfocus,1,,,,,,,1,0.07,0.5,5,0.5,,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Micro Burn,eis_microburn,1,,,,,,,2,0.1,0.5,0.5,0.5,,,,,,,,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+Rampage Drive,eis_rampagedrive,1,,,,,,,2,0.07,0.5,1.5,1.5,2.5,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Rampage Drive,eis_rampagedrive2,1,,,,,,,1,0.07,0.5,1.5,1.5,2.5,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,restricted,graphics/icons/hullsys/burn_drive.png
+Second Wind,eis_secondwind,,,,,,,,1,0.05,1,0,0,0,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Damper Subfield,eis_damper,,,,,,,,2,0.05,0.25,6,0.25,,,,,,,,,,,,,,graphics/icons/hullsys/damper_field.png
+Stormbringer,eis_drone_strike,,,,,,,,,,0,0.05,0.2,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png

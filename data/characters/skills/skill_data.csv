@@ -1,0 +1,2 @@
+id,name,order,tier,description,author,combat officer,admiral,admin,tags,icon
+eis_xiv,Iron Heritage,10014,0,Never forget who we once were.,Charlotte Hex,TRUE,,,"npc_only, deprecated",graphics/icons/skills/eis_xiv.png

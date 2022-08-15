@@ -1,0 +1,49 @@
+{
+  "id": "eis_annihilatorlauncher",
+  "specClass": "projectile",
+  "projectileSpecId": "eis_annihilator_screen",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/launcher_annihilator_turret_base.png",
+  "hardpointSprite": "graphics/weapons/launcher_annihilator_hardpoint_base.png",
+  "turretOffsets": [
+    5,
+    -3,
+    5,
+    3,
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+  ],
+  "hardpointOffsets": [
+    8,
+    3,
+    8,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+	0,
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 2, #5
+    "particleSizeRange": 4, #7
+    "cloudParticleCount": 2, #1
+    "cloudDuration": 0.75, #1.5
+    "cloudRadius": 8, #12
+    "blowbackParticleCount": 1, #2
+    "blowbackDuration": 0.45,
+    "blowbackLength": 20,
+    "blowbackSpread": 6,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "annihilator_fire"
+}

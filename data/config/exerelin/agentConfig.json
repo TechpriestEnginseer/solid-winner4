@@ -1,0 +1,8 @@
+{
+	"industrySuccessMods":{
+		"eis_bureau":-0.25,
+	},
+	"industryDetectionMods":{
+		"eis_bureau":0.5,
+	},
+}

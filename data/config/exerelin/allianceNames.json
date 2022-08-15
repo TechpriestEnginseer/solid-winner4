@@ -1,0 +1,21 @@
+{
+	"staticNames":{
+		"ironshell":{
+			"hegemony":["Greater Hegemony"],
+			"vic":["Greater Hegemony"],
+			"luddic_church":["Golden Federation"],
+			"luddic_path":["Zealous Federation"],
+			"persean":["United Galactic Nations"],
+			"sindrian_diktat":["Core Union"],
+			"tritachyon":["Advancement Foundation"],
+			"independent":["Domain Defense Pact"],
+			"pirates":["Emergency Council"],
+			"player":["Eternal Iron"],
+			#"player":["Greater Hegemony"], Not needed anymore? #apparently commissioned does this weird thing...
+		},
+		"hegemony":{
+			"ironshell":["Greater Hegemony"],
+			#"player":["Greater Hegemony"], Not needed anymore? #i suppose in case the player ever wanted to propose an alliance with Hegemony...
+		},
+	},
+}

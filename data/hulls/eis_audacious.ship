@@ -1,0 +1,146 @@
+{
+  "hullName": "Audacious (XIV)",
+  "hullId": "eis_audacious",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/eis_audacious.png",
+  "style": "LOW_TECH",
+  "coversColor": "255,255,255,255",
+  "height": 221,
+  "width": 160,
+  "center": [80, 127],
+  "collisionRadius": 130,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 128.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+    "eis_vengeance2"
+  ],
+  "builtInWeapons": {
+    "WS0001": "eis_deco_audacious_front",
+	"WS0002": "eis_deco_audacious_back",
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [60, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [40, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [83, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [83, 16]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [50, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-78.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -180,
+      "locations": [-27, 0]
+    },
+  ],
+  "engineSlots": [
+    {
+      "location": [-85, 11.5],
+      "length": 75,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-85, -10.5],
+      "length": 75,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 80,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, 24.5],
+      "length": 55,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 80,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81, -23.5],
+      "length": 55,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 80,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    94, -24,
+    60, -36,
+    19, -77,
+    -3, -53,
+    -30, -56,
+    -2.5, -30.5,
+    -74, -45,
+    -96, -33,
+    -82, -30,
+    -87, -9,
+    -126, -0,
+    -87, 9,
+    -82, 30,
+    -96, 33,
+    -74, 45,
+    -2.5, 30.5,
+    -30, 56,
+    -3, 53,
+    19, 77,
+    60, 36,
+    94, 24,
+    65, -0
+  ]
+}

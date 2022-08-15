@@ -1,0 +1,30 @@
+{
+  "variantId": "eis_peacekeeper_Superiority",
+  "hullId": "eis_peacekeeper",
+  "displayName": "Superiority Superfighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "eis_deva_f"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "eis_aphelion_swarmer",
+        "WS 004": "eis_aphelion_swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
