@@ -6,8 +6,8 @@
 	{
 		"major":1,
 		"minor":18,
-		#"patch":,
+		"patch":1,
 	},
 	"starsectorVersion":"0.95.1a-RC6",
-	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner4/releases/download/1.18/Iron.Shell.zip",
+	"directDownloadURL":"https://github.com/TechpriestEnginseer/solid-winner4/releases/download/1.181/Iron.Shell.zip",
 }

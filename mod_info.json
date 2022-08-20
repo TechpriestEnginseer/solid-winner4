@@ -3,7 +3,7 @@
     "name": "Iron Shell",
     "author": "Techpriest & Selkie",
     "utility": "false",
-    "version": "1.18",
+    "version": "1.181",
     "description": "Adds a faction dedicated to the XIV Battlegroup and her legacy. Adds multiple XIV ships!",
     "gameVersion": "0.95.1a-RC6",
 	"jars":["jars/EternalIronShell.jar"],

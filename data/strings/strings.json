@@ -197,59 +197,59 @@
 		
 		#Something hardcoded in translation?
 		"EISLoveForIron":"A mod is trying to replace and hardblock skill_data.csv from other mods from working. Find what mod does this?",
-		"eis_modPlugin1":"Navigation Relay",
-		"eis_modPlugin2":"Sensor Array",
+		"eis_modPlugin1":"Navigation Relay", # a CustomEntity in StarSystem
+		"eis_modPlugin2":"Sensor Array", # a CustomEntity in StarSystem
 		
-		"EIS_CBRemnantStation1":" taps a data pad, and an intel assessment shows up on your tripad.",
+		"EIS_CBRemnantStation1":" taps a data pad, and an intel assessment shows up on your tripad.", # [HeOrShe] taps a data pad, and an intel assessment shows up on your tripad.
 		"EIS_CBRemnantStation2":"The station is assessed to be fully functional and extremely dangerous.",
 		"EIS_CBRemnantStation3":"The station is assessed to be damaged, but still highly dangerous.",
 		"EIS_CBRemnantStation4":"The bounty posting contains partial intel about the station.",
-		"EIS_CBRemnantStation5":" - Remnant Nexus",
+		"EIS_CBRemnantStation5":" - Remnant Nexus",  # BountyNamePostfix from EIS_CBRemnantStation(BaseCustomBounty)
 		
-		"EISBlueprintIntel1":"an Invalid Item",
-		"EISBlueprintIntel2":"Invalid Item",
-		"EISBlueprintIntel3":" Blueprint",
-		"EISBlueprintIntel3a":" blueprint",
-		"EISBlueprintIntel3b":" Item",
-		"EISBlueprintIntel3c":" item",
-		"EISBlueprintIntel4":"exploring system",
-		"EISBlueprintIntel5":"scanning local volume",
-		"EISBlueprintIntel6":"There is ",
-		"EISBlueprintIntel7":" to be found somewhere in the ",
-		"EISBlueprintIntel8":".",
-		"EISBlueprintIntel9":"intel",
-		"EISBlueprintIntel10":" in the ",
-		"EISBlueprintIntel11":" Intel",
-		"EISBlueprintIntel12":"intel",
-		"EISBlueprintIntel13":"acted on",
+		"EISBlueprintIntel1":"an Invalid Item", # If ItemName is Null
+		"EISBlueprintIntel2":"Invalid Item", # Default ItemName
+		"EISBlueprintIntel3":" Blueprint", # [Wing's/Weapon's/Hull's Name] Blueprint
+		"EISBlueprintIntel3a":" blueprint", # unused after EISBlueprintIntel3 is translated into Chinese
+		"EISBlueprintIntel3b":" Item", # unused after EISBlueprintIntel2 is translated into Chinese
+		"EISBlueprintIntel3c":" item", # unused after EISBlueprintIntel2 is translated into Chinese
+		"EISBlueprintIntel4":"exploring system", # Fleet's Travel Action Text
+		"EISBlueprintIntel5":"scanning local volume", # Fleet's Patrol Action Text
+		"EISBlueprintIntel6":"There is ", # addDescriptionForNonEndStage - "There is [Blueprint Name] to be found somewhere in the [star system name]."
+		"EISBlueprintIntel7":" to be found somewhere in the ", # addDescriptionForNonEndStage - "There is [Blueprint Name] to be found somewhere in the [star system name]."
+		"EISBlueprintIntel8":".", # addDescriptionForNonEndStage - "There is [Blueprint Name] to be found somewhere in the [star system name]."
+		"EISBlueprintIntel9":"intel", # addNextStepText - "intel [Blueprint Name] in the [star system name]"
+		"EISBlueprintIntel10":" in the ", # addNextStepText - "intel [Blueprint Name] in the [star system name]"
+		"EISBlueprintIntel11":" Intel", # getBaseName from EISBlueprintIntel(HubMissionWithSearch,ShowLootListener)
+		"EISBlueprintIntel12":"intel", # getMissionTypeNoun from EISBlueprintIntel(HubMissionWithSearch,ShowLootListener)
+		"EISBlueprintIntel13":"acted on", # getMissionCompletionVerb from EISBlueprintIntel(HubMissionWithSearch,ShowLootListener)
 		
-		"EISExtractionMission1":"Extract operative located ",
-		"EISExtractionMission2":" ",
-		"EISExtractionMission3":" in the ",
-		"EISExtractionMission4":".",
-		"EISExtractionMission5":"The target location is a size %s colony controlled by ",
-		"EISExtractionMission6":".",
-		"EISExtractionMission7":"Extract operative from ",
-		"EISExtractionMission8":" in the ",
-		"EISExtractionMission9":".",
-		"EISExtractionMission10":"Combat Extraction",
+		"EISExtractionMission1":"Extract operative located ", # Extract operative located [on/at] [Market/Colony Name] in the [star system name].
+		"EISExtractionMission2":" ", # Extract operative located [on/at] [Market/Colony Name] in the [star system name].
+		"EISExtractionMission3":" in the ", # Extract operative located [on/at] [Market/Colony Name] in the [star system name].
+		"EISExtractionMission4":".", # Extract operative located [on/at] [Market/Colony Name] in the [star system name].
+		"EISExtractionMission5":"The target location is a size %s colony controlled by ", # The target location is a size %s colony controlled by [Faction Name].
+		"EISExtractionMission6":".", # The target location is a size %s colony controlled by [Faction Name].
+		"EISExtractionMission7":"Extract operative from ", # Extract operative from [Market/Colony Name] in the [star system name].
+		"EISExtractionMission8":" in the ", # Extract operative from [Market/Colony Name] in the [star system name].
+		"EISExtractionMission9":".", # Extract operative from [Market/Colony Name] in the [star system name].
+		"EISExtractionMission10":"Combat Extraction", # getBaseName from EISExtractionMission(HubMissionWithSearch)
 		
-		"EISPirateSystemBounty0":"Applies to all %s fleets in or near the ",
-		"EISPirateSystemBounty1":", which is home to ",
-		"EISPirateSystemBounty2":", a pirate base.",
+		"EISPirateSystemBounty0":"Applies to all %s fleets in or near the ", # Applies to all %s fleets in or near the [star system name], which is home to [Pirate Base Name], a pirate base.
+		"EISPirateSystemBounty1":", which is home to ",# Applies to all %s fleets in or near the [star system name], which is home to [Pirate Base Name], a pirate base.
+		"EISPirateSystemBounty2":", a pirate base.",# Applies to all %s fleets in or near the [star system name], which is home to [Pirate Base Name], a pirate base.
 		"EISPirateSystemBounty3":"This bounty is no longer on offer.",
 		"EISPirateSystemBounty4":"%s base reward per frigate",
-		"EISPirateSystemBounty5":"remaining",
-		"EISPirateSystemBounty6":"Payment depends on the number and size of ships destroyed. Standing with ",
-		"EISPirateSystemBounty7":", as well as with ",
-		"EISPirateSystemBounty8":", will improve.",
+		"EISPirateSystemBounty5":"remaining", # function addDays para
+		"EISPirateSystemBounty6":"Payment depends on the number and size of ships destroyed. Standing with ", # Payment depends on the number and size of ships destroyed. Standing with [Faction Name], as well as with [Person's Name], will improve.
+		"EISPirateSystemBounty7":", as well as with ", # Payment depends on the number and size of ships destroyed. Standing with [Faction Name], as well as with [Person's Name], will improve.
+		"EISPirateSystemBounty8":", will improve.",# Payment depends on the number and size of ships destroyed. Standing with [Faction Name], as well as with [Person's Name], will improve.
 		"EISPirateSystemBounty9":"Most recent bounty payment:",
 		"EISPirateSystemBounty10":"%s received",
 		"EISPirateSystemBounty11":"%s share based on damage dealt",
-		"EISPirateSystemBounty12":" - Over",
-		"EISPirateSystemBounty13":"Pirate Fleet Bounty",
-		"EISPirateSystemBounty14":"bounty",
-		"EISPirateSystemBounty15":"in or near the ",
+		"EISPirateSystemBounty12":" - Over", # if currentStage == Stage.DONE
+		"EISPirateSystemBounty13":"Pirate Fleet Bounty", # getBaseName from EISPirateSystemBounty(HubMissionWithSearch,FleetEventListener)
+		"EISPirateSystemBounty14":"bounty", # getMissionTypeNoun from EISPirateSystemBounty(HubMissionWithSearch,FleetEventListener)
+		"EISPirateSystemBounty15":"in or near the ", # in or near the [star system name] (hint: unused in code)
 		
 		"EISDeadDropMission1":"an apparently inert data chip",
 		"EISDeadDropMission2":"a rad-shielded salvors' TriPad",
@@ -273,17 +273,17 @@
 		"EISDeadDropMission20":"a large brilliant-cut diamond",
 		"EISDeadDropMission21":"a captain's safe cut from its bulkhead",
 		"EISDeadDropMission22":"a glowing blue crystal in a sealed tube",
-		"EISDeadDropMission23":"the ",
-		"EISDeadDropMission24":"it",
-		"EISDeadDropMission25":" given to you by ",
-		"EISDeadDropMission26":"the dead drop coordinates",
-		"EISDeadDropMission27":"they",
-		"EISDeadDropMission28":"the dead drop coordinates given to you by ",
-		"EISDeadDropMission29":"Deliver ",
-		"EISDeadDropMission30":" to the dead drop location at the specified coordinates in the ",
-		"EISDeadDropMission31":".",
-		"EISDeadDropMission32":" to specified location in the ",
-		"EISDeadDropMission33":"Dead Drop",
+		"EISDeadDropMission23":"the ", # function triggerComplicationBegin para - the [EISDeadDropMission Task Item]
+		"EISDeadDropMission24":"it", # function triggerComplicationBegin para
+		"EISDeadDropMission25":" given to you by ", # function triggerComplicationBegin para - thingDesc - the [EISDeadDropMission Task Item] given to you by [Person's Name]
+		"EISDeadDropMission26":"the dead drop coordinates", # function setFleetWantsThing para
+		"EISDeadDropMission27":"they", # function setFleetWantsThing para
+		"EISDeadDropMission28":"the dead drop coordinates given to you by ", # function setFleetWantsThing para - thingDesc - the dead drop coordinates given to you by [Person's Name]
+		"EISDeadDropMission29":"Deliver ", # Deliver [EISDeadDropMission Task Item] to the dead drop location at the specified coordinates in the [star system name].
+		"EISDeadDropMission30":" to the dead drop location at the specified coordinates in the ",# Deliver [EISDeadDropMission Task Item] to the dead drop location at the specified coordinates in the [star system name].
+		"EISDeadDropMission31":".",# Deliver [EISDeadDropMission Task Item] to the dead drop location at the specified coordinates in the [star system name].
+		"EISDeadDropMission32":" to specified location in the ",# Deliver [EISDeadDropMission Task Item] to specified location in the [star system name].
+		"EISDeadDropMission33":"Dead Drop", # getBaseName from EISDeadDropMission(HubMissionWithSearch)
 		
 		"EISAICores1":"Select AI cores to turn in",
 		"EISAICores2":"Confirm",
@@ -294,26 +294,27 @@
 		"EISAICores7":"Relation gain",
 		"EISAICores8":"If you turn in the selected AI cores, you will receive a %s donation and your standing with Caeda Celeste will improve by %s points.",
 		
-		"EISGained":"Gained ",
-		"EISLost":"Lost ",
-		"EISBlueprint": " Blueprint",
+		"EISGained":"Gained ", # Gained [Number of Credit] [CreditName]
+		"EISLost":"Lost ", # Lost [Hull Name] Blueprint
+		"EISBlueprint": " Blueprint", # Lost [Hull Name] Blueprint
 		
-		"EISStoryPointForceEngage":"The opposing fleet has used a series of special maneuvers to outmaneuver you, forcing you to fight them head on.\n\n Look at the child trying to run away from responsibility. Own up to it.",
+		"EISStoryPointForceEngage":"The opposing fleet has used a series of special maneuvers to outmaneuver you, forcing you to fight them head on.\n\nLook at the child trying to run away from responsibility. Own up to it.",
 		
 		"EISStoryPointForceEngageHighlight":"The opposing fleet has used a series of special maneuvers to outmaneuver you, forcing you to fight them head on.",
 		
-		"EISLearnHullmod":"You have unlocked ",
+		"EISLearnHullmod":"You have unlocked ", # You have unlocked [Hull Name]
 		
-		"EISOfficerPersonality":"Personality: ",
-		"EISOfficerLevel":", level: ",
+		"EISOfficerPersonality":"Personality: ", # Personality: [Personality], level: [Officer Level]
+		"EISOfficerLevel":", level: ", # Personality: [Personality], level: [Officer Level]
 		
-		"EISSpySatDeployment1":"Deploy a spysat in orbit of ",
-		"EISSpySatDeployment2":" in the ",
-		"EISSpySatDeployment3":".",
-		"EISSpySatDeployment4":"Deploy spysat near ",
-		"EISSpySatDeployment5":"SpySat Deployment",
+		"EISSpySatDeployment1":"Deploy a spysat in orbit of ", # Deploy a spysat in orbit of [Market/Colony Name] in the [star system name].
+		"EISSpySatDeployment2":" in the ", # Deploy spysat near [Market/Colony Name] in the [star system name]
+		"EISSpySatDeployment3":".", # Deploy spysat near [Market/Colony Name] in the [star system name].
+		"EISSpySatDeployment4":"Deploy spysat near ", # Deploy spysat near [Market/Colony Name] in the [star system name]
+		"EISSpySatDeployment5":"SpySat Deployment", # getBaseName from EISSpySatDeployment(HubMissionWithSearch)
 		
-		"EISNexMusic":"They don't have music for you to vibe to.",
+		#The player is able to define music for the player faction. Who knows a faction can have 6 pieces!
+		"EISNexMusic":"They don't have music for you to vibe to.", #Used when a faction does not have music defined.
 		"EISNexMusic1":"Friendly Market:",
 		"EISNexMusic2":"Neutral Market:",
 		"EISNexMusic3":"Hostile Market:",

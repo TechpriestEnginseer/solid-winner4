@@ -682,7 +682,7 @@ EISQuyAgentOffer1,VNSectorDiscussionOptionsCheck,"$id == eiskimquy
 !EISAddAgent","SetTooltip QuyAgentOfferA ""You are at the max capacity for agents.""
 SetEnabled QuyAgentOfferA false",,,
 EISQuyAgentOffer2,VNSectorDiscussionOptionsCheck,"$id == eiskimquy
-EISAddAgent 3","SetTooltip QuyAgentOfferA ""You do not have enough credits. You need at least $eis_agent_salary credits.""
+!EISAddAgent 3","SetTooltip QuyAgentOfferA ""You do not have enough credits. You need at least $eis_agent_salary credits.""
 SetTooltipHighlights QuyAgentOfferA $eis_agent_salary
 SetEnabled QuyAgentOfferA false",,,
 EISQuyAgentOffer3,VNSectorDiscussionOptionsCheck,"$id == eiskimquy
@@ -1716,6 +1716,7 @@ AvaDrink3,PopulateAvaOptions,,,,"3:AvaCoffee:""I think a cup of coffee would be 
 AvaDrink4,PopulateAvaOptions,,,,"4:AvaCookies:""Maybe would you like some cookies with that drink of yours?""",
 AvaDrink5,PopulateAvaOptions,!PlayerHasCargo uaf_bakery_choco_lava,,,"5:AvaCLC:""Would you like to try a chocolate lava cake?""",
 AvaDrink5UAF,PopulateAvaOptions,PlayerHasCargo uaf_bakery_choco_lava,"Nex_AddOptionConfirmation AvaCLC ""Are you sure you want to give her a chocolate lava cake?"" ""I'll spoil her"" ""Never mind""",,"5:AvaCLC:""Would you like to try a premium chocolate lava cake?""",
+AvaDrink6,PopulateAvaOptions,,"SetShortcut VNSectorCancelMenu ""ESCAPE""",,"6:VNSectorCancelMenu:""Never mind.""",
 AvaDrink1R,DialogOptionSelected,$option == AvaWine,"FireAll PopulateOptions
 AdjustRepActivePerson HOSTILE -1","""No, thanks. Wine doesn't suit my tastes.""",,
 AvaDrink1RWow,DialogOptionSelected,"$option == AvaWine
@@ -1746,8 +1747,7 @@ PlayerHasCargo ocua_cookies
 AdjustRepActivePerson WELCOMING 3
 AddRemoveCommodity ocua_cookies -1 true
 FireAll PopulateOptions","""Ooh, don't mind if I do.""",,
-AvaDrink5R,DialogOptionSelected,$option == AvaCLC,"FireAll PopulateOptions
-$AvaContactCake = true","""Chocolate lava cake... sounds delightfully delicious."" She seems to think for a moment. ""Where would I even get one? I can't think of any bakeries in the Sector that sells these.""",,
+AvaDrink5R,DialogOptionSelected,$option == AvaCLC,FireAll PopulateOptions,"""Chocolate lava cake... sounds delightfully delicious."" She seems to think for a moment. ""Where would I even get one? I can't think of any bakeries in the Sector that sells these.""",,
 AvaDrink5RWow,DialogOptionSelected,"$option == AvaCLC
 PlayerHasCargo uaf_bakery_choco_lava
 !$AvaContact","$AvaContactCake = true 14
@@ -2180,13 +2180,16 @@ SetTextHighlights $sShip_price","""It's a $sShip_hullClass $sShip_hullSize in go
 contact_decline:Decline",
 eis_sShipOfferTextContactInfoAquila,DialogOptionSelected,$option == eis_sSship_Aquila,SetEnabled eis_sSship_Aquila false,"""Yes, Aquila Reactor Protocol, a trademark secret from the Celeste House. Makes the ship performs better in combat for a slight cost. They have tried to put it inside frigates and destroyers, but frigates and destroyers are often too fragile... so they claim."" $sShip_heOrShe pauses for a bit. ""...but there are promising results with these past experiments for now.""",,
 eis_sShipLookAt,DialogOptionSelected,$option == eis_sShip_look,"Call $sShip_ref showShip
-DoCanAffordCheck $sShip_price contact_accept false",$personName taps a few keys to summon the ship specifications for your examination.,"contact_accept:Buy the $sShip_hullSize for $sShip_price credits
+DoCanAffordCheck $sShip_price contact_accept false
+SetTextHighlights $sShip_price contact_accept",$personName taps a few keys to summon the ship specifications for your examination.,"contact_accept:Buy the $sShip_hullSize for $sShip_price credits
 contact_decline:Decline",
 eis_sShipLookAtAquila,DialogOptionSelected,"$option == eis_sShip_look
-$sShip_aquila","Call $sShip_ref showShip
+$sShip_aquila","SetTextHighlightColors hColor hColor hColor
+SetTextHighlights Aquila Reactor Protocol
+Call $sShip_ref showShip
 DoCanAffordCheck $sShip_price contact_accept false
-SetTextHighlightColors hColor hColor hColor
-SetTextHighlights Aquila Reactor Protocol","$personName taps a few keys to summon the ship specifications for your examination. ""It's one of our ship modified with the Aquila Reactor Protocol built-in.""","contact_accept:Buy the $sShip_hullSize for $sShip_price credits
+SetTextHighlights $sShip_price contact_accept
+","$personName taps a few keys to summon the ship specifications for your examination. ""It's one of our ship modified with the Aquila Reactor Protocol built-in.""","contact_accept:Buy the $sShip_hullSize for $sShip_price credits
 eis_sSship_Aquila:Aquila?
 contact_decline:Decline",
 eis_sShipPostAccept,ContactPostAccept,$missionId == eis_sShip,"ShowPersonVisual
