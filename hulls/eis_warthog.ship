@@ -1,0 +1,85 @@
+{
+  "hullName": "Warthog (XIV)",
+  "hullId": "eis_warthog",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_warthog.png",
+  "style": "LOW_TECH",
+  "height": 28,
+  "width": 30,
+  "center": [15, 12],
+  "collisionRadius": 20,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  #"builtInMods": ["eis_support_return"],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    #{
+    # "id": "WS 002",
+    #  "size": "SMALL",
+    #  "type": "MISSILE",
+    #  "mount": "HIDDEN",
+    #  "arc": 5,
+    #  "angle": 0,
+    #  "locations": [3.5, 0]
+    #},
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 9],
+      "length": 15,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -9],
+      "length": 15,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, 3],
+      "length": 9,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -2],
+      "length": 9,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    3, 13,
+    13, 0,
+    3, -13,
+    -9, -11,
+    -9, 12
+  ]
+}

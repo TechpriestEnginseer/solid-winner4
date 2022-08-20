@@ -1,0 +1,154 @@
+{
+  "hullName": "Valorous (XIV)",
+  "hullId": "eis_valorous",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/eis_valorous.png",
+  "style": "LOW_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 140,
+  "width": 118,
+  "center": [59, 65],
+  "collisionRadius": 84,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+    "eis_zandatsu"
+  ],
+  "builtInWings": [
+    "eis_gunblade_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "eis_deco_valorous_fx",
+    "WS0005": "eis_deco_valorous_ml",
+    "WS0006": "eis_deco_valorous_mr"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 0,
+      "locations": [-4, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [11, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 17.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -17.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-49, 40],
+      "length": 32.901768,
+      "width": 8.178926,
+      "angle": 164,
+      "contrailSize": 8.178926,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-49, -40],
+      "length": 32.901768,
+      "width": 8.178926,
+      "angle": -164,
+      "contrailSize": 8.178926,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, 12],
+      "length": 62,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, -12],
+      "length": 62,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50, 35],
+      "length": 45.907562,
+      "width": 10.769542,
+      "angle": 171,
+      "contrailSize": 10.769542,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50, -35],
+      "length": 45.907562,
+      "width": 10.769542,
+      "angle": -171,
+      "contrailSize": 10.769542,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -36.5, -5.5,
+    -55, -7,
+    -59, -22.5,
+    -63, -32.5,
+    -50.5, -39.5,
+    -34.5, -49,
+    -7, -48,
+    14, -17,
+    66, -4,
+    66, 4,
+    14, 17,
+    -7, 48,
+    -34.5, 49,
+    -50.5, 39.5,
+    -63, 32.5,
+    -59, 22.5,
+    -55, 7,
+    -36.5, 5.5
+  ]
+}

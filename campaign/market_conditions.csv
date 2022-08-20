@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Dangerous Sealife,eis_aquaculture,TRUE,,data.scripts.campaign.econ.eis_aquaculture_condition,"Due to the nature of the planet's current state, its vast oceans lack a sufficient pH level to sustain a natural ecosystem, requiring recovered terraforming hardware to run effective aquacultures.",graphics/icons/market/eis_aqua.png,919

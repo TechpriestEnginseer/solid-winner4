@@ -1,0 +1,62 @@
+{
+  "hullName": "Dagger (XIV)",
+  "hullId": "eis_dagger",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_dagger.png",
+  "style": "MIDLINE",
+  "height": 33,
+  "width": 24,
+  "center": [14, 14],
+  "collisionRadius": 39,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9, -1]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 0],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    6, 13,
+    20, 0,
+    8, -10,
+    0, -5,
+    -10, -6,
+    -9, 4,
+    0, 5
+  ]
+}
